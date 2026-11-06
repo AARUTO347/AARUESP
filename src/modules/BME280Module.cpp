@@ -18,7 +18,7 @@ bool BME280Module::init() {
 
     if (chipId_ != 0x60 && chipId_ != 0x58) {
         AARUESP_DEBUG_PRINT("[BME280] Sensor not found at 0x");
-        AARUESP_DEBUG_PRINTLN(addr_, HEX);
+        AARUESP_DEBUG_PRINTLN(String(addr_, HEX));
         sensorPresent_ = false;
         initialized_ = false;
         healthy_ = false;

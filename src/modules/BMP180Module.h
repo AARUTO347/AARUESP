@@ -46,6 +46,8 @@ public:
     bool isHealthy() const override;
 
 private:
+    uint8_t sda_{21};
+    uint8_t scl_{22};
     // BMP180 would use Adafruit_BMP_Unified or similar
     // For AARUESP framework, providing the structure
     float temperature_{0};

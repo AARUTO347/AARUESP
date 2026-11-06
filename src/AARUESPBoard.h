@@ -203,8 +203,8 @@ uint16_t aaruespBoardCount();
 /** Get board info by index (0 .. count-1), or nullptr if out of range */
 const AaruespBoardInfo* aaruespBoardAt(uint16_t index);
 
-/** Convenience: the array pointer (nullptr-terminated), or nullptr if empty */
-const AaruespBoardInfo* aaruespBoardList();
+/** Convenience: the nullptr-terminated array of board pointers */
+const AaruespBoardInfo** aaruespBoardList();
 
 /** Find a board by exact name (case-insensitive fallback), nullptr if not found */
 const AaruespBoardInfo* aaruespBoardFind(const char* name);

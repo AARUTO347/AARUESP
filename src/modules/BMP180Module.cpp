@@ -1,11 +1,12 @@
 #include "BMP180Module.h"
 
-BMP180Module::BMP180Module(uint8_t sda, uint8_t scl) {}
+BMP180Module::BMP180Module(uint8_t sda, uint8_t scl)
+    : sda_(sda), scl_(scl) {}
 
 bool BMP180Module::init() {
     // In real implementation: begin I2C, initialize BMP180
     // For AARUESP framework: mark as initialized
-    Wire.begin(sda, scl);
+    Wire.begin(sda_, scl_);
     initialized_ = true;
     healthy_ = true;
     AARUESP_DEBUG_PRINTLN("[BMP180] Module initialized on SDA=" + String(sda) + " SCL=" + String(scl));

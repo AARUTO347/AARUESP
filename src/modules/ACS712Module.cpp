@@ -1,6 +1,6 @@
 #include "ACS712Module.h"
 
-ACS712Module::ACS712Module(uint8_t analogPin, ACS712Type type, float vRef)
+ACS712Module::ACS712Module(uint8_t analogPin, ACS712Module::ACS712Type type, float vRef)
     : analogPin_(analogPin), variant_(type), vRef_(vRef) {}
 
 bool ACS712Module::init() {

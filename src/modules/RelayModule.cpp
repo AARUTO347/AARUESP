@@ -65,7 +65,7 @@ void RelayModule::update() {
     }
 }
 
-RelayState RelayModule::getState() const {
+RelayModule::RelayState RelayModule::getState() const {
     return state_;
 }
 
@@ -73,6 +73,6 @@ bool RelayModule::isHealthy() const {
     return initialized_ && (gpioPin_ < 40); // Basic validation
 }
 
-void RelayModule::setMode(RelayMode mode) {
+void RelayModule::setMode(RelayModule::RelayMode mode) {
     mode_ = mode;
 }

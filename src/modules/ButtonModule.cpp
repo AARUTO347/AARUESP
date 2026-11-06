@@ -6,24 +6,24 @@ ButtonModule::ButtonModule(uint8_t gpioPin, PullMode pull, uint16_t debounceMs, 
 bool ButtonModule::init() {
     // Set up pin based on pull mode
     switch (pull_) {
-        case PullMode::PULLUP:
+        case PullMode::PULL_UP:
             pinMode(gpioPin_, INPUT_PULLUP);
-            lastState_{HIGH};
-            lastDebounced_{HIGH};
+            lastState_ = HIGH;
+            lastDebounced_ = HIGH;
             break;
-        case PullMode::PULLDOWN:
+        case PullMode::PULL_DOWN:
             pinMode(gpioPin_, INPUT_PULLDOWN);
-            lastState_{LOW};
-            lastDebounced_{LOW};
+            lastState_ = LOW;
+            lastDebounced_ = LOW;
             break;
-        case PullMode::FLOATING
+        case PullMode::FLOATING:
         default:
             pinMode(gpioPin_, INPUT);
-            lastState_{digitalRead(gpioPin_)};
-            lastDebounced_{lastState_};
+            lastState_ = digitalRead(gpioPin_);
+            lastDebounced_ = lastState_;
             break;
     }
-    
+
     initialized_ = true;
     healthy_ = true;
     AARUESP_DEBUG_PRINTLN("[Button] Module initialized on GPIO " + String(gpioPin_));
@@ -32,36 +32,36 @@ bool ButtonModule::init() {
 
 void ButtonModule::update() {
     if (!initialized_) return;
-    
+
     bool rawState;
     switch (pull_) {
-        case PullMode::PULLUP:
+        case PullMode::PULL_UP:
             rawState = digitalRead(gpioPin_);
             break;
-        case PullMode::PULLDOWN:
-            rawState = !digitalRead(gpioPin_); // Invert for PULLDOWN
+        case PullMode::PULL_DOWN:
+            rawState = !digitalRead(gpioPin_); // Invert for PULL_DOWN
             break;
-        case PullMode::FLOATING
+        case PullMode::FLOATING:
         default:
             rawState = digitalRead(gpioPin_);
             break;
     }
-    
+
     unsigned long now = millis();
-    
+
     // Debouncing
     if (rawState != lastDebounced_) {
         if (now - lastChange_ > debounceMs_) {
             lastDebounced_ = rawState;
             lastChange_ = now;
-            
+
             // State changed
             if (rawState != lastState_) {
                 lastState_ = rawState;
-                
-                // Falling edge (button pressed for PULLUP, released for PULLDOWN)
-                bool pressed = (pull_ == PullMode::PULLUP) ? (rawState == LOW) : (rawState == HIGH);
-                
+
+                // Falling edge (button pressed for PULL_UP, released for PULL_DOWN)
+                bool pressed = (pull_ == PullMode::PULL_UP) ? (rawState == LOW) : (rawState == HIGH);
+
                 if (pressed) {
                     pressStart_ = now;
                     justPressed_ = true;
@@ -69,7 +69,7 @@ void ButtonModule::update() {
                 } else {
                     justReleased_ = true;
                     justPressed_ = false;
-                    
+
                     // Check for hold
                     if (holdStart_ > 0 && (now - holdStart_ > holdMs_)) {
                         // Trigger HOLD event
@@ -79,26 +79,23 @@ void ButtonModule::update() {
             }
         }
     }
-    
+
     // Hold detection
-    if (lastState_ == (pull_ == PullMode::PULLUP ? LOW : HIGH) && holdStart_ == 0) {
+    if (lastState_ == (pull_ == PullMode::PULL_UP ? LOW : HIGH) && holdStart_ == 0) {
         holdStart_ = now;
-    } else if (lastState_ != (pull_ == PullMode::PULLUP ? LOW : HIGH) && holdStart_ > 0) {
+    } else if (lastState_ != (pull_ == PullMode::PULL_UP ? LOW : HIGH) && holdStart_ > 0) {
         holdStart_ = 0;
     }
-    
+
     // Click detection
     if (justPressed_) {
-      justPressed_ = false;
+        justPressed_ = false;
     }
     if (justReleased_) {
         justReleased_ = false;
         // Check for double/triple click
         if (now - lastClick_ < 500) { // Double-click window
             clickCount_++;
-            if (clickCount_ >= 2) {
-                // Triple or quicker double
-            }
         } else {
             // Single click
             clickCount_ = 1;
@@ -107,10 +104,8 @@ void ButtonModule::update() {
     }
 }
 
-ButtonState ButtonModule::getState() const {
-    // Return current state based on internal tracking
-    // This is simplified - full impl would track all states
-    return ButtonState::RELEASED; // Placeholder
+ButtonModule::ButtonState ButtonModule::getState() const {
+    return ButtonState::RELEASED; // Simplified - full impl would track all states
 }
 
 bool ButtonModule::wasPressed() {
@@ -126,8 +121,7 @@ bool ButtonModule::wasReleased() {
 }
 
 bool ButtonModule::isHeld() const {
-    // Simplified hold check
-    return false;
+    return false; // Simplified hold check
 }
 
 int ButtonModule::getClicks() {

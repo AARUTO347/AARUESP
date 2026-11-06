@@ -9,16 +9,16 @@
 class ButtonModule : public aru::Module {
 public:
     enum class ButtonState { RELEASED, PRESSED, HOLD, DOUBLE_CLICK, TRIPLE_CLICK };
-    enum class PullMode { PULLUP, PULLDOWN, FLOATING };
+    enum class PullMode { PULL_UP, PULL_DOWN, FLOATING };
 
     /**
      * @brief Create a button module
      * @param gpioPin GPIO pin connected to button
-     * @param pull Pull mode (default: PULLUP)
+     * @param pull Pull mode (default: PULL_UP)
      * @param debounceMs Debounce time in ms (default: 50)
      * @param holdMs Hold time in ms before triggering HOLD (default: 1000)
      */
-    ButtonModule(uint8_t gpioPin, PullMode pull = PullMode::PULLUP,
+    ButtonModule(uint8_t gpioPin, PullMode pull = PullMode::PULL_UP,
                  uint16_t debounceMs = 50, uint16_t holdMs = 1000);
 
     /**

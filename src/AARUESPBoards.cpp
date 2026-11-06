@@ -256,7 +256,7 @@ uint16_t aaruespBoardCount() {
     return n;
 }
 
-const AaruespBoardInfo* aaruespBoardList() {
+const AaruespBoardInfo** aaruespBoardList() {
     return aaruesp_board_list[0] ? aaruesp_board_list : nullptr;
 }
 
