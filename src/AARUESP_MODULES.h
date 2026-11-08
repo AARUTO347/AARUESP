@@ -33,9 +33,12 @@
 #include <modules/HCSR04Module.h>     // Ultrasonic distance
 #include <modules/HCSR501Module.h>    // PIR motion sensor
 #include <modules/MQ2Module.h>        // Gas / smoke
+#include <modules/MQ7Module.h>        // CO gas sensor (analog)
+#include <modules/SHT30Module.h>      // Temperature / humidity (I2C)
 #include <modules/ACS712Module.h>     // Current (5A/20A/30A)
 #include <modules/SoilMoistureModule.h>
 #include <modules/PotentiometerModule.h>
+#include <modules/VL53L0XModule.h>    // Time-of-flight distance (I2C)
 
 // Actuators
 #include <modules/LEDModule.h>        // Single LED
@@ -43,6 +46,7 @@
 #include <modules/RelayModule.h>      // Relay control
 #include <modules/ServoModule.h>      // Servo (0-180°)
 #include <modules/BuzzerModule.h>     // Buzzer / tones
+#include <modules/StepperModule.h>    // Stepper motor
 
 // Displays
 #include <modules/OLEDModule.h>       // SSD1306 OLED 128x64 (built-in driver)
@@ -50,9 +54,17 @@
 // Communication
 #include <modules/UARTModule.h>       // UART passthrough (GPS/BT/serial)
 #include <modules/WiFiModule.h>       // WiFi connection manager
+#include <modules/GPSModule.h>        // GPS NEO-6M/NEO-7M (UART)
 
 // Input
 #include <modules/ButtonModule.h>     // Debounced button (clicks & hold)
 #include <modules/EncoderModule.h>    // Rotary encoder + push button
+
+// Storage
+#include <modules/EEPROMModule.h>     // EEPROM key-value storage
+
+// Special
+#include <modules/HallSensorModule.h> // ESP32 Hall sensor
+#include <modules/DeepSleepModule.h>  // Deep sleep management
 
 #endif // AARUESP_ALL_MODULES_H

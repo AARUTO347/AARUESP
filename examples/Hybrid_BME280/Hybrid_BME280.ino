@@ -1,45 +1,43 @@
-// ============================================================
-//  AARUESP Hybrid Demo — BOTH APIs in one sketch
-//  MADE BY AARUTO
-//
-//  singleton API  -> AARUESP.bme280(0x76);  (drivers shared, registered)
-//  class-module   -> BME280Module sensor(21, 22);  (your own instance)
-// ============================================================
-#include <AARUESP.h>
-#include <AARUESP_MODULES.h>   // singleton core + all class modules
+/*
+  Hybrid_BME280 — AARUESP hybrid API example
 
-BME280Module sensor(21, 22);   // class-module instance, I2C on SDA=21 / SCL=22
-LEDModule led(2);              // class-module instance, onboard LED
+  Shows both singleton and class-module usage side by side.
+*/
+#include <AARUESP.h>
+#include <AARUESP_MODULES.h>
+
+using namespace aru;
+
+BME280Module bme(SDA_PIN, SCL_PIN);  // class-instance style
 
 void setup() {
   Serial.begin(115200);
-  delay(500);
-  AARUESP.begin();             // singleton: catalog init + ESP board detection
+  while (!Serial) { delay(10); }
 
-  sensor.init();               // class-module init
-  led.init();
+  Serial.println(F("AARUESP Hybrid BME280 Example — V1.1"));
 
-  // Singleton registers the shared BME280 driver too
-  AARUESP.bme280(0x76);
+  // Class-module path
+  if (!bme.init()) {
+    Serial.println(F("BME280 class init failed"));
+  } else {
+    Serial.println(F("BME280 class-module initialized"));
+  }
+
+  // Singleton path (if singleton supports BME280)
+  if (AARUESP.begin()) {
+    Serial.println(F("AARUESP singleton begin OK"));
+  }
 }
 
 void loop() {
-  AARUESP.update();            // singleton drivers tick here
-  sensor.update();             // class-module driver ticks independently
+  if (bme.isHealthy()) {
+    float temp = bme.readTemperature();
+    float hum = bme.readHumidity();
+    float pres = bme.readPressure() / 100.0f;
 
-  if (sensor.isHealthy()) {
-    led.on();
-    Serial.printf("[class] T=%.1f C  RH=%.1f%%  P=%.1f hPa\n",
-                  sensor.getTemperature(), sensor.getHumidity(), sensor.getPressure());
-  } else {
-    led.off();
-    Serial.println("[class] BME280 not present (running simulation)");
+    Serial.print(F("Temp: ")); Serial.print(temp); Serial.println(F(" C"));
+    Serial.print(F("Hum: "));  Serial.print(hum);  Serial.println(F(" %"));
+    Serial.print(F("Pres: ")); Serial.print(pres); Serial.println(F(" hPa"));
   }
-
-  float t = AARUESP.readBMEtemp();   // singleton API read
-  if (AARUESP.lastError() == AARUESP_OK) {
-    Serial.printf("[single] BME280 temp via singleton: %.1f C\n", t);
-  }
-
-  delay(1000);
+  delay(2000);
 }
