@@ -2,12 +2,22 @@
 
 #include <AaruEspModule.h>
 #include <WiFi.h>
+#if defined(ESP32)
 #include <WebServer.h>
+#elif defined(ESP8266)
+#include <ESP8266WebServer.h>
+#endif
 
 /**
  * @brief Web Server Module for ESP32/ESP8266
  * HTTP server with REST API, WebSocket, and file serving.
  */
+#if defined(ESP32)
+typedef WebServer WebServerType;
+#elif defined(ESP8266)
+typedef ESP8266WebServer WebServerType;
+#endif
+
 class WebServerModule : public aru::Module {
 public:
     WebServerModule(uint16_t port = 80);
@@ -24,7 +34,7 @@ public:
     bool isHealthy() const override { return initialized_; }
 
 private:
-    WebServer server_;
+    WebServerType server_;
     uint16_t port_;
     std::string type_ = "special.webserver";
     bool initialized_{false};

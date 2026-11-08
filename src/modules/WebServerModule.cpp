@@ -1,7 +1,11 @@
 #include "WebServerModule.h"
 #include <Arduino.h>
 
+#if defined(ESP32)
 WebServerModule::WebServerModule(uint16_t port) : server_(port), port_(port) {}
+#elif defined(ESP8266)
+WebServerModule::WebServerModule(uint16_t port) : server_(port), port_(port) {}
+#endif
 
 bool WebServerModule::init() {
     server_.begin();

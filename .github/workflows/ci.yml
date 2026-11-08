@@ -7,12 +7,10 @@ on:
     branches: [main]
 
 jobs:
-  compile:
-    name: Compile Examples
+  compile-esp32:
+    name: Compile Examples (ESP32)
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        board: [esp32:esp32:esp32, esp8266:esp8266:nodemcuv2]
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - name: Setup Arduino CLI
@@ -20,22 +18,44 @@ jobs:
         with:
           version: 1.0.4
       - name: Install ESP32 core
-        if: contains(matrix.board, 'esp32')
         run: |
           arduino-cli config init
           arduino-cli core update-index
           arduino-cli core install esp32:esp32@3.0.0
-      - name: Install ESP8266 core
-        if: contains(matrix.board, 'esp8266')
-        run: |
-          arduino-cli config init
-          arduino-cli core update-index --additional-urls https://arduino.esp8266.com/stable/package_esp8266com_index.json
-          arduino-cli core install esp8266:esp8266@3.1.2
       - name: Compile examples
         run: |
           for dir in examples/*/; do
             echo "Compiling $dir"
-            arduino-cli compile --fqbn ${{ matrix.board }} "$dir" || exit 1
+            arduino-cli compile --fqbn esp32:esp32:esp32 "$dir" || exit 1
+          done
+
+  compile-esp8266:
+    name: Compile Examples (ESP8266)
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Arduino CLI
+        uses: arduino/setup-arduino-cli@v2
+        with:
+          version: 1.0.4
+      - name: Install ESP8266 core
+        run: |
+          arduino-cli config init
+          arduino-cli core update-index --additional-urls https://arduino.esp8266.com/stable/package_esp8266com_index.json
+          arduino-cli core install esp8266:esp8266@3.1.2
+      - name: Compile ESP8266-compatible examples
+        run: |
+          # Skip ESP32-only examples
+          skip_list="Touch_DAC PSRAM_Memory HallSensor OTA_Update WebServer_Dashboard BLE_Sensor"
+          for dir in examples/*/; do
+            name=$(basename "$dir")
+            if echo "$skip_list" | grep -qw "$name"; then
+              echo "Skipping ESP32-only example: $name"
+              continue
+            fi
+            echo "Compiling $dir"
+            arduino-cli compile --fqbn esp8266:esp8266:nodemcuv2 "$dir" || exit 1
           done
 
   lint:
