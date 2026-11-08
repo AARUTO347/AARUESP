@@ -2005,3 +2005,1123 @@ A1993,1-Wire Sensor 7,ONEWIRE,ONEWIRE,onewire7,ESP32+ESP8266,,None,onewire_7.ino
 A1994,1-Wire Device 8,ONEWIRE,ONEWIRE,onewire8,ESP32+ESP8266,,None,onewire_8.ino,IMPLEMENTED,1-Wire Device 8 module for ESP32/ESP8266
 A1995,1-Wire Sensor 9,ONEWIRE,ONEWIRE,onewire9,ESP32+ESP8266,,None,onewire_9.ino,IMPLEMENTED,1-Wire Sensor 9 module for ESP32/ESP8266
 A1996,1-Wire Device 10,ONEWIRE,ONEWIRE,onewire10,ESP32+ESP8266,,None,onewire_10.ino,IMPLEMENTED,1-Wire Device 10 module for ESP32/ESP8266
+A1997,Temperature Sensor 1,ANALOG,ANALOG,analog1,C,ESP32+ESP8266,None,analog_1.ino,IMPLEMENTED,Temperature Sensor 1 module for ESP32/ESP8266
+A1998,Humidity Sensor 2,ANALOG,ANALOG,analog2,%RH,ESP32+ESP8266,None,analog_2.ino,IMPLEMENTED,Humidity Sensor 2 module for ESP32/ESP8266
+A1999,Light Sensor 3,ANALOG,ANALOG,analog3,lux,ESP32+ESP8266,None,analog_3.ino,IMPLEMENTED,Light Sensor 3 module for ESP32/ESP8266
+A2000,Pressure Sensor 4,ANALOG,ANALOG,analog4,kPa,ESP32+ESP8266,None,analog_4.ino,IMPLEMENTED,Pressure Sensor 4 module for ESP32/ESP8266
+A2001,Gas Sensor 5,ANALOG,ANALOG,analog5,ppm,ESP32+ESP8266,None,analog_5.ino,IMPLEMENTED,Gas Sensor 5 module for ESP32/ESP8266
+A2002,Soil Moisture 6,ANALOG,ANALOG,analog6,%,ESP32+ESP8266,None,analog_6.ino,IMPLEMENTED,Soil Moisture 6 module for ESP32/ESP8266
+A2003,Sound Sensor 7,ANALOG,ANALOG,analog7,dB,ESP32+ESP8266,None,analog_7.ino,IMPLEMENTED,Sound Sensor 7 module for ESP32/ESP8266
+A2004,Vibration Sensor 8,ANALOG,ANALOG,analog8,g,ESP32+ESP8266,None,analog_8.ino,IMPLEMENTED,Vibration Sensor 8 module for ESP32/ESP8266
+A2005,Current Sensor 9,ANALOG,ANALOG,analog9,A,ESP32+ESP8266,None,analog_9.ino,IMPLEMENTED,Current Sensor 9 module for ESP32/ESP8266
+A2006,Voltage Sensor 10,ANALOG,ANALOG,analog10,V,ESP32+ESP8266,None,analog_10.ino,IMPLEMENTED,Voltage Sensor 10 module for ESP32/ESP8266
+A2007,Proximity Sensor 11,ANALOG,ANALOG,analog11,cm,ESP32+ESP8266,None,analog_11.ino,IMPLEMENTED,Proximity Sensor 11 module for ESP32/ESP8266
+A2008,Force Sensor 12,ANALOG,ANALOG,analog12,N,ESP32+ESP8266,None,analog_12.ino,IMPLEMENTED,Force Sensor 12 module for ESP32/ESP8266
+A2009,Temperature Sensor 13,ANALOG,ANALOG,analog13,C,ESP32+ESP8266,None,analog_13.ino,IMPLEMENTED,Temperature Sensor 13 module for ESP32/ESP8266
+A2010,Humidity Sensor 14,ANALOG,ANALOG,analog14,%RH,ESP32+ESP8266,None,analog_14.ino,IMPLEMENTED,Humidity Sensor 14 module for ESP32/ESP8266
+A2011,Light Sensor 15,ANALOG,ANALOG,analog15,lux,ESP32+ESP8266,None,analog_15.ino,IMPLEMENTED,Light Sensor 15 module for ESP32/ESP8266
+A2012,Pressure Sensor 16,ANALOG,ANALOG,analog16,kPa,ESP32+ESP8266,None,analog_16.ino,IMPLEMENTED,Pressure Sensor 16 module for ESP32/ESP8266
+A2013,Gas Sensor 17,ANALOG,ANALOG,analog17,ppm,ESP32+ESP8266,None,analog_17.ino,IMPLEMENTED,Gas Sensor 17 module for ESP32/ESP8266
+A2014,Soil Moisture 18,ANALOG,ANALOG,analog18,%,ESP32+ESP8266,None,analog_18.ino,IMPLEMENTED,Soil Moisture 18 module for ESP32/ESP8266
+A2015,Sound Sensor 19,ANALOG,ANALOG,analog19,dB,ESP32+ESP8266,None,analog_19.ino,IMPLEMENTED,Sound Sensor 19 module for ESP32/ESP8266
+A2016,Vibration Sensor 20,ANALOG,ANALOG,analog20,g,ESP32+ESP8266,None,analog_20.ino,IMPLEMENTED,Vibration Sensor 20 module for ESP32/ESP8266
+A2017,Current Sensor 21,ANALOG,ANALOG,analog21,A,ESP32+ESP8266,None,analog_21.ino,IMPLEMENTED,Current Sensor 21 module for ESP32/ESP8266
+A2018,Voltage Sensor 22,ANALOG,ANALOG,analog22,V,ESP32+ESP8266,None,analog_22.ino,IMPLEMENTED,Voltage Sensor 22 module for ESP32/ESP8266
+A2019,Proximity Sensor 23,ANALOG,ANALOG,analog23,cm,ESP32+ESP8266,None,analog_23.ino,IMPLEMENTED,Proximity Sensor 23 module for ESP32/ESP8266
+A2020,Force Sensor 24,ANALOG,ANALOG,analog24,N,ESP32+ESP8266,None,analog_24.ino,IMPLEMENTED,Force Sensor 24 module for ESP32/ESP8266
+A2021,Temperature Sensor 25,ANALOG,ANALOG,analog25,C,ESP32+ESP8266,None,analog_25.ino,IMPLEMENTED,Temperature Sensor 25 module for ESP32/ESP8266
+A2022,Humidity Sensor 26,ANALOG,ANALOG,analog26,%RH,ESP32+ESP8266,None,analog_26.ino,IMPLEMENTED,Humidity Sensor 26 module for ESP32/ESP8266
+A2023,Light Sensor 27,ANALOG,ANALOG,analog27,lux,ESP32+ESP8266,None,analog_27.ino,IMPLEMENTED,Light Sensor 27 module for ESP32/ESP8266
+A2024,Pressure Sensor 28,ANALOG,ANALOG,analog28,kPa,ESP32+ESP8266,None,analog_28.ino,IMPLEMENTED,Pressure Sensor 28 module for ESP32/ESP8266
+A2025,Gas Sensor 29,ANALOG,ANALOG,analog29,ppm,ESP32+ESP8266,None,analog_29.ino,IMPLEMENTED,Gas Sensor 29 module for ESP32/ESP8266
+A2026,Soil Moisture 30,ANALOG,ANALOG,analog30,%,ESP32+ESP8266,None,analog_30.ino,IMPLEMENTED,Soil Moisture 30 module for ESP32/ESP8266
+A2027,Sound Sensor 31,ANALOG,ANALOG,analog31,dB,ESP32+ESP8266,None,analog_31.ino,IMPLEMENTED,Sound Sensor 31 module for ESP32/ESP8266
+A2028,Vibration Sensor 32,ANALOG,ANALOG,analog32,g,ESP32+ESP8266,None,analog_32.ino,IMPLEMENTED,Vibration Sensor 32 module for ESP32/ESP8266
+A2029,Current Sensor 33,ANALOG,ANALOG,analog33,A,ESP32+ESP8266,None,analog_33.ino,IMPLEMENTED,Current Sensor 33 module for ESP32/ESP8266
+A2030,Voltage Sensor 34,ANALOG,ANALOG,analog34,V,ESP32+ESP8266,None,analog_34.ino,IMPLEMENTED,Voltage Sensor 34 module for ESP32/ESP8266
+A2031,Proximity Sensor 35,ANALOG,ANALOG,analog35,cm,ESP32+ESP8266,None,analog_35.ino,IMPLEMENTED,Proximity Sensor 35 module for ESP32/ESP8266
+A2032,Force Sensor 36,ANALOG,ANALOG,analog36,N,ESP32+ESP8266,None,analog_36.ino,IMPLEMENTED,Force Sensor 36 module for ESP32/ESP8266
+A2033,Temperature Sensor 37,ANALOG,ANALOG,analog37,C,ESP32+ESP8266,None,analog_37.ino,IMPLEMENTED,Temperature Sensor 37 module for ESP32/ESP8266
+A2034,Humidity Sensor 38,ANALOG,ANALOG,analog38,%RH,ESP32+ESP8266,None,analog_38.ino,IMPLEMENTED,Humidity Sensor 38 module for ESP32/ESP8266
+A2035,Light Sensor 39,ANALOG,ANALOG,analog39,lux,ESP32+ESP8266,None,analog_39.ino,IMPLEMENTED,Light Sensor 39 module for ESP32/ESP8266
+A2036,Pressure Sensor 40,ANALOG,ANALOG,analog40,kPa,ESP32+ESP8266,None,analog_40.ino,IMPLEMENTED,Pressure Sensor 40 module for ESP32/ESP8266
+A2037,Gas Sensor 41,ANALOG,ANALOG,analog41,ppm,ESP32+ESP8266,None,analog_41.ino,IMPLEMENTED,Gas Sensor 41 module for ESP32/ESP8266
+A2038,Soil Moisture 42,ANALOG,ANALOG,analog42,%,ESP32+ESP8266,None,analog_42.ino,IMPLEMENTED,Soil Moisture 42 module for ESP32/ESP8266
+A2039,Sound Sensor 43,ANALOG,ANALOG,analog43,dB,ESP32+ESP8266,None,analog_43.ino,IMPLEMENTED,Sound Sensor 43 module for ESP32/ESP8266
+A2040,Vibration Sensor 44,ANALOG,ANALOG,analog44,g,ESP32+ESP8266,None,analog_44.ino,IMPLEMENTED,Vibration Sensor 44 module for ESP32/ESP8266
+A2041,Current Sensor 45,ANALOG,ANALOG,analog45,A,ESP32+ESP8266,None,analog_45.ino,IMPLEMENTED,Current Sensor 45 module for ESP32/ESP8266
+A2042,Voltage Sensor 46,ANALOG,ANALOG,analog46,V,ESP32+ESP8266,None,analog_46.ino,IMPLEMENTED,Voltage Sensor 46 module for ESP32/ESP8266
+A2043,Proximity Sensor 47,ANALOG,ANALOG,analog47,cm,ESP32+ESP8266,None,analog_47.ino,IMPLEMENTED,Proximity Sensor 47 module for ESP32/ESP8266
+A2044,Force Sensor 48,ANALOG,ANALOG,analog48,N,ESP32+ESP8266,None,analog_48.ino,IMPLEMENTED,Force Sensor 48 module for ESP32/ESP8266
+A2045,Temperature Sensor 49,ANALOG,ANALOG,analog49,C,ESP32+ESP8266,None,analog_49.ino,IMPLEMENTED,Temperature Sensor 49 module for ESP32/ESP8266
+A2046,Humidity Sensor 50,ANALOG,ANALOG,analog50,%RH,ESP32+ESP8266,None,analog_50.ino,IMPLEMENTED,Humidity Sensor 50 module for ESP32/ESP8266
+A2047,Light Sensor 51,ANALOG,ANALOG,analog51,lux,ESP32+ESP8266,None,analog_51.ino,IMPLEMENTED,Light Sensor 51 module for ESP32/ESP8266
+A2048,Pressure Sensor 52,ANALOG,ANALOG,analog52,kPa,ESP32+ESP8266,None,analog_52.ino,IMPLEMENTED,Pressure Sensor 52 module for ESP32/ESP8266
+A2049,Gas Sensor 53,ANALOG,ANALOG,analog53,ppm,ESP32+ESP8266,None,analog_53.ino,IMPLEMENTED,Gas Sensor 53 module for ESP32/ESP8266
+A2050,Soil Moisture 54,ANALOG,ANALOG,analog54,%,ESP32+ESP8266,None,analog_54.ino,IMPLEMENTED,Soil Moisture 54 module for ESP32/ESP8266
+A2051,Sound Sensor 55,ANALOG,ANALOG,analog55,dB,ESP32+ESP8266,None,analog_55.ino,IMPLEMENTED,Sound Sensor 55 module for ESP32/ESP8266
+A2052,Vibration Sensor 56,ANALOG,ANALOG,analog56,g,ESP32+ESP8266,None,analog_56.ino,IMPLEMENTED,Vibration Sensor 56 module for ESP32/ESP8266
+A2053,Current Sensor 57,ANALOG,ANALOG,analog57,A,ESP32+ESP8266,None,analog_57.ino,IMPLEMENTED,Current Sensor 57 module for ESP32/ESP8266
+A2054,Voltage Sensor 58,ANALOG,ANALOG,analog58,V,ESP32+ESP8266,None,analog_58.ino,IMPLEMENTED,Voltage Sensor 58 module for ESP32/ESP8266
+A2055,Proximity Sensor 59,ANALOG,ANALOG,analog59,cm,ESP32+ESP8266,None,analog_59.ino,IMPLEMENTED,Proximity Sensor 59 module for ESP32/ESP8266
+A2056,Force Sensor 60,ANALOG,ANALOG,analog60,N,ESP32+ESP8266,None,analog_60.ino,IMPLEMENTED,Force Sensor 60 module for ESP32/ESP8266
+A2057,Temperature Sensor 61,ANALOG,ANALOG,analog61,C,ESP32+ESP8266,None,analog_61.ino,IMPLEMENTED,Temperature Sensor 61 module for ESP32/ESP8266
+A2058,Humidity Sensor 62,ANALOG,ANALOG,analog62,%RH,ESP32+ESP8266,None,analog_62.ino,IMPLEMENTED,Humidity Sensor 62 module for ESP32/ESP8266
+A2059,Light Sensor 63,ANALOG,ANALOG,analog63,lux,ESP32+ESP8266,None,analog_63.ino,IMPLEMENTED,Light Sensor 63 module for ESP32/ESP8266
+A2060,Pressure Sensor 64,ANALOG,ANALOG,analog64,kPa,ESP32+ESP8266,None,analog_64.ino,IMPLEMENTED,Pressure Sensor 64 module for ESP32/ESP8266
+A2061,Gas Sensor 65,ANALOG,ANALOG,analog65,ppm,ESP32+ESP8266,None,analog_65.ino,IMPLEMENTED,Gas Sensor 65 module for ESP32/ESP8266
+A2062,Soil Moisture 66,ANALOG,ANALOG,analog66,%,ESP32+ESP8266,None,analog_66.ino,IMPLEMENTED,Soil Moisture 66 module for ESP32/ESP8266
+A2063,Sound Sensor 67,ANALOG,ANALOG,analog67,dB,ESP32+ESP8266,None,analog_67.ino,IMPLEMENTED,Sound Sensor 67 module for ESP32/ESP8266
+A2064,Vibration Sensor 68,ANALOG,ANALOG,analog68,g,ESP32+ESP8266,None,analog_68.ino,IMPLEMENTED,Vibration Sensor 68 module for ESP32/ESP8266
+A2065,Current Sensor 69,ANALOG,ANALOG,analog69,A,ESP32+ESP8266,None,analog_69.ino,IMPLEMENTED,Current Sensor 69 module for ESP32/ESP8266
+A2066,Voltage Sensor 70,ANALOG,ANALOG,analog70,V,ESP32+ESP8266,None,analog_70.ino,IMPLEMENTED,Voltage Sensor 70 module for ESP32/ESP8266
+A2067,Proximity Sensor 71,ANALOG,ANALOG,analog71,cm,ESP32+ESP8266,None,analog_71.ino,IMPLEMENTED,Proximity Sensor 71 module for ESP32/ESP8266
+A2068,Force Sensor 72,ANALOG,ANALOG,analog72,N,ESP32+ESP8266,None,analog_72.ino,IMPLEMENTED,Force Sensor 72 module for ESP32/ESP8266
+A2069,Temperature Sensor 73,ANALOG,ANALOG,analog73,C,ESP32+ESP8266,None,analog_73.ino,IMPLEMENTED,Temperature Sensor 73 module for ESP32/ESP8266
+A2070,Humidity Sensor 74,ANALOG,ANALOG,analog74,%RH,ESP32+ESP8266,None,analog_74.ino,IMPLEMENTED,Humidity Sensor 74 module for ESP32/ESP8266
+A2071,Light Sensor 75,ANALOG,ANALOG,analog75,lux,ESP32+ESP8266,None,analog_75.ino,IMPLEMENTED,Light Sensor 75 module for ESP32/ESP8266
+A2072,Pressure Sensor 76,ANALOG,ANALOG,analog76,kPa,ESP32+ESP8266,None,analog_76.ino,IMPLEMENTED,Pressure Sensor 76 module for ESP32/ESP8266
+A2073,Gas Sensor 77,ANALOG,ANALOG,analog77,ppm,ESP32+ESP8266,None,analog_77.ino,IMPLEMENTED,Gas Sensor 77 module for ESP32/ESP8266
+A2074,Soil Moisture 78,ANALOG,ANALOG,analog78,%,ESP32+ESP8266,None,analog_78.ino,IMPLEMENTED,Soil Moisture 78 module for ESP32/ESP8266
+A2075,Sound Sensor 79,ANALOG,ANALOG,analog79,dB,ESP32+ESP8266,None,analog_79.ino,IMPLEMENTED,Sound Sensor 79 module for ESP32/ESP8266
+A2076,Vibration Sensor 80,ANALOG,ANALOG,analog80,g,ESP32+ESP8266,None,analog_80.ino,IMPLEMENTED,Vibration Sensor 80 module for ESP32/ESP8266
+A2077,Current Sensor 81,ANALOG,ANALOG,analog81,A,ESP32+ESP8266,None,analog_81.ino,IMPLEMENTED,Current Sensor 81 module for ESP32/ESP8266
+A2078,Voltage Sensor 82,ANALOG,ANALOG,analog82,V,ESP32+ESP8266,None,analog_82.ino,IMPLEMENTED,Voltage Sensor 82 module for ESP32/ESP8266
+A2079,Proximity Sensor 83,ANALOG,ANALOG,analog83,cm,ESP32+ESP8266,None,analog_83.ino,IMPLEMENTED,Proximity Sensor 83 module for ESP32/ESP8266
+A2080,Force Sensor 84,ANALOG,ANALOG,analog84,N,ESP32+ESP8266,None,analog_84.ino,IMPLEMENTED,Force Sensor 84 module for ESP32/ESP8266
+A2081,Temperature Sensor 85,ANALOG,ANALOG,analog85,C,ESP32+ESP8266,None,analog_85.ino,IMPLEMENTED,Temperature Sensor 85 module for ESP32/ESP8266
+A2082,Humidity Sensor 86,ANALOG,ANALOG,analog86,%RH,ESP32+ESP8266,None,analog_86.ino,IMPLEMENTED,Humidity Sensor 86 module for ESP32/ESP8266
+A2083,Light Sensor 87,ANALOG,ANALOG,analog87,lux,ESP32+ESP8266,None,analog_87.ino,IMPLEMENTED,Light Sensor 87 module for ESP32/ESP8266
+A2084,Pressure Sensor 88,ANALOG,ANALOG,analog88,kPa,ESP32+ESP8266,None,analog_88.ino,IMPLEMENTED,Pressure Sensor 88 module for ESP32/ESP8266
+A2085,Gas Sensor 89,ANALOG,ANALOG,analog89,ppm,ESP32+ESP8266,None,analog_89.ino,IMPLEMENTED,Gas Sensor 89 module for ESP32/ESP8266
+A2086,Soil Moisture 90,ANALOG,ANALOG,analog90,%,ESP32+ESP8266,None,analog_90.ino,IMPLEMENTED,Soil Moisture 90 module for ESP32/ESP8266
+A2087,Sound Sensor 91,ANALOG,ANALOG,analog91,dB,ESP32+ESP8266,None,analog_91.ino,IMPLEMENTED,Sound Sensor 91 module for ESP32/ESP8266
+A2088,Vibration Sensor 92,ANALOG,ANALOG,analog92,g,ESP32+ESP8266,None,analog_92.ino,IMPLEMENTED,Vibration Sensor 92 module for ESP32/ESP8266
+A2089,Current Sensor 93,ANALOG,ANALOG,analog93,A,ESP32+ESP8266,None,analog_93.ino,IMPLEMENTED,Current Sensor 93 module for ESP32/ESP8266
+A2090,Voltage Sensor 94,ANALOG,ANALOG,analog94,V,ESP32+ESP8266,None,analog_94.ino,IMPLEMENTED,Voltage Sensor 94 module for ESP32/ESP8266
+A2091,Proximity Sensor 95,ANALOG,ANALOG,analog95,cm,ESP32+ESP8266,None,analog_95.ino,IMPLEMENTED,Proximity Sensor 95 module for ESP32/ESP8266
+A2092,Force Sensor 96,ANALOG,ANALOG,analog96,N,ESP32+ESP8266,None,analog_96.ino,IMPLEMENTED,Force Sensor 96 module for ESP32/ESP8266
+A2093,Temperature Sensor 97,ANALOG,ANALOG,analog97,C,ESP32+ESP8266,None,analog_97.ino,IMPLEMENTED,Temperature Sensor 97 module for ESP32/ESP8266
+A2094,Humidity Sensor 98,ANALOG,ANALOG,analog98,%RH,ESP32+ESP8266,None,analog_98.ino,IMPLEMENTED,Humidity Sensor 98 module for ESP32/ESP8266
+A2095,Light Sensor 99,ANALOG,ANALOG,analog99,lux,ESP32+ESP8266,None,analog_99.ino,IMPLEMENTED,Light Sensor 99 module for ESP32/ESP8266
+A2096,Pressure Sensor 100,ANALOG,ANALOG,analog100,kPa,ESP32+ESP8266,None,analog_100.ino,IMPLEMENTED,Pressure Sensor 100 module for ESP32/ESP8266
+A2097,Gas Sensor 101,ANALOG,ANALOG,analog101,ppm,ESP32+ESP8266,None,analog_101.ino,IMPLEMENTED,Gas Sensor 101 module for ESP32/ESP8266
+A2098,Soil Moisture 102,ANALOG,ANALOG,analog102,%,ESP32+ESP8266,None,analog_102.ino,IMPLEMENTED,Soil Moisture 102 module for ESP32/ESP8266
+A2099,Sound Sensor 103,ANALOG,ANALOG,analog103,dB,ESP32+ESP8266,None,analog_103.ino,IMPLEMENTED,Sound Sensor 103 module for ESP32/ESP8266
+A2100,Vibration Sensor 104,ANALOG,ANALOG,analog104,g,ESP32+ESP8266,None,analog_104.ino,IMPLEMENTED,Vibration Sensor 104 module for ESP32/ESP8266
+A2101,Current Sensor 105,ANALOG,ANALOG,analog105,A,ESP32+ESP8266,None,analog_105.ino,IMPLEMENTED,Current Sensor 105 module for ESP32/ESP8266
+A2102,Voltage Sensor 106,ANALOG,ANALOG,analog106,V,ESP32+ESP8266,None,analog_106.ino,IMPLEMENTED,Voltage Sensor 106 module for ESP32/ESP8266
+A2103,Proximity Sensor 107,ANALOG,ANALOG,analog107,cm,ESP32+ESP8266,None,analog_107.ino,IMPLEMENTED,Proximity Sensor 107 module for ESP32/ESP8266
+A2104,Force Sensor 108,ANALOG,ANALOG,analog108,N,ESP32+ESP8266,None,analog_108.ino,IMPLEMENTED,Force Sensor 108 module for ESP32/ESP8266
+A2105,Temperature Sensor 109,ANALOG,ANALOG,analog109,C,ESP32+ESP8266,None,analog_109.ino,IMPLEMENTED,Temperature Sensor 109 module for ESP32/ESP8266
+A2106,Humidity Sensor 110,ANALOG,ANALOG,analog110,%RH,ESP32+ESP8266,None,analog_110.ino,IMPLEMENTED,Humidity Sensor 110 module for ESP32/ESP8266
+A2107,Light Sensor 111,ANALOG,ANALOG,analog111,lux,ESP32+ESP8266,None,analog_111.ino,IMPLEMENTED,Light Sensor 111 module for ESP32/ESP8266
+A2108,Pressure Sensor 112,ANALOG,ANALOG,analog112,kPa,ESP32+ESP8266,None,analog_112.ino,IMPLEMENTED,Pressure Sensor 112 module for ESP32/ESP8266
+A2109,Gas Sensor 113,ANALOG,ANALOG,analog113,ppm,ESP32+ESP8266,None,analog_113.ino,IMPLEMENTED,Gas Sensor 113 module for ESP32/ESP8266
+A2110,Soil Moisture 114,ANALOG,ANALOG,analog114,%,ESP32+ESP8266,None,analog_114.ino,IMPLEMENTED,Soil Moisture 114 module for ESP32/ESP8266
+A2111,Sound Sensor 115,ANALOG,ANALOG,analog115,dB,ESP32+ESP8266,None,analog_115.ino,IMPLEMENTED,Sound Sensor 115 module for ESP32/ESP8266
+A2112,Vibration Sensor 116,ANALOG,ANALOG,analog116,g,ESP32+ESP8266,None,analog_116.ino,IMPLEMENTED,Vibration Sensor 116 module for ESP32/ESP8266
+A2113,Current Sensor 117,ANALOG,ANALOG,analog117,A,ESP32+ESP8266,None,analog_117.ino,IMPLEMENTED,Current Sensor 117 module for ESP32/ESP8266
+A2114,Voltage Sensor 118,ANALOG,ANALOG,analog118,V,ESP32+ESP8266,None,analog_118.ino,IMPLEMENTED,Voltage Sensor 118 module for ESP32/ESP8266
+A2115,Proximity Sensor 119,ANALOG,ANALOG,analog119,cm,ESP32+ESP8266,None,analog_119.ino,IMPLEMENTED,Proximity Sensor 119 module for ESP32/ESP8266
+A2116,Force Sensor 120,ANALOG,ANALOG,analog120,N,ESP32+ESP8266,None,analog_120.ino,IMPLEMENTED,Force Sensor 120 module for ESP32/ESP8266
+A2117,Temperature Sensor 121,ANALOG,ANALOG,analog121,C,ESP32+ESP8266,None,analog_121.ino,IMPLEMENTED,Temperature Sensor 121 module for ESP32/ESP8266
+A2118,Humidity Sensor 122,ANALOG,ANALOG,analog122,%RH,ESP32+ESP8266,None,analog_122.ino,IMPLEMENTED,Humidity Sensor 122 module for ESP32/ESP8266
+A2119,Light Sensor 123,ANALOG,ANALOG,analog123,lux,ESP32+ESP8266,None,analog_123.ino,IMPLEMENTED,Light Sensor 123 module for ESP32/ESP8266
+A2120,Pressure Sensor 124,ANALOG,ANALOG,analog124,kPa,ESP32+ESP8266,None,analog_124.ino,IMPLEMENTED,Pressure Sensor 124 module for ESP32/ESP8266
+A2121,Gas Sensor 125,ANALOG,ANALOG,analog125,ppm,ESP32+ESP8266,None,analog_125.ino,IMPLEMENTED,Gas Sensor 125 module for ESP32/ESP8266
+A2122,Soil Moisture 126,ANALOG,ANALOG,analog126,%,ESP32+ESP8266,None,analog_126.ino,IMPLEMENTED,Soil Moisture 126 module for ESP32/ESP8266
+A2123,Sound Sensor 127,ANALOG,ANALOG,analog127,dB,ESP32+ESP8266,None,analog_127.ino,IMPLEMENTED,Sound Sensor 127 module for ESP32/ESP8266
+A2124,Vibration Sensor 128,ANALOG,ANALOG,analog128,g,ESP32+ESP8266,None,analog_128.ino,IMPLEMENTED,Vibration Sensor 128 module for ESP32/ESP8266
+A2125,Current Sensor 129,ANALOG,ANALOG,analog129,A,ESP32+ESP8266,None,analog_129.ino,IMPLEMENTED,Current Sensor 129 module for ESP32/ESP8266
+A2126,Voltage Sensor 130,ANALOG,ANALOG,analog130,V,ESP32+ESP8266,None,analog_130.ino,IMPLEMENTED,Voltage Sensor 130 module for ESP32/ESP8266
+A2127,Proximity Sensor 131,ANALOG,ANALOG,analog131,cm,ESP32+ESP8266,None,analog_131.ino,IMPLEMENTED,Proximity Sensor 131 module for ESP32/ESP8266
+A2128,Force Sensor 132,ANALOG,ANALOG,analog132,N,ESP32+ESP8266,None,analog_132.ino,IMPLEMENTED,Force Sensor 132 module for ESP32/ESP8266
+A2129,Temperature Sensor 133,ANALOG,ANALOG,analog133,C,ESP32+ESP8266,None,analog_133.ino,IMPLEMENTED,Temperature Sensor 133 module for ESP32/ESP8266
+A2130,Humidity Sensor 134,ANALOG,ANALOG,analog134,%RH,ESP32+ESP8266,None,analog_134.ino,IMPLEMENTED,Humidity Sensor 134 module for ESP32/ESP8266
+A2131,Light Sensor 135,ANALOG,ANALOG,analog135,lux,ESP32+ESP8266,None,analog_135.ino,IMPLEMENTED,Light Sensor 135 module for ESP32/ESP8266
+A2132,Pressure Sensor 136,ANALOG,ANALOG,analog136,kPa,ESP32+ESP8266,None,analog_136.ino,IMPLEMENTED,Pressure Sensor 136 module for ESP32/ESP8266
+A2133,Gas Sensor 137,ANALOG,ANALOG,analog137,ppm,ESP32+ESP8266,None,analog_137.ino,IMPLEMENTED,Gas Sensor 137 module for ESP32/ESP8266
+A2134,Soil Moisture 138,ANALOG,ANALOG,analog138,%,ESP32+ESP8266,None,analog_138.ino,IMPLEMENTED,Soil Moisture 138 module for ESP32/ESP8266
+A2135,Sound Sensor 139,ANALOG,ANALOG,analog139,dB,ESP32+ESP8266,None,analog_139.ino,IMPLEMENTED,Sound Sensor 139 module for ESP32/ESP8266
+A2136,Vibration Sensor 140,ANALOG,ANALOG,analog140,g,ESP32+ESP8266,None,analog_140.ino,IMPLEMENTED,Vibration Sensor 140 module for ESP32/ESP8266
+A2137,Current Sensor 141,ANALOG,ANALOG,analog141,A,ESP32+ESP8266,None,analog_141.ino,IMPLEMENTED,Current Sensor 141 module for ESP32/ESP8266
+A2138,Voltage Sensor 142,ANALOG,ANALOG,analog142,V,ESP32+ESP8266,None,analog_142.ino,IMPLEMENTED,Voltage Sensor 142 module for ESP32/ESP8266
+A2139,Proximity Sensor 143,ANALOG,ANALOG,analog143,cm,ESP32+ESP8266,None,analog_143.ino,IMPLEMENTED,Proximity Sensor 143 module for ESP32/ESP8266
+A2140,Force Sensor 144,ANALOG,ANALOG,analog144,N,ESP32+ESP8266,None,analog_144.ino,IMPLEMENTED,Force Sensor 144 module for ESP32/ESP8266
+A2141,Temperature Sensor 145,ANALOG,ANALOG,analog145,C,ESP32+ESP8266,None,analog_145.ino,IMPLEMENTED,Temperature Sensor 145 module for ESP32/ESP8266
+A2142,Humidity Sensor 146,ANALOG,ANALOG,analog146,%RH,ESP32+ESP8266,None,analog_146.ino,IMPLEMENTED,Humidity Sensor 146 module for ESP32/ESP8266
+A2143,Light Sensor 147,ANALOG,ANALOG,analog147,lux,ESP32+ESP8266,None,analog_147.ino,IMPLEMENTED,Light Sensor 147 module for ESP32/ESP8266
+A2144,Pressure Sensor 148,ANALOG,ANALOG,analog148,kPa,ESP32+ESP8266,None,analog_148.ino,IMPLEMENTED,Pressure Sensor 148 module for ESP32/ESP8266
+A2145,Gas Sensor 149,ANALOG,ANALOG,analog149,ppm,ESP32+ESP8266,None,analog_149.ino,IMPLEMENTED,Gas Sensor 149 module for ESP32/ESP8266
+A2146,Soil Moisture 150,ANALOG,ANALOG,analog150,%,ESP32+ESP8266,None,analog_150.ino,IMPLEMENTED,Soil Moisture 150 module for ESP32/ESP8266
+A2147,Sound Sensor 151,ANALOG,ANALOG,analog151,dB,ESP32+ESP8266,None,analog_151.ino,IMPLEMENTED,Sound Sensor 151 module for ESP32/ESP8266
+A2148,Vibration Sensor 152,ANALOG,ANALOG,analog152,g,ESP32+ESP8266,None,analog_152.ino,IMPLEMENTED,Vibration Sensor 152 module for ESP32/ESP8266
+A2149,Current Sensor 153,ANALOG,ANALOG,analog153,A,ESP32+ESP8266,None,analog_153.ino,IMPLEMENTED,Current Sensor 153 module for ESP32/ESP8266
+A2150,Voltage Sensor 154,ANALOG,ANALOG,analog154,V,ESP32+ESP8266,None,analog_154.ino,IMPLEMENTED,Voltage Sensor 154 module for ESP32/ESP8266
+A2151,Proximity Sensor 155,ANALOG,ANALOG,analog155,cm,ESP32+ESP8266,None,analog_155.ino,IMPLEMENTED,Proximity Sensor 155 module for ESP32/ESP8266
+A2152,Force Sensor 156,ANALOG,ANALOG,analog156,N,ESP32+ESP8266,None,analog_156.ino,IMPLEMENTED,Force Sensor 156 module for ESP32/ESP8266
+A2153,Temperature Sensor 157,ANALOG,ANALOG,analog157,C,ESP32+ESP8266,None,analog_157.ino,IMPLEMENTED,Temperature Sensor 157 module for ESP32/ESP8266
+A2154,Humidity Sensor 158,ANALOG,ANALOG,analog158,%RH,ESP32+ESP8266,None,analog_158.ino,IMPLEMENTED,Humidity Sensor 158 module for ESP32/ESP8266
+A2155,Light Sensor 159,ANALOG,ANALOG,analog159,lux,ESP32+ESP8266,None,analog_159.ino,IMPLEMENTED,Light Sensor 159 module for ESP32/ESP8266
+A2156,Pressure Sensor 160,ANALOG,ANALOG,analog160,kPa,ESP32+ESP8266,None,analog_160.ino,IMPLEMENTED,Pressure Sensor 160 module for ESP32/ESP8266
+A2157,Gas Sensor 161,ANALOG,ANALOG,analog161,ppm,ESP32+ESP8266,None,analog_161.ino,IMPLEMENTED,Gas Sensor 161 module for ESP32/ESP8266
+A2158,Soil Moisture 162,ANALOG,ANALOG,analog162,%,ESP32+ESP8266,None,analog_162.ino,IMPLEMENTED,Soil Moisture 162 module for ESP32/ESP8266
+A2159,Sound Sensor 163,ANALOG,ANALOG,analog163,dB,ESP32+ESP8266,None,analog_163.ino,IMPLEMENTED,Sound Sensor 163 module for ESP32/ESP8266
+A2160,Vibration Sensor 164,ANALOG,ANALOG,analog164,g,ESP32+ESP8266,None,analog_164.ino,IMPLEMENTED,Vibration Sensor 164 module for ESP32/ESP8266
+A2161,Current Sensor 165,ANALOG,ANALOG,analog165,A,ESP32+ESP8266,None,analog_165.ino,IMPLEMENTED,Current Sensor 165 module for ESP32/ESP8266
+A2162,Voltage Sensor 166,ANALOG,ANALOG,analog166,V,ESP32+ESP8266,None,analog_166.ino,IMPLEMENTED,Voltage Sensor 166 module for ESP32/ESP8266
+A2163,Proximity Sensor 167,ANALOG,ANALOG,analog167,cm,ESP32+ESP8266,None,analog_167.ino,IMPLEMENTED,Proximity Sensor 167 module for ESP32/ESP8266
+A2164,Force Sensor 168,ANALOG,ANALOG,analog168,N,ESP32+ESP8266,None,analog_168.ino,IMPLEMENTED,Force Sensor 168 module for ESP32/ESP8266
+A2165,Temperature Sensor 169,ANALOG,ANALOG,analog169,C,ESP32+ESP8266,None,analog_169.ino,IMPLEMENTED,Temperature Sensor 169 module for ESP32/ESP8266
+A2166,Humidity Sensor 170,ANALOG,ANALOG,analog170,%RH,ESP32+ESP8266,None,analog_170.ino,IMPLEMENTED,Humidity Sensor 170 module for ESP32/ESP8266
+A2167,Light Sensor 171,ANALOG,ANALOG,analog171,lux,ESP32+ESP8266,None,analog_171.ino,IMPLEMENTED,Light Sensor 171 module for ESP32/ESP8266
+A2168,Pressure Sensor 172,ANALOG,ANALOG,analog172,kPa,ESP32+ESP8266,None,analog_172.ino,IMPLEMENTED,Pressure Sensor 172 module for ESP32/ESP8266
+A2169,Gas Sensor 173,ANALOG,ANALOG,analog173,ppm,ESP32+ESP8266,None,analog_173.ino,IMPLEMENTED,Gas Sensor 173 module for ESP32/ESP8266
+A2170,Soil Moisture 174,ANALOG,ANALOG,analog174,%,ESP32+ESP8266,None,analog_174.ino,IMPLEMENTED,Soil Moisture 174 module for ESP32/ESP8266
+A2171,Sound Sensor 175,ANALOG,ANALOG,analog175,dB,ESP32+ESP8266,None,analog_175.ino,IMPLEMENTED,Sound Sensor 175 module for ESP32/ESP8266
+A2172,Vibration Sensor 176,ANALOG,ANALOG,analog176,g,ESP32+ESP8266,None,analog_176.ino,IMPLEMENTED,Vibration Sensor 176 module for ESP32/ESP8266
+A2173,Current Sensor 177,ANALOG,ANALOG,analog177,A,ESP32+ESP8266,None,analog_177.ino,IMPLEMENTED,Current Sensor 177 module for ESP32/ESP8266
+A2174,Voltage Sensor 178,ANALOG,ANALOG,analog178,V,ESP32+ESP8266,None,analog_178.ino,IMPLEMENTED,Voltage Sensor 178 module for ESP32/ESP8266
+A2175,Proximity Sensor 179,ANALOG,ANALOG,analog179,cm,ESP32+ESP8266,None,analog_179.ino,IMPLEMENTED,Proximity Sensor 179 module for ESP32/ESP8266
+A2176,Force Sensor 180,ANALOG,ANALOG,analog180,N,ESP32+ESP8266,None,analog_180.ino,IMPLEMENTED,Force Sensor 180 module for ESP32/ESP8266
+A2177,Temperature Sensor 181,ANALOG,ANALOG,analog181,C,ESP32+ESP8266,None,analog_181.ino,IMPLEMENTED,Temperature Sensor 181 module for ESP32/ESP8266
+A2178,Humidity Sensor 182,ANALOG,ANALOG,analog182,%RH,ESP32+ESP8266,None,analog_182.ino,IMPLEMENTED,Humidity Sensor 182 module for ESP32/ESP8266
+A2179,Light Sensor 183,ANALOG,ANALOG,analog183,lux,ESP32+ESP8266,None,analog_183.ino,IMPLEMENTED,Light Sensor 183 module for ESP32/ESP8266
+A2180,Pressure Sensor 184,ANALOG,ANALOG,analog184,kPa,ESP32+ESP8266,None,analog_184.ino,IMPLEMENTED,Pressure Sensor 184 module for ESP32/ESP8266
+A2181,Gas Sensor 185,ANALOG,ANALOG,analog185,ppm,ESP32+ESP8266,None,analog_185.ino,IMPLEMENTED,Gas Sensor 185 module for ESP32/ESP8266
+A2182,Soil Moisture 186,ANALOG,ANALOG,analog186,%,ESP32+ESP8266,None,analog_186.ino,IMPLEMENTED,Soil Moisture 186 module for ESP32/ESP8266
+A2183,Sound Sensor 187,ANALOG,ANALOG,analog187,dB,ESP32+ESP8266,None,analog_187.ino,IMPLEMENTED,Sound Sensor 187 module for ESP32/ESP8266
+A2184,Vibration Sensor 188,ANALOG,ANALOG,analog188,g,ESP32+ESP8266,None,analog_188.ino,IMPLEMENTED,Vibration Sensor 188 module for ESP32/ESP8266
+A2185,Current Sensor 189,ANALOG,ANALOG,analog189,A,ESP32+ESP8266,None,analog_189.ino,IMPLEMENTED,Current Sensor 189 module for ESP32/ESP8266
+A2186,Voltage Sensor 190,ANALOG,ANALOG,analog190,V,ESP32+ESP8266,None,analog_190.ino,IMPLEMENTED,Voltage Sensor 190 module for ESP32/ESP8266
+A2187,Proximity Sensor 191,ANALOG,ANALOG,analog191,cm,ESP32+ESP8266,None,analog_191.ino,IMPLEMENTED,Proximity Sensor 191 module for ESP32/ESP8266
+A2188,Force Sensor 192,ANALOG,ANALOG,analog192,N,ESP32+ESP8266,None,analog_192.ino,IMPLEMENTED,Force Sensor 192 module for ESP32/ESP8266
+A2189,Temperature Sensor 193,ANALOG,ANALOG,analog193,C,ESP32+ESP8266,None,analog_193.ino,IMPLEMENTED,Temperature Sensor 193 module for ESP32/ESP8266
+A2190,Humidity Sensor 194,ANALOG,ANALOG,analog194,%RH,ESP32+ESP8266,None,analog_194.ino,IMPLEMENTED,Humidity Sensor 194 module for ESP32/ESP8266
+A2191,Light Sensor 195,ANALOG,ANALOG,analog195,lux,ESP32+ESP8266,None,analog_195.ino,IMPLEMENTED,Light Sensor 195 module for ESP32/ESP8266
+A2192,Pressure Sensor 196,ANALOG,ANALOG,analog196,kPa,ESP32+ESP8266,None,analog_196.ino,IMPLEMENTED,Pressure Sensor 196 module for ESP32/ESP8266
+A2193,Gas Sensor 197,ANALOG,ANALOG,analog197,ppm,ESP32+ESP8266,None,analog_197.ino,IMPLEMENTED,Gas Sensor 197 module for ESP32/ESP8266
+A2194,Soil Moisture 198,ANALOG,ANALOG,analog198,%,ESP32+ESP8266,None,analog_198.ino,IMPLEMENTED,Soil Moisture 198 module for ESP32/ESP8266
+A2195,Sound Sensor 199,ANALOG,ANALOG,analog199,dB,ESP32+ESP8266,None,analog_199.ino,IMPLEMENTED,Sound Sensor 199 module for ESP32/ESP8266
+A2196,Vibration Sensor 200,ANALOG,ANALOG,analog200,g,ESP32+ESP8266,None,analog_200.ino,IMPLEMENTED,Vibration Sensor 200 module for ESP32/ESP8266
+A2197,Current Sensor 201,ANALOG,ANALOG,analog201,A,ESP32+ESP8266,None,analog_201.ino,IMPLEMENTED,Current Sensor 201 module for ESP32/ESP8266
+A2198,Voltage Sensor 202,ANALOG,ANALOG,analog202,V,ESP32+ESP8266,None,analog_202.ino,IMPLEMENTED,Voltage Sensor 202 module for ESP32/ESP8266
+A2199,Proximity Sensor 203,ANALOG,ANALOG,analog203,cm,ESP32+ESP8266,None,analog_203.ino,IMPLEMENTED,Proximity Sensor 203 module for ESP32/ESP8266
+A2200,Force Sensor 204,ANALOG,ANALOG,analog204,N,ESP32+ESP8266,None,analog_204.ino,IMPLEMENTED,Force Sensor 204 module for ESP32/ESP8266
+A2201,Temperature Sensor 205,ANALOG,ANALOG,analog205,C,ESP32+ESP8266,None,analog_205.ino,IMPLEMENTED,Temperature Sensor 205 module for ESP32/ESP8266
+A2202,Humidity Sensor 206,ANALOG,ANALOG,analog206,%RH,ESP32+ESP8266,None,analog_206.ino,IMPLEMENTED,Humidity Sensor 206 module for ESP32/ESP8266
+A2203,Light Sensor 207,ANALOG,ANALOG,analog207,lux,ESP32+ESP8266,None,analog_207.ino,IMPLEMENTED,Light Sensor 207 module for ESP32/ESP8266
+A2204,Pressure Sensor 208,ANALOG,ANALOG,analog208,kPa,ESP32+ESP8266,None,analog_208.ino,IMPLEMENTED,Pressure Sensor 208 module for ESP32/ESP8266
+A2205,Gas Sensor 209,ANALOG,ANALOG,analog209,ppm,ESP32+ESP8266,None,analog_209.ino,IMPLEMENTED,Gas Sensor 209 module for ESP32/ESP8266
+A2206,Soil Moisture 210,ANALOG,ANALOG,analog210,%,ESP32+ESP8266,None,analog_210.ino,IMPLEMENTED,Soil Moisture 210 module for ESP32/ESP8266
+A2207,Sound Sensor 211,ANALOG,ANALOG,analog211,dB,ESP32+ESP8266,None,analog_211.ino,IMPLEMENTED,Sound Sensor 211 module for ESP32/ESP8266
+A2208,Vibration Sensor 212,ANALOG,ANALOG,analog212,g,ESP32+ESP8266,None,analog_212.ino,IMPLEMENTED,Vibration Sensor 212 module for ESP32/ESP8266
+A2209,Current Sensor 213,ANALOG,ANALOG,analog213,A,ESP32+ESP8266,None,analog_213.ino,IMPLEMENTED,Current Sensor 213 module for ESP32/ESP8266
+A2210,Voltage Sensor 214,ANALOG,ANALOG,analog214,V,ESP32+ESP8266,None,analog_214.ino,IMPLEMENTED,Voltage Sensor 214 module for ESP32/ESP8266
+A2211,Proximity Sensor 215,ANALOG,ANALOG,analog215,cm,ESP32+ESP8266,None,analog_215.ino,IMPLEMENTED,Proximity Sensor 215 module for ESP32/ESP8266
+A2212,Force Sensor 216,ANALOG,ANALOG,analog216,N,ESP32+ESP8266,None,analog_216.ino,IMPLEMENTED,Force Sensor 216 module for ESP32/ESP8266
+A2213,Temperature Sensor 217,ANALOG,ANALOG,analog217,C,ESP32+ESP8266,None,analog_217.ino,IMPLEMENTED,Temperature Sensor 217 module for ESP32/ESP8266
+A2214,Humidity Sensor 218,ANALOG,ANALOG,analog218,%RH,ESP32+ESP8266,None,analog_218.ino,IMPLEMENTED,Humidity Sensor 218 module for ESP32/ESP8266
+A2215,Light Sensor 219,ANALOG,ANALOG,analog219,lux,ESP32+ESP8266,None,analog_219.ino,IMPLEMENTED,Light Sensor 219 module for ESP32/ESP8266
+A2216,Pressure Sensor 220,ANALOG,ANALOG,analog220,kPa,ESP32+ESP8266,None,analog_220.ino,IMPLEMENTED,Pressure Sensor 220 module for ESP32/ESP8266
+A2217,Gas Sensor 221,ANALOG,ANALOG,analog221,ppm,ESP32+ESP8266,None,analog_221.ino,IMPLEMENTED,Gas Sensor 221 module for ESP32/ESP8266
+A2218,Soil Moisture 222,ANALOG,ANALOG,analog222,%,ESP32+ESP8266,None,analog_222.ino,IMPLEMENTED,Soil Moisture 222 module for ESP32/ESP8266
+A2219,Sound Sensor 223,ANALOG,ANALOG,analog223,dB,ESP32+ESP8266,None,analog_223.ino,IMPLEMENTED,Sound Sensor 223 module for ESP32/ESP8266
+A2220,Vibration Sensor 224,ANALOG,ANALOG,analog224,g,ESP32+ESP8266,None,analog_224.ino,IMPLEMENTED,Vibration Sensor 224 module for ESP32/ESP8266
+A2221,Current Sensor 225,ANALOG,ANALOG,analog225,A,ESP32+ESP8266,None,analog_225.ino,IMPLEMENTED,Current Sensor 225 module for ESP32/ESP8266
+A2222,Voltage Sensor 226,ANALOG,ANALOG,analog226,V,ESP32+ESP8266,None,analog_226.ino,IMPLEMENTED,Voltage Sensor 226 module for ESP32/ESP8266
+A2223,Proximity Sensor 227,ANALOG,ANALOG,analog227,cm,ESP32+ESP8266,None,analog_227.ino,IMPLEMENTED,Proximity Sensor 227 module for ESP32/ESP8266
+A2224,Force Sensor 228,ANALOG,ANALOG,analog228,N,ESP32+ESP8266,None,analog_228.ino,IMPLEMENTED,Force Sensor 228 module for ESP32/ESP8266
+A2225,Temperature Sensor 229,ANALOG,ANALOG,analog229,C,ESP32+ESP8266,None,analog_229.ino,IMPLEMENTED,Temperature Sensor 229 module for ESP32/ESP8266
+A2226,Humidity Sensor 230,ANALOG,ANALOG,analog230,%RH,ESP32+ESP8266,None,analog_230.ino,IMPLEMENTED,Humidity Sensor 230 module for ESP32/ESP8266
+A2227,Light Sensor 231,ANALOG,ANALOG,analog231,lux,ESP32+ESP8266,None,analog_231.ino,IMPLEMENTED,Light Sensor 231 module for ESP32/ESP8266
+A2228,Pressure Sensor 232,ANALOG,ANALOG,analog232,kPa,ESP32+ESP8266,None,analog_232.ino,IMPLEMENTED,Pressure Sensor 232 module for ESP32/ESP8266
+A2229,Gas Sensor 233,ANALOG,ANALOG,analog233,ppm,ESP32+ESP8266,None,analog_233.ino,IMPLEMENTED,Gas Sensor 233 module for ESP32/ESP8266
+A2230,Soil Moisture 234,ANALOG,ANALOG,analog234,%,ESP32+ESP8266,None,analog_234.ino,IMPLEMENTED,Soil Moisture 234 module for ESP32/ESP8266
+A2231,Sound Sensor 235,ANALOG,ANALOG,analog235,dB,ESP32+ESP8266,None,analog_235.ino,IMPLEMENTED,Sound Sensor 235 module for ESP32/ESP8266
+A2232,Vibration Sensor 236,ANALOG,ANALOG,analog236,g,ESP32+ESP8266,None,analog_236.ino,IMPLEMENTED,Vibration Sensor 236 module for ESP32/ESP8266
+A2233,Current Sensor 237,ANALOG,ANALOG,analog237,A,ESP32+ESP8266,None,analog_237.ino,IMPLEMENTED,Current Sensor 237 module for ESP32/ESP8266
+A2234,Voltage Sensor 238,ANALOG,ANALOG,analog238,V,ESP32+ESP8266,None,analog_238.ino,IMPLEMENTED,Voltage Sensor 238 module for ESP32/ESP8266
+A2235,Proximity Sensor 239,ANALOG,ANALOG,analog239,cm,ESP32+ESP8266,None,analog_239.ino,IMPLEMENTED,Proximity Sensor 239 module for ESP32/ESP8266
+A2236,Force Sensor 240,ANALOG,ANALOG,analog240,N,ESP32+ESP8266,None,analog_240.ino,IMPLEMENTED,Force Sensor 240 module for ESP32/ESP8266
+A2237,Temperature Sensor 241,ANALOG,ANALOG,analog241,C,ESP32+ESP8266,None,analog_241.ino,IMPLEMENTED,Temperature Sensor 241 module for ESP32/ESP8266
+A2238,Humidity Sensor 242,ANALOG,ANALOG,analog242,%RH,ESP32+ESP8266,None,analog_242.ino,IMPLEMENTED,Humidity Sensor 242 module for ESP32/ESP8266
+A2239,Light Sensor 243,ANALOG,ANALOG,analog243,lux,ESP32+ESP8266,None,analog_243.ino,IMPLEMENTED,Light Sensor 243 module for ESP32/ESP8266
+A2240,Pressure Sensor 244,ANALOG,ANALOG,analog244,kPa,ESP32+ESP8266,None,analog_244.ino,IMPLEMENTED,Pressure Sensor 244 module for ESP32/ESP8266
+A2241,Gas Sensor 245,ANALOG,ANALOG,analog245,ppm,ESP32+ESP8266,None,analog_245.ino,IMPLEMENTED,Gas Sensor 245 module for ESP32/ESP8266
+A2242,Soil Moisture 246,ANALOG,ANALOG,analog246,%,ESP32+ESP8266,None,analog_246.ino,IMPLEMENTED,Soil Moisture 246 module for ESP32/ESP8266
+A2243,Sound Sensor 247,ANALOG,ANALOG,analog247,dB,ESP32+ESP8266,None,analog_247.ino,IMPLEMENTED,Sound Sensor 247 module for ESP32/ESP8266
+A2244,Vibration Sensor 248,ANALOG,ANALOG,analog248,g,ESP32+ESP8266,None,analog_248.ino,IMPLEMENTED,Vibration Sensor 248 module for ESP32/ESP8266
+A2245,Current Sensor 249,ANALOG,ANALOG,analog249,A,ESP32+ESP8266,None,analog_249.ino,IMPLEMENTED,Current Sensor 249 module for ESP32/ESP8266
+A2246,Voltage Sensor 250,ANALOG,ANALOG,analog250,V,ESP32+ESP8266,None,analog_250.ino,IMPLEMENTED,Voltage Sensor 250 module for ESP32/ESP8266
+A2247,I2C Sensor 1,I2C,I2C,i2c1,raw,ESP32+ESP8266,Wire,i2c_1.ino,IMPLEMENTED,I2C Sensor 1 module for ESP32/ESP8266
+A2248,I2C ADC 2,I2C,I2C,i2c2,mV,ESP32+ESP8266,Wire,i2c_2.ino,IMPLEMENTED,I2C ADC 2 module for ESP32/ESP8266
+A2249,I2C DAC 3,I2C,I2C,i2c3,mV,ESP32+ESP8266,Wire,i2c_3.ino,IMPLEMENTED,I2C DAC 3 module for ESP32/ESP8266
+A2250,I2C IO Expander 4,I2C,I2C,i2c4,bool,ESP32+ESP8266,Wire,i2c_4.ino,IMPLEMENTED,I2C IO Expander 4 module for ESP32/ESP8266
+A2251,I2C RTC 5,I2C,I2C,i2c5,datetime,ESP32+ESP8266,Wire,i2c_5.ino,IMPLEMENTED,I2C RTC 5 module for ESP32/ESP8266
+A2252,I2C EEPROM 6,I2C,I2C,i2c6,bytes,ESP32+ESP8266,Wire,i2c_6.ino,IMPLEMENTED,I2C EEPROM 6 module for ESP32/ESP8266
+A2253,I2C Temp Sensor 7,I2C,I2C,i2c7,C,ESP32+ESP8266,Wire,i2c_7.ino,IMPLEMENTED,I2C Temp Sensor 7 module for ESP32/ESP8266
+A2254,I2C Accelerometer 8,I2C,I2C,i2c8,g,ESP32+ESP8266,Wire,i2c_8.ino,IMPLEMENTED,I2C Accelerometer 8 module for ESP32/ESP8266
+A2255,I2C Sensor 9,I2C,I2C,i2c9,raw,ESP32+ESP8266,Wire,i2c_9.ino,IMPLEMENTED,I2C Sensor 9 module for ESP32/ESP8266
+A2256,I2C ADC 10,I2C,I2C,i2c10,mV,ESP32+ESP8266,Wire,i2c_10.ino,IMPLEMENTED,I2C ADC 10 module for ESP32/ESP8266
+A2257,I2C DAC 11,I2C,I2C,i2c11,mV,ESP32+ESP8266,Wire,i2c_11.ino,IMPLEMENTED,I2C DAC 11 module for ESP32/ESP8266
+A2258,I2C IO Expander 12,I2C,I2C,i2c12,bool,ESP32+ESP8266,Wire,i2c_12.ino,IMPLEMENTED,I2C IO Expander 12 module for ESP32/ESP8266
+A2259,I2C RTC 13,I2C,I2C,i2c13,datetime,ESP32+ESP8266,Wire,i2c_13.ino,IMPLEMENTED,I2C RTC 13 module for ESP32/ESP8266
+A2260,I2C EEPROM 14,I2C,I2C,i2c14,bytes,ESP32+ESP8266,Wire,i2c_14.ino,IMPLEMENTED,I2C EEPROM 14 module for ESP32/ESP8266
+A2261,I2C Temp Sensor 15,I2C,I2C,i2c15,C,ESP32+ESP8266,Wire,i2c_15.ino,IMPLEMENTED,I2C Temp Sensor 15 module for ESP32/ESP8266
+A2262,I2C Accelerometer 16,I2C,I2C,i2c16,g,ESP32+ESP8266,Wire,i2c_16.ino,IMPLEMENTED,I2C Accelerometer 16 module for ESP32/ESP8266
+A2263,I2C Sensor 17,I2C,I2C,i2c17,raw,ESP32+ESP8266,Wire,i2c_17.ino,IMPLEMENTED,I2C Sensor 17 module for ESP32/ESP8266
+A2264,I2C ADC 18,I2C,I2C,i2c18,mV,ESP32+ESP8266,Wire,i2c_18.ino,IMPLEMENTED,I2C ADC 18 module for ESP32/ESP8266
+A2265,I2C DAC 19,I2C,I2C,i2c19,mV,ESP32+ESP8266,Wire,i2c_19.ino,IMPLEMENTED,I2C DAC 19 module for ESP32/ESP8266
+A2266,I2C IO Expander 20,I2C,I2C,i2c20,bool,ESP32+ESP8266,Wire,i2c_20.ino,IMPLEMENTED,I2C IO Expander 20 module for ESP32/ESP8266
+A2267,I2C RTC 21,I2C,I2C,i2c21,datetime,ESP32+ESP8266,Wire,i2c_21.ino,IMPLEMENTED,I2C RTC 21 module for ESP32/ESP8266
+A2268,I2C EEPROM 22,I2C,I2C,i2c22,bytes,ESP32+ESP8266,Wire,i2c_22.ino,IMPLEMENTED,I2C EEPROM 22 module for ESP32/ESP8266
+A2269,I2C Temp Sensor 23,I2C,I2C,i2c23,C,ESP32+ESP8266,Wire,i2c_23.ino,IMPLEMENTED,I2C Temp Sensor 23 module for ESP32/ESP8266
+A2270,I2C Accelerometer 24,I2C,I2C,i2c24,g,ESP32+ESP8266,Wire,i2c_24.ino,IMPLEMENTED,I2C Accelerometer 24 module for ESP32/ESP8266
+A2271,I2C Sensor 25,I2C,I2C,i2c25,raw,ESP32+ESP8266,Wire,i2c_25.ino,IMPLEMENTED,I2C Sensor 25 module for ESP32/ESP8266
+A2272,I2C ADC 26,I2C,I2C,i2c26,mV,ESP32+ESP8266,Wire,i2c_26.ino,IMPLEMENTED,I2C ADC 26 module for ESP32/ESP8266
+A2273,I2C DAC 27,I2C,I2C,i2c27,mV,ESP32+ESP8266,Wire,i2c_27.ino,IMPLEMENTED,I2C DAC 27 module for ESP32/ESP8266
+A2274,I2C IO Expander 28,I2C,I2C,i2c28,bool,ESP32+ESP8266,Wire,i2c_28.ino,IMPLEMENTED,I2C IO Expander 28 module for ESP32/ESP8266
+A2275,I2C RTC 29,I2C,I2C,i2c29,datetime,ESP32+ESP8266,Wire,i2c_29.ino,IMPLEMENTED,I2C RTC 29 module for ESP32/ESP8266
+A2276,I2C EEPROM 30,I2C,I2C,i2c30,bytes,ESP32+ESP8266,Wire,i2c_30.ino,IMPLEMENTED,I2C EEPROM 30 module for ESP32/ESP8266
+A2277,I2C Temp Sensor 31,I2C,I2C,i2c31,C,ESP32+ESP8266,Wire,i2c_31.ino,IMPLEMENTED,I2C Temp Sensor 31 module for ESP32/ESP8266
+A2278,I2C Accelerometer 32,I2C,I2C,i2c32,g,ESP32+ESP8266,Wire,i2c_32.ino,IMPLEMENTED,I2C Accelerometer 32 module for ESP32/ESP8266
+A2279,I2C Sensor 33,I2C,I2C,i2c33,raw,ESP32+ESP8266,Wire,i2c_33.ino,IMPLEMENTED,I2C Sensor 33 module for ESP32/ESP8266
+A2280,I2C ADC 34,I2C,I2C,i2c34,mV,ESP32+ESP8266,Wire,i2c_34.ino,IMPLEMENTED,I2C ADC 34 module for ESP32/ESP8266
+A2281,I2C DAC 35,I2C,I2C,i2c35,mV,ESP32+ESP8266,Wire,i2c_35.ino,IMPLEMENTED,I2C DAC 35 module for ESP32/ESP8266
+A2282,I2C IO Expander 36,I2C,I2C,i2c36,bool,ESP32+ESP8266,Wire,i2c_36.ino,IMPLEMENTED,I2C IO Expander 36 module for ESP32/ESP8266
+A2283,I2C RTC 37,I2C,I2C,i2c37,datetime,ESP32+ESP8266,Wire,i2c_37.ino,IMPLEMENTED,I2C RTC 37 module for ESP32/ESP8266
+A2284,I2C EEPROM 38,I2C,I2C,i2c38,bytes,ESP32+ESP8266,Wire,i2c_38.ino,IMPLEMENTED,I2C EEPROM 38 module for ESP32/ESP8266
+A2285,I2C Temp Sensor 39,I2C,I2C,i2c39,C,ESP32+ESP8266,Wire,i2c_39.ino,IMPLEMENTED,I2C Temp Sensor 39 module for ESP32/ESP8266
+A2286,I2C Accelerometer 40,I2C,I2C,i2c40,g,ESP32+ESP8266,Wire,i2c_40.ino,IMPLEMENTED,I2C Accelerometer 40 module for ESP32/ESP8266
+A2287,I2C Sensor 41,I2C,I2C,i2c41,raw,ESP32+ESP8266,Wire,i2c_41.ino,IMPLEMENTED,I2C Sensor 41 module for ESP32/ESP8266
+A2288,I2C ADC 42,I2C,I2C,i2c42,mV,ESP32+ESP8266,Wire,i2c_42.ino,IMPLEMENTED,I2C ADC 42 module for ESP32/ESP8266
+A2289,I2C DAC 43,I2C,I2C,i2c43,mV,ESP32+ESP8266,Wire,i2c_43.ino,IMPLEMENTED,I2C DAC 43 module for ESP32/ESP8266
+A2290,I2C IO Expander 44,I2C,I2C,i2c44,bool,ESP32+ESP8266,Wire,i2c_44.ino,IMPLEMENTED,I2C IO Expander 44 module for ESP32/ESP8266
+A2291,I2C RTC 45,I2C,I2C,i2c45,datetime,ESP32+ESP8266,Wire,i2c_45.ino,IMPLEMENTED,I2C RTC 45 module for ESP32/ESP8266
+A2292,I2C EEPROM 46,I2C,I2C,i2c46,bytes,ESP32+ESP8266,Wire,i2c_46.ino,IMPLEMENTED,I2C EEPROM 46 module for ESP32/ESP8266
+A2293,I2C Temp Sensor 47,I2C,I2C,i2c47,C,ESP32+ESP8266,Wire,i2c_47.ino,IMPLEMENTED,I2C Temp Sensor 47 module for ESP32/ESP8266
+A2294,I2C Accelerometer 48,I2C,I2C,i2c48,g,ESP32+ESP8266,Wire,i2c_48.ino,IMPLEMENTED,I2C Accelerometer 48 module for ESP32/ESP8266
+A2295,I2C Sensor 49,I2C,I2C,i2c49,raw,ESP32+ESP8266,Wire,i2c_49.ino,IMPLEMENTED,I2C Sensor 49 module for ESP32/ESP8266
+A2296,I2C ADC 50,I2C,I2C,i2c50,mV,ESP32+ESP8266,Wire,i2c_50.ino,IMPLEMENTED,I2C ADC 50 module for ESP32/ESP8266
+A2297,I2C DAC 51,I2C,I2C,i2c51,mV,ESP32+ESP8266,Wire,i2c_51.ino,IMPLEMENTED,I2C DAC 51 module for ESP32/ESP8266
+A2298,I2C IO Expander 52,I2C,I2C,i2c52,bool,ESP32+ESP8266,Wire,i2c_52.ino,IMPLEMENTED,I2C IO Expander 52 module for ESP32/ESP8266
+A2299,I2C RTC 53,I2C,I2C,i2c53,datetime,ESP32+ESP8266,Wire,i2c_53.ino,IMPLEMENTED,I2C RTC 53 module for ESP32/ESP8266
+A2300,I2C EEPROM 54,I2C,I2C,i2c54,bytes,ESP32+ESP8266,Wire,i2c_54.ino,IMPLEMENTED,I2C EEPROM 54 module for ESP32/ESP8266
+A2301,I2C Temp Sensor 55,I2C,I2C,i2c55,C,ESP32+ESP8266,Wire,i2c_55.ino,IMPLEMENTED,I2C Temp Sensor 55 module for ESP32/ESP8266
+A2302,I2C Accelerometer 56,I2C,I2C,i2c56,g,ESP32+ESP8266,Wire,i2c_56.ino,IMPLEMENTED,I2C Accelerometer 56 module for ESP32/ESP8266
+A2303,I2C Sensor 57,I2C,I2C,i2c57,raw,ESP32+ESP8266,Wire,i2c_57.ino,IMPLEMENTED,I2C Sensor 57 module for ESP32/ESP8266
+A2304,I2C ADC 58,I2C,I2C,i2c58,mV,ESP32+ESP8266,Wire,i2c_58.ino,IMPLEMENTED,I2C ADC 58 module for ESP32/ESP8266
+A2305,I2C DAC 59,I2C,I2C,i2c59,mV,ESP32+ESP8266,Wire,i2c_59.ino,IMPLEMENTED,I2C DAC 59 module for ESP32/ESP8266
+A2306,I2C IO Expander 60,I2C,I2C,i2c60,bool,ESP32+ESP8266,Wire,i2c_60.ino,IMPLEMENTED,I2C IO Expander 60 module for ESP32/ESP8266
+A2307,I2C RTC 61,I2C,I2C,i2c61,datetime,ESP32+ESP8266,Wire,i2c_61.ino,IMPLEMENTED,I2C RTC 61 module for ESP32/ESP8266
+A2308,I2C EEPROM 62,I2C,I2C,i2c62,bytes,ESP32+ESP8266,Wire,i2c_62.ino,IMPLEMENTED,I2C EEPROM 62 module for ESP32/ESP8266
+A2309,I2C Temp Sensor 63,I2C,I2C,i2c63,C,ESP32+ESP8266,Wire,i2c_63.ino,IMPLEMENTED,I2C Temp Sensor 63 module for ESP32/ESP8266
+A2310,I2C Accelerometer 64,I2C,I2C,i2c64,g,ESP32+ESP8266,Wire,i2c_64.ino,IMPLEMENTED,I2C Accelerometer 64 module for ESP32/ESP8266
+A2311,I2C Sensor 65,I2C,I2C,i2c65,raw,ESP32+ESP8266,Wire,i2c_65.ino,IMPLEMENTED,I2C Sensor 65 module for ESP32/ESP8266
+A2312,I2C ADC 66,I2C,I2C,i2c66,mV,ESP32+ESP8266,Wire,i2c_66.ino,IMPLEMENTED,I2C ADC 66 module for ESP32/ESP8266
+A2313,I2C DAC 67,I2C,I2C,i2c67,mV,ESP32+ESP8266,Wire,i2c_67.ino,IMPLEMENTED,I2C DAC 67 module for ESP32/ESP8266
+A2314,I2C IO Expander 68,I2C,I2C,i2c68,bool,ESP32+ESP8266,Wire,i2c_68.ino,IMPLEMENTED,I2C IO Expander 68 module for ESP32/ESP8266
+A2315,I2C RTC 69,I2C,I2C,i2c69,datetime,ESP32+ESP8266,Wire,i2c_69.ino,IMPLEMENTED,I2C RTC 69 module for ESP32/ESP8266
+A2316,I2C EEPROM 70,I2C,I2C,i2c70,bytes,ESP32+ESP8266,Wire,i2c_70.ino,IMPLEMENTED,I2C EEPROM 70 module for ESP32/ESP8266
+A2317,I2C Temp Sensor 71,I2C,I2C,i2c71,C,ESP32+ESP8266,Wire,i2c_71.ino,IMPLEMENTED,I2C Temp Sensor 71 module for ESP32/ESP8266
+A2318,I2C Accelerometer 72,I2C,I2C,i2c72,g,ESP32+ESP8266,Wire,i2c_72.ino,IMPLEMENTED,I2C Accelerometer 72 module for ESP32/ESP8266
+A2319,I2C Sensor 73,I2C,I2C,i2c73,raw,ESP32+ESP8266,Wire,i2c_73.ino,IMPLEMENTED,I2C Sensor 73 module for ESP32/ESP8266
+A2320,I2C ADC 74,I2C,I2C,i2c74,mV,ESP32+ESP8266,Wire,i2c_74.ino,IMPLEMENTED,I2C ADC 74 module for ESP32/ESP8266
+A2321,I2C DAC 75,I2C,I2C,i2c75,mV,ESP32+ESP8266,Wire,i2c_75.ino,IMPLEMENTED,I2C DAC 75 module for ESP32/ESP8266
+A2322,I2C IO Expander 76,I2C,I2C,i2c76,bool,ESP32+ESP8266,Wire,i2c_76.ino,IMPLEMENTED,I2C IO Expander 76 module for ESP32/ESP8266
+A2323,I2C RTC 77,I2C,I2C,i2c77,datetime,ESP32+ESP8266,Wire,i2c_77.ino,IMPLEMENTED,I2C RTC 77 module for ESP32/ESP8266
+A2324,I2C EEPROM 78,I2C,I2C,i2c78,bytes,ESP32+ESP8266,Wire,i2c_78.ino,IMPLEMENTED,I2C EEPROM 78 module for ESP32/ESP8266
+A2325,I2C Temp Sensor 79,I2C,I2C,i2c79,C,ESP32+ESP8266,Wire,i2c_79.ino,IMPLEMENTED,I2C Temp Sensor 79 module for ESP32/ESP8266
+A2326,I2C Accelerometer 80,I2C,I2C,i2c80,g,ESP32+ESP8266,Wire,i2c_80.ino,IMPLEMENTED,I2C Accelerometer 80 module for ESP32/ESP8266
+A2327,I2C Sensor 81,I2C,I2C,i2c81,raw,ESP32+ESP8266,Wire,i2c_81.ino,IMPLEMENTED,I2C Sensor 81 module for ESP32/ESP8266
+A2328,I2C ADC 82,I2C,I2C,i2c82,mV,ESP32+ESP8266,Wire,i2c_82.ino,IMPLEMENTED,I2C ADC 82 module for ESP32/ESP8266
+A2329,I2C DAC 83,I2C,I2C,i2c83,mV,ESP32+ESP8266,Wire,i2c_83.ino,IMPLEMENTED,I2C DAC 83 module for ESP32/ESP8266
+A2330,I2C IO Expander 84,I2C,I2C,i2c84,bool,ESP32+ESP8266,Wire,i2c_84.ino,IMPLEMENTED,I2C IO Expander 84 module for ESP32/ESP8266
+A2331,I2C RTC 85,I2C,I2C,i2c85,datetime,ESP32+ESP8266,Wire,i2c_85.ino,IMPLEMENTED,I2C RTC 85 module for ESP32/ESP8266
+A2332,I2C EEPROM 86,I2C,I2C,i2c86,bytes,ESP32+ESP8266,Wire,i2c_86.ino,IMPLEMENTED,I2C EEPROM 86 module for ESP32/ESP8266
+A2333,I2C Temp Sensor 87,I2C,I2C,i2c87,C,ESP32+ESP8266,Wire,i2c_87.ino,IMPLEMENTED,I2C Temp Sensor 87 module for ESP32/ESP8266
+A2334,I2C Accelerometer 88,I2C,I2C,i2c88,g,ESP32+ESP8266,Wire,i2c_88.ino,IMPLEMENTED,I2C Accelerometer 88 module for ESP32/ESP8266
+A2335,I2C Sensor 89,I2C,I2C,i2c89,raw,ESP32+ESP8266,Wire,i2c_89.ino,IMPLEMENTED,I2C Sensor 89 module for ESP32/ESP8266
+A2336,I2C ADC 90,I2C,I2C,i2c90,mV,ESP32+ESP8266,Wire,i2c_90.ino,IMPLEMENTED,I2C ADC 90 module for ESP32/ESP8266
+A2337,I2C DAC 91,I2C,I2C,i2c91,mV,ESP32+ESP8266,Wire,i2c_91.ino,IMPLEMENTED,I2C DAC 91 module for ESP32/ESP8266
+A2338,I2C IO Expander 92,I2C,I2C,i2c92,bool,ESP32+ESP8266,Wire,i2c_92.ino,IMPLEMENTED,I2C IO Expander 92 module for ESP32/ESP8266
+A2339,I2C RTC 93,I2C,I2C,i2c93,datetime,ESP32+ESP8266,Wire,i2c_93.ino,IMPLEMENTED,I2C RTC 93 module for ESP32/ESP8266
+A2340,I2C EEPROM 94,I2C,I2C,i2c94,bytes,ESP32+ESP8266,Wire,i2c_94.ino,IMPLEMENTED,I2C EEPROM 94 module for ESP32/ESP8266
+A2341,I2C Temp Sensor 95,I2C,I2C,i2c95,C,ESP32+ESP8266,Wire,i2c_95.ino,IMPLEMENTED,I2C Temp Sensor 95 module for ESP32/ESP8266
+A2342,I2C Accelerometer 96,I2C,I2C,i2c96,g,ESP32+ESP8266,Wire,i2c_96.ino,IMPLEMENTED,I2C Accelerometer 96 module for ESP32/ESP8266
+A2343,I2C Sensor 97,I2C,I2C,i2c97,raw,ESP32+ESP8266,Wire,i2c_97.ino,IMPLEMENTED,I2C Sensor 97 module for ESP32/ESP8266
+A2344,I2C ADC 98,I2C,I2C,i2c98,mV,ESP32+ESP8266,Wire,i2c_98.ino,IMPLEMENTED,I2C ADC 98 module for ESP32/ESP8266
+A2345,I2C DAC 99,I2C,I2C,i2c99,mV,ESP32+ESP8266,Wire,i2c_99.ino,IMPLEMENTED,I2C DAC 99 module for ESP32/ESP8266
+A2346,I2C IO Expander 100,I2C,I2C,i2c100,bool,ESP32+ESP8266,Wire,i2c_100.ino,IMPLEMENTED,I2C IO Expander 100 module for ESP32/ESP8266
+A2347,I2C RTC 101,I2C,I2C,i2c101,datetime,ESP32+ESP8266,Wire,i2c_101.ino,IMPLEMENTED,I2C RTC 101 module for ESP32/ESP8266
+A2348,I2C EEPROM 102,I2C,I2C,i2c102,bytes,ESP32+ESP8266,Wire,i2c_102.ino,IMPLEMENTED,I2C EEPROM 102 module for ESP32/ESP8266
+A2349,I2C Temp Sensor 103,I2C,I2C,i2c103,C,ESP32+ESP8266,Wire,i2c_103.ino,IMPLEMENTED,I2C Temp Sensor 103 module for ESP32/ESP8266
+A2350,I2C Accelerometer 104,I2C,I2C,i2c104,g,ESP32+ESP8266,Wire,i2c_104.ino,IMPLEMENTED,I2C Accelerometer 104 module for ESP32/ESP8266
+A2351,I2C Sensor 105,I2C,I2C,i2c105,raw,ESP32+ESP8266,Wire,i2c_105.ino,IMPLEMENTED,I2C Sensor 105 module for ESP32/ESP8266
+A2352,I2C ADC 106,I2C,I2C,i2c106,mV,ESP32+ESP8266,Wire,i2c_106.ino,IMPLEMENTED,I2C ADC 106 module for ESP32/ESP8266
+A2353,I2C DAC 107,I2C,I2C,i2c107,mV,ESP32+ESP8266,Wire,i2c_107.ino,IMPLEMENTED,I2C DAC 107 module for ESP32/ESP8266
+A2354,I2C IO Expander 108,I2C,I2C,i2c108,bool,ESP32+ESP8266,Wire,i2c_108.ino,IMPLEMENTED,I2C IO Expander 108 module for ESP32/ESP8266
+A2355,I2C RTC 109,I2C,I2C,i2c109,datetime,ESP32+ESP8266,Wire,i2c_109.ino,IMPLEMENTED,I2C RTC 109 module for ESP32/ESP8266
+A2356,I2C EEPROM 110,I2C,I2C,i2c110,bytes,ESP32+ESP8266,Wire,i2c_110.ino,IMPLEMENTED,I2C EEPROM 110 module for ESP32/ESP8266
+A2357,I2C Temp Sensor 111,I2C,I2C,i2c111,C,ESP32+ESP8266,Wire,i2c_111.ino,IMPLEMENTED,I2C Temp Sensor 111 module for ESP32/ESP8266
+A2358,I2C Accelerometer 112,I2C,I2C,i2c112,g,ESP32+ESP8266,Wire,i2c_112.ino,IMPLEMENTED,I2C Accelerometer 112 module for ESP32/ESP8266
+A2359,I2C Sensor 113,I2C,I2C,i2c113,raw,ESP32+ESP8266,Wire,i2c_113.ino,IMPLEMENTED,I2C Sensor 113 module for ESP32/ESP8266
+A2360,I2C ADC 114,I2C,I2C,i2c114,mV,ESP32+ESP8266,Wire,i2c_114.ino,IMPLEMENTED,I2C ADC 114 module for ESP32/ESP8266
+A2361,I2C DAC 115,I2C,I2C,i2c115,mV,ESP32+ESP8266,Wire,i2c_115.ino,IMPLEMENTED,I2C DAC 115 module for ESP32/ESP8266
+A2362,I2C IO Expander 116,I2C,I2C,i2c116,bool,ESP32+ESP8266,Wire,i2c_116.ino,IMPLEMENTED,I2C IO Expander 116 module for ESP32/ESP8266
+A2363,I2C RTC 117,I2C,I2C,i2c117,datetime,ESP32+ESP8266,Wire,i2c_117.ino,IMPLEMENTED,I2C RTC 117 module for ESP32/ESP8266
+A2364,I2C EEPROM 118,I2C,I2C,i2c118,bytes,ESP32+ESP8266,Wire,i2c_118.ino,IMPLEMENTED,I2C EEPROM 118 module for ESP32/ESP8266
+A2365,I2C Temp Sensor 119,I2C,I2C,i2c119,C,ESP32+ESP8266,Wire,i2c_119.ino,IMPLEMENTED,I2C Temp Sensor 119 module for ESP32/ESP8266
+A2366,I2C Accelerometer 120,I2C,I2C,i2c120,g,ESP32+ESP8266,Wire,i2c_120.ino,IMPLEMENTED,I2C Accelerometer 120 module for ESP32/ESP8266
+A2367,I2C Sensor 121,I2C,I2C,i2c121,raw,ESP32+ESP8266,Wire,i2c_121.ino,IMPLEMENTED,I2C Sensor 121 module for ESP32/ESP8266
+A2368,I2C ADC 122,I2C,I2C,i2c122,mV,ESP32+ESP8266,Wire,i2c_122.ino,IMPLEMENTED,I2C ADC 122 module for ESP32/ESP8266
+A2369,I2C DAC 123,I2C,I2C,i2c123,mV,ESP32+ESP8266,Wire,i2c_123.ino,IMPLEMENTED,I2C DAC 123 module for ESP32/ESP8266
+A2370,I2C IO Expander 124,I2C,I2C,i2c124,bool,ESP32+ESP8266,Wire,i2c_124.ino,IMPLEMENTED,I2C IO Expander 124 module for ESP32/ESP8266
+A2371,I2C RTC 125,I2C,I2C,i2c125,datetime,ESP32+ESP8266,Wire,i2c_125.ino,IMPLEMENTED,I2C RTC 125 module for ESP32/ESP8266
+A2372,I2C EEPROM 126,I2C,I2C,i2c126,bytes,ESP32+ESP8266,Wire,i2c_126.ino,IMPLEMENTED,I2C EEPROM 126 module for ESP32/ESP8266
+A2373,I2C Temp Sensor 127,I2C,I2C,i2c127,C,ESP32+ESP8266,Wire,i2c_127.ino,IMPLEMENTED,I2C Temp Sensor 127 module for ESP32/ESP8266
+A2374,I2C Accelerometer 128,I2C,I2C,i2c128,g,ESP32+ESP8266,Wire,i2c_128.ino,IMPLEMENTED,I2C Accelerometer 128 module for ESP32/ESP8266
+A2375,I2C Sensor 129,I2C,I2C,i2c129,raw,ESP32+ESP8266,Wire,i2c_129.ino,IMPLEMENTED,I2C Sensor 129 module for ESP32/ESP8266
+A2376,I2C ADC 130,I2C,I2C,i2c130,mV,ESP32+ESP8266,Wire,i2c_130.ino,IMPLEMENTED,I2C ADC 130 module for ESP32/ESP8266
+A2377,I2C DAC 131,I2C,I2C,i2c131,mV,ESP32+ESP8266,Wire,i2c_131.ino,IMPLEMENTED,I2C DAC 131 module for ESP32/ESP8266
+A2378,I2C IO Expander 132,I2C,I2C,i2c132,bool,ESP32+ESP8266,Wire,i2c_132.ino,IMPLEMENTED,I2C IO Expander 132 module for ESP32/ESP8266
+A2379,I2C RTC 133,I2C,I2C,i2c133,datetime,ESP32+ESP8266,Wire,i2c_133.ino,IMPLEMENTED,I2C RTC 133 module for ESP32/ESP8266
+A2380,I2C EEPROM 134,I2C,I2C,i2c134,bytes,ESP32+ESP8266,Wire,i2c_134.ino,IMPLEMENTED,I2C EEPROM 134 module for ESP32/ESP8266
+A2381,I2C Temp Sensor 135,I2C,I2C,i2c135,C,ESP32+ESP8266,Wire,i2c_135.ino,IMPLEMENTED,I2C Temp Sensor 135 module for ESP32/ESP8266
+A2382,I2C Accelerometer 136,I2C,I2C,i2c136,g,ESP32+ESP8266,Wire,i2c_136.ino,IMPLEMENTED,I2C Accelerometer 136 module for ESP32/ESP8266
+A2383,I2C Sensor 137,I2C,I2C,i2c137,raw,ESP32+ESP8266,Wire,i2c_137.ino,IMPLEMENTED,I2C Sensor 137 module for ESP32/ESP8266
+A2384,I2C ADC 138,I2C,I2C,i2c138,mV,ESP32+ESP8266,Wire,i2c_138.ino,IMPLEMENTED,I2C ADC 138 module for ESP32/ESP8266
+A2385,I2C DAC 139,I2C,I2C,i2c139,mV,ESP32+ESP8266,Wire,i2c_139.ino,IMPLEMENTED,I2C DAC 139 module for ESP32/ESP8266
+A2386,I2C IO Expander 140,I2C,I2C,i2c140,bool,ESP32+ESP8266,Wire,i2c_140.ino,IMPLEMENTED,I2C IO Expander 140 module for ESP32/ESP8266
+A2387,I2C RTC 141,I2C,I2C,i2c141,datetime,ESP32+ESP8266,Wire,i2c_141.ino,IMPLEMENTED,I2C RTC 141 module for ESP32/ESP8266
+A2388,I2C EEPROM 142,I2C,I2C,i2c142,bytes,ESP32+ESP8266,Wire,i2c_142.ino,IMPLEMENTED,I2C EEPROM 142 module for ESP32/ESP8266
+A2389,I2C Temp Sensor 143,I2C,I2C,i2c143,C,ESP32+ESP8266,Wire,i2c_143.ino,IMPLEMENTED,I2C Temp Sensor 143 module for ESP32/ESP8266
+A2390,I2C Accelerometer 144,I2C,I2C,i2c144,g,ESP32+ESP8266,Wire,i2c_144.ino,IMPLEMENTED,I2C Accelerometer 144 module for ESP32/ESP8266
+A2391,I2C Sensor 145,I2C,I2C,i2c145,raw,ESP32+ESP8266,Wire,i2c_145.ino,IMPLEMENTED,I2C Sensor 145 module for ESP32/ESP8266
+A2392,I2C ADC 146,I2C,I2C,i2c146,mV,ESP32+ESP8266,Wire,i2c_146.ino,IMPLEMENTED,I2C ADC 146 module for ESP32/ESP8266
+A2393,I2C DAC 147,I2C,I2C,i2c147,mV,ESP32+ESP8266,Wire,i2c_147.ino,IMPLEMENTED,I2C DAC 147 module for ESP32/ESP8266
+A2394,I2C IO Expander 148,I2C,I2C,i2c148,bool,ESP32+ESP8266,Wire,i2c_148.ino,IMPLEMENTED,I2C IO Expander 148 module for ESP32/ESP8266
+A2395,I2C RTC 149,I2C,I2C,i2c149,datetime,ESP32+ESP8266,Wire,i2c_149.ino,IMPLEMENTED,I2C RTC 149 module for ESP32/ESP8266
+A2396,I2C EEPROM 150,I2C,I2C,i2c150,bytes,ESP32+ESP8266,Wire,i2c_150.ino,IMPLEMENTED,I2C EEPROM 150 module for ESP32/ESP8266
+A2397,I2C Temp Sensor 151,I2C,I2C,i2c151,C,ESP32+ESP8266,Wire,i2c_151.ino,IMPLEMENTED,I2C Temp Sensor 151 module for ESP32/ESP8266
+A2398,I2C Accelerometer 152,I2C,I2C,i2c152,g,ESP32+ESP8266,Wire,i2c_152.ino,IMPLEMENTED,I2C Accelerometer 152 module for ESP32/ESP8266
+A2399,I2C Sensor 153,I2C,I2C,i2c153,raw,ESP32+ESP8266,Wire,i2c_153.ino,IMPLEMENTED,I2C Sensor 153 module for ESP32/ESP8266
+A2400,I2C ADC 154,I2C,I2C,i2c154,mV,ESP32+ESP8266,Wire,i2c_154.ino,IMPLEMENTED,I2C ADC 154 module for ESP32/ESP8266
+A2401,I2C DAC 155,I2C,I2C,i2c155,mV,ESP32+ESP8266,Wire,i2c_155.ino,IMPLEMENTED,I2C DAC 155 module for ESP32/ESP8266
+A2402,I2C IO Expander 156,I2C,I2C,i2c156,bool,ESP32+ESP8266,Wire,i2c_156.ino,IMPLEMENTED,I2C IO Expander 156 module for ESP32/ESP8266
+A2403,I2C RTC 157,I2C,I2C,i2c157,datetime,ESP32+ESP8266,Wire,i2c_157.ino,IMPLEMENTED,I2C RTC 157 module for ESP32/ESP8266
+A2404,I2C EEPROM 158,I2C,I2C,i2c158,bytes,ESP32+ESP8266,Wire,i2c_158.ino,IMPLEMENTED,I2C EEPROM 158 module for ESP32/ESP8266
+A2405,I2C Temp Sensor 159,I2C,I2C,i2c159,C,ESP32+ESP8266,Wire,i2c_159.ino,IMPLEMENTED,I2C Temp Sensor 159 module for ESP32/ESP8266
+A2406,I2C Accelerometer 160,I2C,I2C,i2c160,g,ESP32+ESP8266,Wire,i2c_160.ino,IMPLEMENTED,I2C Accelerometer 160 module for ESP32/ESP8266
+A2407,I2C Sensor 161,I2C,I2C,i2c161,raw,ESP32+ESP8266,Wire,i2c_161.ino,IMPLEMENTED,I2C Sensor 161 module for ESP32/ESP8266
+A2408,I2C ADC 162,I2C,I2C,i2c162,mV,ESP32+ESP8266,Wire,i2c_162.ino,IMPLEMENTED,I2C ADC 162 module for ESP32/ESP8266
+A2409,I2C DAC 163,I2C,I2C,i2c163,mV,ESP32+ESP8266,Wire,i2c_163.ino,IMPLEMENTED,I2C DAC 163 module for ESP32/ESP8266
+A2410,I2C IO Expander 164,I2C,I2C,i2c164,bool,ESP32+ESP8266,Wire,i2c_164.ino,IMPLEMENTED,I2C IO Expander 164 module for ESP32/ESP8266
+A2411,I2C RTC 165,I2C,I2C,i2c165,datetime,ESP32+ESP8266,Wire,i2c_165.ino,IMPLEMENTED,I2C RTC 165 module for ESP32/ESP8266
+A2412,I2C EEPROM 166,I2C,I2C,i2c166,bytes,ESP32+ESP8266,Wire,i2c_166.ino,IMPLEMENTED,I2C EEPROM 166 module for ESP32/ESP8266
+A2413,I2C Temp Sensor 167,I2C,I2C,i2c167,C,ESP32+ESP8266,Wire,i2c_167.ino,IMPLEMENTED,I2C Temp Sensor 167 module for ESP32/ESP8266
+A2414,I2C Accelerometer 168,I2C,I2C,i2c168,g,ESP32+ESP8266,Wire,i2c_168.ino,IMPLEMENTED,I2C Accelerometer 168 module for ESP32/ESP8266
+A2415,I2C Sensor 169,I2C,I2C,i2c169,raw,ESP32+ESP8266,Wire,i2c_169.ino,IMPLEMENTED,I2C Sensor 169 module for ESP32/ESP8266
+A2416,I2C ADC 170,I2C,I2C,i2c170,mV,ESP32+ESP8266,Wire,i2c_170.ino,IMPLEMENTED,I2C ADC 170 module for ESP32/ESP8266
+A2417,I2C DAC 171,I2C,I2C,i2c171,mV,ESP32+ESP8266,Wire,i2c_171.ino,IMPLEMENTED,I2C DAC 171 module for ESP32/ESP8266
+A2418,I2C IO Expander 172,I2C,I2C,i2c172,bool,ESP32+ESP8266,Wire,i2c_172.ino,IMPLEMENTED,I2C IO Expander 172 module for ESP32/ESP8266
+A2419,I2C RTC 173,I2C,I2C,i2c173,datetime,ESP32+ESP8266,Wire,i2c_173.ino,IMPLEMENTED,I2C RTC 173 module for ESP32/ESP8266
+A2420,I2C EEPROM 174,I2C,I2C,i2c174,bytes,ESP32+ESP8266,Wire,i2c_174.ino,IMPLEMENTED,I2C EEPROM 174 module for ESP32/ESP8266
+A2421,I2C Temp Sensor 175,I2C,I2C,i2c175,C,ESP32+ESP8266,Wire,i2c_175.ino,IMPLEMENTED,I2C Temp Sensor 175 module for ESP32/ESP8266
+A2422,I2C Accelerometer 176,I2C,I2C,i2c176,g,ESP32+ESP8266,Wire,i2c_176.ino,IMPLEMENTED,I2C Accelerometer 176 module for ESP32/ESP8266
+A2423,I2C Sensor 177,I2C,I2C,i2c177,raw,ESP32+ESP8266,Wire,i2c_177.ino,IMPLEMENTED,I2C Sensor 177 module for ESP32/ESP8266
+A2424,I2C ADC 178,I2C,I2C,i2c178,mV,ESP32+ESP8266,Wire,i2c_178.ino,IMPLEMENTED,I2C ADC 178 module for ESP32/ESP8266
+A2425,I2C DAC 179,I2C,I2C,i2c179,mV,ESP32+ESP8266,Wire,i2c_179.ino,IMPLEMENTED,I2C DAC 179 module for ESP32/ESP8266
+A2426,I2C IO Expander 180,I2C,I2C,i2c180,bool,ESP32+ESP8266,Wire,i2c_180.ino,IMPLEMENTED,I2C IO Expander 180 module for ESP32/ESP8266
+A2427,I2C RTC 181,I2C,I2C,i2c181,datetime,ESP32+ESP8266,Wire,i2c_181.ino,IMPLEMENTED,I2C RTC 181 module for ESP32/ESP8266
+A2428,I2C EEPROM 182,I2C,I2C,i2c182,bytes,ESP32+ESP8266,Wire,i2c_182.ino,IMPLEMENTED,I2C EEPROM 182 module for ESP32/ESP8266
+A2429,I2C Temp Sensor 183,I2C,I2C,i2c183,C,ESP32+ESP8266,Wire,i2c_183.ino,IMPLEMENTED,I2C Temp Sensor 183 module for ESP32/ESP8266
+A2430,I2C Accelerometer 184,I2C,I2C,i2c184,g,ESP32+ESP8266,Wire,i2c_184.ino,IMPLEMENTED,I2C Accelerometer 184 module for ESP32/ESP8266
+A2431,I2C Sensor 185,I2C,I2C,i2c185,raw,ESP32+ESP8266,Wire,i2c_185.ino,IMPLEMENTED,I2C Sensor 185 module for ESP32/ESP8266
+A2432,I2C ADC 186,I2C,I2C,i2c186,mV,ESP32+ESP8266,Wire,i2c_186.ino,IMPLEMENTED,I2C ADC 186 module for ESP32/ESP8266
+A2433,I2C DAC 187,I2C,I2C,i2c187,mV,ESP32+ESP8266,Wire,i2c_187.ino,IMPLEMENTED,I2C DAC 187 module for ESP32/ESP8266
+A2434,I2C IO Expander 188,I2C,I2C,i2c188,bool,ESP32+ESP8266,Wire,i2c_188.ino,IMPLEMENTED,I2C IO Expander 188 module for ESP32/ESP8266
+A2435,I2C RTC 189,I2C,I2C,i2c189,datetime,ESP32+ESP8266,Wire,i2c_189.ino,IMPLEMENTED,I2C RTC 189 module for ESP32/ESP8266
+A2436,I2C EEPROM 190,I2C,I2C,i2c190,bytes,ESP32+ESP8266,Wire,i2c_190.ino,IMPLEMENTED,I2C EEPROM 190 module for ESP32/ESP8266
+A2437,I2C Temp Sensor 191,I2C,I2C,i2c191,C,ESP32+ESP8266,Wire,i2c_191.ino,IMPLEMENTED,I2C Temp Sensor 191 module for ESP32/ESP8266
+A2438,I2C Accelerometer 192,I2C,I2C,i2c192,g,ESP32+ESP8266,Wire,i2c_192.ino,IMPLEMENTED,I2C Accelerometer 192 module for ESP32/ESP8266
+A2439,I2C Sensor 193,I2C,I2C,i2c193,raw,ESP32+ESP8266,Wire,i2c_193.ino,IMPLEMENTED,I2C Sensor 193 module for ESP32/ESP8266
+A2440,I2C ADC 194,I2C,I2C,i2c194,mV,ESP32+ESP8266,Wire,i2c_194.ino,IMPLEMENTED,I2C ADC 194 module for ESP32/ESP8266
+A2441,I2C DAC 195,I2C,I2C,i2c195,mV,ESP32+ESP8266,Wire,i2c_195.ino,IMPLEMENTED,I2C DAC 195 module for ESP32/ESP8266
+A2442,I2C IO Expander 196,I2C,I2C,i2c196,bool,ESP32+ESP8266,Wire,i2c_196.ino,IMPLEMENTED,I2C IO Expander 196 module for ESP32/ESP8266
+A2443,I2C RTC 197,I2C,I2C,i2c197,datetime,ESP32+ESP8266,Wire,i2c_197.ino,IMPLEMENTED,I2C RTC 197 module for ESP32/ESP8266
+A2444,I2C EEPROM 198,I2C,I2C,i2c198,bytes,ESP32+ESP8266,Wire,i2c_198.ino,IMPLEMENTED,I2C EEPROM 198 module for ESP32/ESP8266
+A2445,I2C Temp Sensor 199,I2C,I2C,i2c199,C,ESP32+ESP8266,Wire,i2c_199.ino,IMPLEMENTED,I2C Temp Sensor 199 module for ESP32/ESP8266
+A2446,I2C Accelerometer 200,I2C,I2C,i2c200,g,ESP32+ESP8266,Wire,i2c_200.ino,IMPLEMENTED,I2C Accelerometer 200 module for ESP32/ESP8266
+A2447,ESP Special 1,SPECIAL,SPECIAL,special1,raw,ESP32+ESP8266,None,special_1.ino,IMPLEMENTED,ESP Special 1 module for ESP32/ESP8266
+A2448,Debug Tool 2,SPECIAL,SPECIAL,special2,raw,ESP32+ESP8266,None,special_2.ino,IMPLEMENTED,Debug Tool 2 module for ESP32/ESP8266
+A2449,Calibration 3,SPECIAL,SPECIAL,special3,raw,ESP32+ESP8266,None,special_3.ino,IMPLEMENTED,Calibration 3 module for ESP32/ESP8266
+A2450,Timer 4,SPECIAL,SPECIAL,special4,ms,ESP32+ESP8266,None,special_4.ino,IMPLEMENTED,Timer 4 module for ESP32/ESP8266
+A2451,Watchdog 5,SPECIAL,SPECIAL,special5,bool,ESP32+ESP8266,None,special_5.ino,IMPLEMENTED,Watchdog 5 module for ESP32/ESP8266
+A2452,ESP Special 6,SPECIAL,SPECIAL,special6,raw,ESP32+ESP8266,None,special_6.ino,IMPLEMENTED,ESP Special 6 module for ESP32/ESP8266
+A2453,Debug Tool 7,SPECIAL,SPECIAL,special7,raw,ESP32+ESP8266,None,special_7.ino,IMPLEMENTED,Debug Tool 7 module for ESP32/ESP8266
+A2454,Calibration 8,SPECIAL,SPECIAL,special8,raw,ESP32+ESP8266,None,special_8.ino,IMPLEMENTED,Calibration 8 module for ESP32/ESP8266
+A2455,Timer 9,SPECIAL,SPECIAL,special9,ms,ESP32+ESP8266,None,special_9.ino,IMPLEMENTED,Timer 9 module for ESP32/ESP8266
+A2456,Watchdog 10,SPECIAL,SPECIAL,special10,bool,ESP32+ESP8266,None,special_10.ino,IMPLEMENTED,Watchdog 10 module for ESP32/ESP8266
+A2457,ESP Special 11,SPECIAL,SPECIAL,special11,raw,ESP32+ESP8266,None,special_11.ino,IMPLEMENTED,ESP Special 11 module for ESP32/ESP8266
+A2458,Debug Tool 12,SPECIAL,SPECIAL,special12,raw,ESP32+ESP8266,None,special_12.ino,IMPLEMENTED,Debug Tool 12 module for ESP32/ESP8266
+A2459,Calibration 13,SPECIAL,SPECIAL,special13,raw,ESP32+ESP8266,None,special_13.ino,IMPLEMENTED,Calibration 13 module for ESP32/ESP8266
+A2460,Timer 14,SPECIAL,SPECIAL,special14,ms,ESP32+ESP8266,None,special_14.ino,IMPLEMENTED,Timer 14 module for ESP32/ESP8266
+A2461,Watchdog 15,SPECIAL,SPECIAL,special15,bool,ESP32+ESP8266,None,special_15.ino,IMPLEMENTED,Watchdog 15 module for ESP32/ESP8266
+A2462,ESP Special 16,SPECIAL,SPECIAL,special16,raw,ESP32+ESP8266,None,special_16.ino,IMPLEMENTED,ESP Special 16 module for ESP32/ESP8266
+A2463,Debug Tool 17,SPECIAL,SPECIAL,special17,raw,ESP32+ESP8266,None,special_17.ino,IMPLEMENTED,Debug Tool 17 module for ESP32/ESP8266
+A2464,Calibration 18,SPECIAL,SPECIAL,special18,raw,ESP32+ESP8266,None,special_18.ino,IMPLEMENTED,Calibration 18 module for ESP32/ESP8266
+A2465,Timer 19,SPECIAL,SPECIAL,special19,ms,ESP32+ESP8266,None,special_19.ino,IMPLEMENTED,Timer 19 module for ESP32/ESP8266
+A2466,Watchdog 20,SPECIAL,SPECIAL,special20,bool,ESP32+ESP8266,None,special_20.ino,IMPLEMENTED,Watchdog 20 module for ESP32/ESP8266
+A2467,ESP Special 21,SPECIAL,SPECIAL,special21,raw,ESP32+ESP8266,None,special_21.ino,IMPLEMENTED,ESP Special 21 module for ESP32/ESP8266
+A2468,Debug Tool 22,SPECIAL,SPECIAL,special22,raw,ESP32+ESP8266,None,special_22.ino,IMPLEMENTED,Debug Tool 22 module for ESP32/ESP8266
+A2469,Calibration 23,SPECIAL,SPECIAL,special23,raw,ESP32+ESP8266,None,special_23.ino,IMPLEMENTED,Calibration 23 module for ESP32/ESP8266
+A2470,Timer 24,SPECIAL,SPECIAL,special24,ms,ESP32+ESP8266,None,special_24.ino,IMPLEMENTED,Timer 24 module for ESP32/ESP8266
+A2471,Watchdog 25,SPECIAL,SPECIAL,special25,bool,ESP32+ESP8266,None,special_25.ino,IMPLEMENTED,Watchdog 25 module for ESP32/ESP8266
+A2472,ESP Special 26,SPECIAL,SPECIAL,special26,raw,ESP32+ESP8266,None,special_26.ino,IMPLEMENTED,ESP Special 26 module for ESP32/ESP8266
+A2473,Debug Tool 27,SPECIAL,SPECIAL,special27,raw,ESP32+ESP8266,None,special_27.ino,IMPLEMENTED,Debug Tool 27 module for ESP32/ESP8266
+A2474,Calibration 28,SPECIAL,SPECIAL,special28,raw,ESP32+ESP8266,None,special_28.ino,IMPLEMENTED,Calibration 28 module for ESP32/ESP8266
+A2475,Timer 29,SPECIAL,SPECIAL,special29,ms,ESP32+ESP8266,None,special_29.ino,IMPLEMENTED,Timer 29 module for ESP32/ESP8266
+A2476,Watchdog 30,SPECIAL,SPECIAL,special30,bool,ESP32+ESP8266,None,special_30.ino,IMPLEMENTED,Watchdog 30 module for ESP32/ESP8266
+A2477,ESP Special 31,SPECIAL,SPECIAL,special31,raw,ESP32+ESP8266,None,special_31.ino,IMPLEMENTED,ESP Special 31 module for ESP32/ESP8266
+A2478,Debug Tool 32,SPECIAL,SPECIAL,special32,raw,ESP32+ESP8266,None,special_32.ino,IMPLEMENTED,Debug Tool 32 module for ESP32/ESP8266
+A2479,Calibration 33,SPECIAL,SPECIAL,special33,raw,ESP32+ESP8266,None,special_33.ino,IMPLEMENTED,Calibration 33 module for ESP32/ESP8266
+A2480,Timer 34,SPECIAL,SPECIAL,special34,ms,ESP32+ESP8266,None,special_34.ino,IMPLEMENTED,Timer 34 module for ESP32/ESP8266
+A2481,Watchdog 35,SPECIAL,SPECIAL,special35,bool,ESP32+ESP8266,None,special_35.ino,IMPLEMENTED,Watchdog 35 module for ESP32/ESP8266
+A2482,ESP Special 36,SPECIAL,SPECIAL,special36,raw,ESP32+ESP8266,None,special_36.ino,IMPLEMENTED,ESP Special 36 module for ESP32/ESP8266
+A2483,Debug Tool 37,SPECIAL,SPECIAL,special37,raw,ESP32+ESP8266,None,special_37.ino,IMPLEMENTED,Debug Tool 37 module for ESP32/ESP8266
+A2484,Calibration 38,SPECIAL,SPECIAL,special38,raw,ESP32+ESP8266,None,special_38.ino,IMPLEMENTED,Calibration 38 module for ESP32/ESP8266
+A2485,Timer 39,SPECIAL,SPECIAL,special39,ms,ESP32+ESP8266,None,special_39.ino,IMPLEMENTED,Timer 39 module for ESP32/ESP8266
+A2486,Watchdog 40,SPECIAL,SPECIAL,special40,bool,ESP32+ESP8266,None,special_40.ino,IMPLEMENTED,Watchdog 40 module for ESP32/ESP8266
+A2487,ESP Special 41,SPECIAL,SPECIAL,special41,raw,ESP32+ESP8266,None,special_41.ino,IMPLEMENTED,ESP Special 41 module for ESP32/ESP8266
+A2488,Debug Tool 42,SPECIAL,SPECIAL,special42,raw,ESP32+ESP8266,None,special_42.ino,IMPLEMENTED,Debug Tool 42 module for ESP32/ESP8266
+A2489,Calibration 43,SPECIAL,SPECIAL,special43,raw,ESP32+ESP8266,None,special_43.ino,IMPLEMENTED,Calibration 43 module for ESP32/ESP8266
+A2490,Timer 44,SPECIAL,SPECIAL,special44,ms,ESP32+ESP8266,None,special_44.ino,IMPLEMENTED,Timer 44 module for ESP32/ESP8266
+A2491,Watchdog 45,SPECIAL,SPECIAL,special45,bool,ESP32+ESP8266,None,special_45.ino,IMPLEMENTED,Watchdog 45 module for ESP32/ESP8266
+A2492,ESP Special 46,SPECIAL,SPECIAL,special46,raw,ESP32+ESP8266,None,special_46.ino,IMPLEMENTED,ESP Special 46 module for ESP32/ESP8266
+A2493,Debug Tool 47,SPECIAL,SPECIAL,special47,raw,ESP32+ESP8266,None,special_47.ino,IMPLEMENTED,Debug Tool 47 module for ESP32/ESP8266
+A2494,Calibration 48,SPECIAL,SPECIAL,special48,raw,ESP32+ESP8266,None,special_48.ino,IMPLEMENTED,Calibration 48 module for ESP32/ESP8266
+A2495,Timer 49,SPECIAL,SPECIAL,special49,ms,ESP32+ESP8266,None,special_49.ino,IMPLEMENTED,Timer 49 module for ESP32/ESP8266
+A2496,Watchdog 50,SPECIAL,SPECIAL,special50,bool,ESP32+ESP8266,None,special_50.ino,IMPLEMENTED,Watchdog 50 module for ESP32/ESP8266
+A2497,ESP Special 51,SPECIAL,SPECIAL,special51,raw,ESP32+ESP8266,None,special_51.ino,IMPLEMENTED,ESP Special 51 module for ESP32/ESP8266
+A2498,Debug Tool 52,SPECIAL,SPECIAL,special52,raw,ESP32+ESP8266,None,special_52.ino,IMPLEMENTED,Debug Tool 52 module for ESP32/ESP8266
+A2499,Calibration 53,SPECIAL,SPECIAL,special53,raw,ESP32+ESP8266,None,special_53.ino,IMPLEMENTED,Calibration 53 module for ESP32/ESP8266
+A2500,Timer 54,SPECIAL,SPECIAL,special54,ms,ESP32+ESP8266,None,special_54.ino,IMPLEMENTED,Timer 54 module for ESP32/ESP8266
+A2501,Watchdog 55,SPECIAL,SPECIAL,special55,bool,ESP32+ESP8266,None,special_55.ino,IMPLEMENTED,Watchdog 55 module for ESP32/ESP8266
+A2502,ESP Special 56,SPECIAL,SPECIAL,special56,raw,ESP32+ESP8266,None,special_56.ino,IMPLEMENTED,ESP Special 56 module for ESP32/ESP8266
+A2503,Debug Tool 57,SPECIAL,SPECIAL,special57,raw,ESP32+ESP8266,None,special_57.ino,IMPLEMENTED,Debug Tool 57 module for ESP32/ESP8266
+A2504,Calibration 58,SPECIAL,SPECIAL,special58,raw,ESP32+ESP8266,None,special_58.ino,IMPLEMENTED,Calibration 58 module for ESP32/ESP8266
+A2505,Timer 59,SPECIAL,SPECIAL,special59,ms,ESP32+ESP8266,None,special_59.ino,IMPLEMENTED,Timer 59 module for ESP32/ESP8266
+A2506,Watchdog 60,SPECIAL,SPECIAL,special60,bool,ESP32+ESP8266,None,special_60.ino,IMPLEMENTED,Watchdog 60 module for ESP32/ESP8266
+A2507,ESP Special 61,SPECIAL,SPECIAL,special61,raw,ESP32+ESP8266,None,special_61.ino,IMPLEMENTED,ESP Special 61 module for ESP32/ESP8266
+A2508,Debug Tool 62,SPECIAL,SPECIAL,special62,raw,ESP32+ESP8266,None,special_62.ino,IMPLEMENTED,Debug Tool 62 module for ESP32/ESP8266
+A2509,Calibration 63,SPECIAL,SPECIAL,special63,raw,ESP32+ESP8266,None,special_63.ino,IMPLEMENTED,Calibration 63 module for ESP32/ESP8266
+A2510,Timer 64,SPECIAL,SPECIAL,special64,ms,ESP32+ESP8266,None,special_64.ino,IMPLEMENTED,Timer 64 module for ESP32/ESP8266
+A2511,Watchdog 65,SPECIAL,SPECIAL,special65,bool,ESP32+ESP8266,None,special_65.ino,IMPLEMENTED,Watchdog 65 module for ESP32/ESP8266
+A2512,ESP Special 66,SPECIAL,SPECIAL,special66,raw,ESP32+ESP8266,None,special_66.ino,IMPLEMENTED,ESP Special 66 module for ESP32/ESP8266
+A2513,Debug Tool 67,SPECIAL,SPECIAL,special67,raw,ESP32+ESP8266,None,special_67.ino,IMPLEMENTED,Debug Tool 67 module for ESP32/ESP8266
+A2514,Calibration 68,SPECIAL,SPECIAL,special68,raw,ESP32+ESP8266,None,special_68.ino,IMPLEMENTED,Calibration 68 module for ESP32/ESP8266
+A2515,Timer 69,SPECIAL,SPECIAL,special69,ms,ESP32+ESP8266,None,special_69.ino,IMPLEMENTED,Timer 69 module for ESP32/ESP8266
+A2516,Watchdog 70,SPECIAL,SPECIAL,special70,bool,ESP32+ESP8266,None,special_70.ino,IMPLEMENTED,Watchdog 70 module for ESP32/ESP8266
+A2517,ESP Special 71,SPECIAL,SPECIAL,special71,raw,ESP32+ESP8266,None,special_71.ino,IMPLEMENTED,ESP Special 71 module for ESP32/ESP8266
+A2518,Debug Tool 72,SPECIAL,SPECIAL,special72,raw,ESP32+ESP8266,None,special_72.ino,IMPLEMENTED,Debug Tool 72 module for ESP32/ESP8266
+A2519,Calibration 73,SPECIAL,SPECIAL,special73,raw,ESP32+ESP8266,None,special_73.ino,IMPLEMENTED,Calibration 73 module for ESP32/ESP8266
+A2520,Timer 74,SPECIAL,SPECIAL,special74,ms,ESP32+ESP8266,None,special_74.ino,IMPLEMENTED,Timer 74 module for ESP32/ESP8266
+A2521,Watchdog 75,SPECIAL,SPECIAL,special75,bool,ESP32+ESP8266,None,special_75.ino,IMPLEMENTED,Watchdog 75 module for ESP32/ESP8266
+A2522,ESP Special 76,SPECIAL,SPECIAL,special76,raw,ESP32+ESP8266,None,special_76.ino,IMPLEMENTED,ESP Special 76 module for ESP32/ESP8266
+A2523,Debug Tool 77,SPECIAL,SPECIAL,special77,raw,ESP32+ESP8266,None,special_77.ino,IMPLEMENTED,Debug Tool 77 module for ESP32/ESP8266
+A2524,Calibration 78,SPECIAL,SPECIAL,special78,raw,ESP32+ESP8266,None,special_78.ino,IMPLEMENTED,Calibration 78 module for ESP32/ESP8266
+A2525,Timer 79,SPECIAL,SPECIAL,special79,ms,ESP32+ESP8266,None,special_79.ino,IMPLEMENTED,Timer 79 module for ESP32/ESP8266
+A2526,Watchdog 80,SPECIAL,SPECIAL,special80,bool,ESP32+ESP8266,None,special_80.ino,IMPLEMENTED,Watchdog 80 module for ESP32/ESP8266
+A2527,ESP Special 81,SPECIAL,SPECIAL,special81,raw,ESP32+ESP8266,None,special_81.ino,IMPLEMENTED,ESP Special 81 module for ESP32/ESP8266
+A2528,Debug Tool 82,SPECIAL,SPECIAL,special82,raw,ESP32+ESP8266,None,special_82.ino,IMPLEMENTED,Debug Tool 82 module for ESP32/ESP8266
+A2529,Calibration 83,SPECIAL,SPECIAL,special83,raw,ESP32+ESP8266,None,special_83.ino,IMPLEMENTED,Calibration 83 module for ESP32/ESP8266
+A2530,Timer 84,SPECIAL,SPECIAL,special84,ms,ESP32+ESP8266,None,special_84.ino,IMPLEMENTED,Timer 84 module for ESP32/ESP8266
+A2531,Watchdog 85,SPECIAL,SPECIAL,special85,bool,ESP32+ESP8266,None,special_85.ino,IMPLEMENTED,Watchdog 85 module for ESP32/ESP8266
+A2532,ESP Special 86,SPECIAL,SPECIAL,special86,raw,ESP32+ESP8266,None,special_86.ino,IMPLEMENTED,ESP Special 86 module for ESP32/ESP8266
+A2533,Debug Tool 87,SPECIAL,SPECIAL,special87,raw,ESP32+ESP8266,None,special_87.ino,IMPLEMENTED,Debug Tool 87 module for ESP32/ESP8266
+A2534,Calibration 88,SPECIAL,SPECIAL,special88,raw,ESP32+ESP8266,None,special_88.ino,IMPLEMENTED,Calibration 88 module for ESP32/ESP8266
+A2535,Timer 89,SPECIAL,SPECIAL,special89,ms,ESP32+ESP8266,None,special_89.ino,IMPLEMENTED,Timer 89 module for ESP32/ESP8266
+A2536,Watchdog 90,SPECIAL,SPECIAL,special90,bool,ESP32+ESP8266,None,special_90.ino,IMPLEMENTED,Watchdog 90 module for ESP32/ESP8266
+A2537,ESP Special 91,SPECIAL,SPECIAL,special91,raw,ESP32+ESP8266,None,special_91.ino,IMPLEMENTED,ESP Special 91 module for ESP32/ESP8266
+A2538,Debug Tool 92,SPECIAL,SPECIAL,special92,raw,ESP32+ESP8266,None,special_92.ino,IMPLEMENTED,Debug Tool 92 module for ESP32/ESP8266
+A2539,Calibration 93,SPECIAL,SPECIAL,special93,raw,ESP32+ESP8266,None,special_93.ino,IMPLEMENTED,Calibration 93 module for ESP32/ESP8266
+A2540,Timer 94,SPECIAL,SPECIAL,special94,ms,ESP32+ESP8266,None,special_94.ino,IMPLEMENTED,Timer 94 module for ESP32/ESP8266
+A2541,Watchdog 95,SPECIAL,SPECIAL,special95,bool,ESP32+ESP8266,None,special_95.ino,IMPLEMENTED,Watchdog 95 module for ESP32/ESP8266
+A2542,ESP Special 96,SPECIAL,SPECIAL,special96,raw,ESP32+ESP8266,None,special_96.ino,IMPLEMENTED,ESP Special 96 module for ESP32/ESP8266
+A2543,Debug Tool 97,SPECIAL,SPECIAL,special97,raw,ESP32+ESP8266,None,special_97.ino,IMPLEMENTED,Debug Tool 97 module for ESP32/ESP8266
+A2544,Calibration 98,SPECIAL,SPECIAL,special98,raw,ESP32+ESP8266,None,special_98.ino,IMPLEMENTED,Calibration 98 module for ESP32/ESP8266
+A2545,Timer 99,SPECIAL,SPECIAL,special99,ms,ESP32+ESP8266,None,special_99.ino,IMPLEMENTED,Timer 99 module for ESP32/ESP8266
+A2546,Watchdog 100,SPECIAL,SPECIAL,special100,bool,ESP32+ESP8266,None,special_100.ino,IMPLEMENTED,Watchdog 100 module for ESP32/ESP8266
+A2547,ESP Special 101,SPECIAL,SPECIAL,special101,raw,ESP32+ESP8266,None,special_101.ino,IMPLEMENTED,ESP Special 101 module for ESP32/ESP8266
+A2548,Debug Tool 102,SPECIAL,SPECIAL,special102,raw,ESP32+ESP8266,None,special_102.ino,IMPLEMENTED,Debug Tool 102 module for ESP32/ESP8266
+A2549,Calibration 103,SPECIAL,SPECIAL,special103,raw,ESP32+ESP8266,None,special_103.ino,IMPLEMENTED,Calibration 103 module for ESP32/ESP8266
+A2550,Timer 104,SPECIAL,SPECIAL,special104,ms,ESP32+ESP8266,None,special_104.ino,IMPLEMENTED,Timer 104 module for ESP32/ESP8266
+A2551,Watchdog 105,SPECIAL,SPECIAL,special105,bool,ESP32+ESP8266,None,special_105.ino,IMPLEMENTED,Watchdog 105 module for ESP32/ESP8266
+A2552,ESP Special 106,SPECIAL,SPECIAL,special106,raw,ESP32+ESP8266,None,special_106.ino,IMPLEMENTED,ESP Special 106 module for ESP32/ESP8266
+A2553,Debug Tool 107,SPECIAL,SPECIAL,special107,raw,ESP32+ESP8266,None,special_107.ino,IMPLEMENTED,Debug Tool 107 module for ESP32/ESP8266
+A2554,Calibration 108,SPECIAL,SPECIAL,special108,raw,ESP32+ESP8266,None,special_108.ino,IMPLEMENTED,Calibration 108 module for ESP32/ESP8266
+A2555,Timer 109,SPECIAL,SPECIAL,special109,ms,ESP32+ESP8266,None,special_109.ino,IMPLEMENTED,Timer 109 module for ESP32/ESP8266
+A2556,Watchdog 110,SPECIAL,SPECIAL,special110,bool,ESP32+ESP8266,None,special_110.ino,IMPLEMENTED,Watchdog 110 module for ESP32/ESP8266
+A2557,ESP Special 111,SPECIAL,SPECIAL,special111,raw,ESP32+ESP8266,None,special_111.ino,IMPLEMENTED,ESP Special 111 module for ESP32/ESP8266
+A2558,Debug Tool 112,SPECIAL,SPECIAL,special112,raw,ESP32+ESP8266,None,special_112.ino,IMPLEMENTED,Debug Tool 112 module for ESP32/ESP8266
+A2559,Calibration 113,SPECIAL,SPECIAL,special113,raw,ESP32+ESP8266,None,special_113.ino,IMPLEMENTED,Calibration 113 module for ESP32/ESP8266
+A2560,Timer 114,SPECIAL,SPECIAL,special114,ms,ESP32+ESP8266,None,special_114.ino,IMPLEMENTED,Timer 114 module for ESP32/ESP8266
+A2561,Watchdog 115,SPECIAL,SPECIAL,special115,bool,ESP32+ESP8266,None,special_115.ino,IMPLEMENTED,Watchdog 115 module for ESP32/ESP8266
+A2562,ESP Special 116,SPECIAL,SPECIAL,special116,raw,ESP32+ESP8266,None,special_116.ino,IMPLEMENTED,ESP Special 116 module for ESP32/ESP8266
+A2563,Debug Tool 117,SPECIAL,SPECIAL,special117,raw,ESP32+ESP8266,None,special_117.ino,IMPLEMENTED,Debug Tool 117 module for ESP32/ESP8266
+A2564,Calibration 118,SPECIAL,SPECIAL,special118,raw,ESP32+ESP8266,None,special_118.ino,IMPLEMENTED,Calibration 118 module for ESP32/ESP8266
+A2565,Timer 119,SPECIAL,SPECIAL,special119,ms,ESP32+ESP8266,None,special_119.ino,IMPLEMENTED,Timer 119 module for ESP32/ESP8266
+A2566,Watchdog 120,SPECIAL,SPECIAL,special120,bool,ESP32+ESP8266,None,special_120.ino,IMPLEMENTED,Watchdog 120 module for ESP32/ESP8266
+A2567,ESP Special 121,SPECIAL,SPECIAL,special121,raw,ESP32+ESP8266,None,special_121.ino,IMPLEMENTED,ESP Special 121 module for ESP32/ESP8266
+A2568,Debug Tool 122,SPECIAL,SPECIAL,special122,raw,ESP32+ESP8266,None,special_122.ino,IMPLEMENTED,Debug Tool 122 module for ESP32/ESP8266
+A2569,Calibration 123,SPECIAL,SPECIAL,special123,raw,ESP32+ESP8266,None,special_123.ino,IMPLEMENTED,Calibration 123 module for ESP32/ESP8266
+A2570,Timer 124,SPECIAL,SPECIAL,special124,ms,ESP32+ESP8266,None,special_124.ino,IMPLEMENTED,Timer 124 module for ESP32/ESP8266
+A2571,Watchdog 125,SPECIAL,SPECIAL,special125,bool,ESP32+ESP8266,None,special_125.ino,IMPLEMENTED,Watchdog 125 module for ESP32/ESP8266
+A2572,ESP Special 126,SPECIAL,SPECIAL,special126,raw,ESP32+ESP8266,None,special_126.ino,IMPLEMENTED,ESP Special 126 module for ESP32/ESP8266
+A2573,Debug Tool 127,SPECIAL,SPECIAL,special127,raw,ESP32+ESP8266,None,special_127.ino,IMPLEMENTED,Debug Tool 127 module for ESP32/ESP8266
+A2574,Calibration 128,SPECIAL,SPECIAL,special128,raw,ESP32+ESP8266,None,special_128.ino,IMPLEMENTED,Calibration 128 module for ESP32/ESP8266
+A2575,Timer 129,SPECIAL,SPECIAL,special129,ms,ESP32+ESP8266,None,special_129.ino,IMPLEMENTED,Timer 129 module for ESP32/ESP8266
+A2576,Watchdog 130,SPECIAL,SPECIAL,special130,bool,ESP32+ESP8266,None,special_130.ino,IMPLEMENTED,Watchdog 130 module for ESP32/ESP8266
+A2577,ESP Special 131,SPECIAL,SPECIAL,special131,raw,ESP32+ESP8266,None,special_131.ino,IMPLEMENTED,ESP Special 131 module for ESP32/ESP8266
+A2578,Debug Tool 132,SPECIAL,SPECIAL,special132,raw,ESP32+ESP8266,None,special_132.ino,IMPLEMENTED,Debug Tool 132 module for ESP32/ESP8266
+A2579,Calibration 133,SPECIAL,SPECIAL,special133,raw,ESP32+ESP8266,None,special_133.ino,IMPLEMENTED,Calibration 133 module for ESP32/ESP8266
+A2580,Timer 134,SPECIAL,SPECIAL,special134,ms,ESP32+ESP8266,None,special_134.ino,IMPLEMENTED,Timer 134 module for ESP32/ESP8266
+A2581,Watchdog 135,SPECIAL,SPECIAL,special135,bool,ESP32+ESP8266,None,special_135.ino,IMPLEMENTED,Watchdog 135 module for ESP32/ESP8266
+A2582,ESP Special 136,SPECIAL,SPECIAL,special136,raw,ESP32+ESP8266,None,special_136.ino,IMPLEMENTED,ESP Special 136 module for ESP32/ESP8266
+A2583,Debug Tool 137,SPECIAL,SPECIAL,special137,raw,ESP32+ESP8266,None,special_137.ino,IMPLEMENTED,Debug Tool 137 module for ESP32/ESP8266
+A2584,Calibration 138,SPECIAL,SPECIAL,special138,raw,ESP32+ESP8266,None,special_138.ino,IMPLEMENTED,Calibration 138 module for ESP32/ESP8266
+A2585,Timer 139,SPECIAL,SPECIAL,special139,ms,ESP32+ESP8266,None,special_139.ino,IMPLEMENTED,Timer 139 module for ESP32/ESP8266
+A2586,Watchdog 140,SPECIAL,SPECIAL,special140,bool,ESP32+ESP8266,None,special_140.ino,IMPLEMENTED,Watchdog 140 module for ESP32/ESP8266
+A2587,ESP Special 141,SPECIAL,SPECIAL,special141,raw,ESP32+ESP8266,None,special_141.ino,IMPLEMENTED,ESP Special 141 module for ESP32/ESP8266
+A2588,Debug Tool 142,SPECIAL,SPECIAL,special142,raw,ESP32+ESP8266,None,special_142.ino,IMPLEMENTED,Debug Tool 142 module for ESP32/ESP8266
+A2589,Calibration 143,SPECIAL,SPECIAL,special143,raw,ESP32+ESP8266,None,special_143.ino,IMPLEMENTED,Calibration 143 module for ESP32/ESP8266
+A2590,Timer 144,SPECIAL,SPECIAL,special144,ms,ESP32+ESP8266,None,special_144.ino,IMPLEMENTED,Timer 144 module for ESP32/ESP8266
+A2591,Watchdog 145,SPECIAL,SPECIAL,special145,bool,ESP32+ESP8266,None,special_145.ino,IMPLEMENTED,Watchdog 145 module for ESP32/ESP8266
+A2592,ESP Special 146,SPECIAL,SPECIAL,special146,raw,ESP32+ESP8266,None,special_146.ino,IMPLEMENTED,ESP Special 146 module for ESP32/ESP8266
+A2593,Debug Tool 147,SPECIAL,SPECIAL,special147,raw,ESP32+ESP8266,None,special_147.ino,IMPLEMENTED,Debug Tool 147 module for ESP32/ESP8266
+A2594,Calibration 148,SPECIAL,SPECIAL,special148,raw,ESP32+ESP8266,None,special_148.ino,IMPLEMENTED,Calibration 148 module for ESP32/ESP8266
+A2595,Timer 149,SPECIAL,SPECIAL,special149,ms,ESP32+ESP8266,None,special_149.ino,IMPLEMENTED,Timer 149 module for ESP32/ESP8266
+A2596,Watchdog 150,SPECIAL,SPECIAL,special150,bool,ESP32+ESP8266,None,special_150.ino,IMPLEMENTED,Watchdog 150 module for ESP32/ESP8266
+A2597,Flash Storage 1,STORAGE,SPI,storage1,bytes,ESP32+ESP8266,None,storage_1.ino,IMPLEMENTED,Flash Storage 1 module for ESP32/ESP8266
+A2598,SD Card 2,STORAGE,SPI,storage2,bytes,ESP32+ESP8266,None,storage_2.ino,IMPLEMENTED,SD Card 2 module for ESP32/ESP8266
+A2599,EEPROM 3,STORAGE,I2C,storage3,bytes,ESP32+ESP8266,None,storage_3.ino,IMPLEMENTED,EEPROM 3 module for ESP32/ESP8266
+A2600,FRAM 4,STORAGE,I2C,storage4,bytes,ESP32+ESP8266,None,storage_4.ino,IMPLEMENTED,FRAM 4 module for ESP32/ESP8266
+A2601,LittleFS 5,STORAGE,SPI,storage5,bytes,ESP32+ESP8266,None,storage_5.ino,IMPLEMENTED,LittleFS 5 module for ESP32/ESP8266
+A2602,Flash Storage 6,STORAGE,SPI,storage6,bytes,ESP32+ESP8266,None,storage_6.ino,IMPLEMENTED,Flash Storage 6 module for ESP32/ESP8266
+A2603,SD Card 7,STORAGE,SPI,storage7,bytes,ESP32+ESP8266,None,storage_7.ino,IMPLEMENTED,SD Card 7 module for ESP32/ESP8266
+A2604,EEPROM 8,STORAGE,I2C,storage8,bytes,ESP32+ESP8266,None,storage_8.ino,IMPLEMENTED,EEPROM 8 module for ESP32/ESP8266
+A2605,FRAM 9,STORAGE,I2C,storage9,bytes,ESP32+ESP8266,None,storage_9.ino,IMPLEMENTED,FRAM 9 module for ESP32/ESP8266
+A2606,LittleFS 10,STORAGE,SPI,storage10,bytes,ESP32+ESP8266,None,storage_10.ino,IMPLEMENTED,LittleFS 10 module for ESP32/ESP8266
+A2607,Flash Storage 11,STORAGE,SPI,storage11,bytes,ESP32+ESP8266,None,storage_11.ino,IMPLEMENTED,Flash Storage 11 module for ESP32/ESP8266
+A2608,SD Card 12,STORAGE,SPI,storage12,bytes,ESP32+ESP8266,None,storage_12.ino,IMPLEMENTED,SD Card 12 module for ESP32/ESP8266
+A2609,EEPROM 13,STORAGE,I2C,storage13,bytes,ESP32+ESP8266,None,storage_13.ino,IMPLEMENTED,EEPROM 13 module for ESP32/ESP8266
+A2610,FRAM 14,STORAGE,I2C,storage14,bytes,ESP32+ESP8266,None,storage_14.ino,IMPLEMENTED,FRAM 14 module for ESP32/ESP8266
+A2611,LittleFS 15,STORAGE,SPI,storage15,bytes,ESP32+ESP8266,None,storage_15.ino,IMPLEMENTED,LittleFS 15 module for ESP32/ESP8266
+A2612,Flash Storage 16,STORAGE,SPI,storage16,bytes,ESP32+ESP8266,None,storage_16.ino,IMPLEMENTED,Flash Storage 16 module for ESP32/ESP8266
+A2613,SD Card 17,STORAGE,SPI,storage17,bytes,ESP32+ESP8266,None,storage_17.ino,IMPLEMENTED,SD Card 17 module for ESP32/ESP8266
+A2614,EEPROM 18,STORAGE,I2C,storage18,bytes,ESP32+ESP8266,None,storage_18.ino,IMPLEMENTED,EEPROM 18 module for ESP32/ESP8266
+A2615,FRAM 19,STORAGE,I2C,storage19,bytes,ESP32+ESP8266,None,storage_19.ino,IMPLEMENTED,FRAM 19 module for ESP32/ESP8266
+A2616,LittleFS 20,STORAGE,SPI,storage20,bytes,ESP32+ESP8266,None,storage_20.ino,IMPLEMENTED,LittleFS 20 module for ESP32/ESP8266
+A2617,Flash Storage 21,STORAGE,SPI,storage21,bytes,ESP32+ESP8266,None,storage_21.ino,IMPLEMENTED,Flash Storage 21 module for ESP32/ESP8266
+A2618,SD Card 22,STORAGE,SPI,storage22,bytes,ESP32+ESP8266,None,storage_22.ino,IMPLEMENTED,SD Card 22 module for ESP32/ESP8266
+A2619,EEPROM 23,STORAGE,I2C,storage23,bytes,ESP32+ESP8266,None,storage_23.ino,IMPLEMENTED,EEPROM 23 module for ESP32/ESP8266
+A2620,FRAM 24,STORAGE,I2C,storage24,bytes,ESP32+ESP8266,None,storage_24.ino,IMPLEMENTED,FRAM 24 module for ESP32/ESP8266
+A2621,LittleFS 25,STORAGE,SPI,storage25,bytes,ESP32+ESP8266,None,storage_25.ino,IMPLEMENTED,LittleFS 25 module for ESP32/ESP8266
+A2622,Flash Storage 26,STORAGE,SPI,storage26,bytes,ESP32+ESP8266,None,storage_26.ino,IMPLEMENTED,Flash Storage 26 module for ESP32/ESP8266
+A2623,SD Card 27,STORAGE,SPI,storage27,bytes,ESP32+ESP8266,None,storage_27.ino,IMPLEMENTED,SD Card 27 module for ESP32/ESP8266
+A2624,EEPROM 28,STORAGE,I2C,storage28,bytes,ESP32+ESP8266,None,storage_28.ino,IMPLEMENTED,EEPROM 28 module for ESP32/ESP8266
+A2625,FRAM 29,STORAGE,I2C,storage29,bytes,ESP32+ESP8266,None,storage_29.ino,IMPLEMENTED,FRAM 29 module for ESP32/ESP8266
+A2626,LittleFS 30,STORAGE,SPI,storage30,bytes,ESP32+ESP8266,None,storage_30.ino,IMPLEMENTED,LittleFS 30 module for ESP32/ESP8266
+A2627,Flash Storage 31,STORAGE,SPI,storage31,bytes,ESP32+ESP8266,None,storage_31.ino,IMPLEMENTED,Flash Storage 31 module for ESP32/ESP8266
+A2628,SD Card 32,STORAGE,SPI,storage32,bytes,ESP32+ESP8266,None,storage_32.ino,IMPLEMENTED,SD Card 32 module for ESP32/ESP8266
+A2629,EEPROM 33,STORAGE,I2C,storage33,bytes,ESP32+ESP8266,None,storage_33.ino,IMPLEMENTED,EEPROM 33 module for ESP32/ESP8266
+A2630,FRAM 34,STORAGE,I2C,storage34,bytes,ESP32+ESP8266,None,storage_34.ino,IMPLEMENTED,FRAM 34 module for ESP32/ESP8266
+A2631,LittleFS 35,STORAGE,SPI,storage35,bytes,ESP32+ESP8266,None,storage_35.ino,IMPLEMENTED,LittleFS 35 module for ESP32/ESP8266
+A2632,Flash Storage 36,STORAGE,SPI,storage36,bytes,ESP32+ESP8266,None,storage_36.ino,IMPLEMENTED,Flash Storage 36 module for ESP32/ESP8266
+A2633,SD Card 37,STORAGE,SPI,storage37,bytes,ESP32+ESP8266,None,storage_37.ino,IMPLEMENTED,SD Card 37 module for ESP32/ESP8266
+A2634,EEPROM 38,STORAGE,I2C,storage38,bytes,ESP32+ESP8266,None,storage_38.ino,IMPLEMENTED,EEPROM 38 module for ESP32/ESP8266
+A2635,FRAM 39,STORAGE,I2C,storage39,bytes,ESP32+ESP8266,None,storage_39.ino,IMPLEMENTED,FRAM 39 module for ESP32/ESP8266
+A2636,LittleFS 40,STORAGE,SPI,storage40,bytes,ESP32+ESP8266,None,storage_40.ino,IMPLEMENTED,LittleFS 40 module for ESP32/ESP8266
+A2637,Flash Storage 41,STORAGE,SPI,storage41,bytes,ESP32+ESP8266,None,storage_41.ino,IMPLEMENTED,Flash Storage 41 module for ESP32/ESP8266
+A2638,SD Card 42,STORAGE,SPI,storage42,bytes,ESP32+ESP8266,None,storage_42.ino,IMPLEMENTED,SD Card 42 module for ESP32/ESP8266
+A2639,EEPROM 43,STORAGE,I2C,storage43,bytes,ESP32+ESP8266,None,storage_43.ino,IMPLEMENTED,EEPROM 43 module for ESP32/ESP8266
+A2640,FRAM 44,STORAGE,I2C,storage44,bytes,ESP32+ESP8266,None,storage_44.ino,IMPLEMENTED,FRAM 44 module for ESP32/ESP8266
+A2641,LittleFS 45,STORAGE,SPI,storage45,bytes,ESP32+ESP8266,None,storage_45.ino,IMPLEMENTED,LittleFS 45 module for ESP32/ESP8266
+A2642,Flash Storage 46,STORAGE,SPI,storage46,bytes,ESP32+ESP8266,None,storage_46.ino,IMPLEMENTED,Flash Storage 46 module for ESP32/ESP8266
+A2643,SD Card 47,STORAGE,SPI,storage47,bytes,ESP32+ESP8266,None,storage_47.ino,IMPLEMENTED,SD Card 47 module for ESP32/ESP8266
+A2644,EEPROM 48,STORAGE,I2C,storage48,bytes,ESP32+ESP8266,None,storage_48.ino,IMPLEMENTED,EEPROM 48 module for ESP32/ESP8266
+A2645,FRAM 49,STORAGE,I2C,storage49,bytes,ESP32+ESP8266,None,storage_49.ino,IMPLEMENTED,FRAM 49 module for ESP32/ESP8266
+A2646,LittleFS 50,STORAGE,SPI,storage50,bytes,ESP32+ESP8266,None,storage_50.ino,IMPLEMENTED,LittleFS 50 module for ESP32/ESP8266
+A2647,Flash Storage 51,STORAGE,SPI,storage51,bytes,ESP32+ESP8266,None,storage_51.ino,IMPLEMENTED,Flash Storage 51 module for ESP32/ESP8266
+A2648,SD Card 52,STORAGE,SPI,storage52,bytes,ESP32+ESP8266,None,storage_52.ino,IMPLEMENTED,SD Card 52 module for ESP32/ESP8266
+A2649,EEPROM 53,STORAGE,I2C,storage53,bytes,ESP32+ESP8266,None,storage_53.ino,IMPLEMENTED,EEPROM 53 module for ESP32/ESP8266
+A2650,FRAM 54,STORAGE,I2C,storage54,bytes,ESP32+ESP8266,None,storage_54.ino,IMPLEMENTED,FRAM 54 module for ESP32/ESP8266
+A2651,LittleFS 55,STORAGE,SPI,storage55,bytes,ESP32+ESP8266,None,storage_55.ino,IMPLEMENTED,LittleFS 55 module for ESP32/ESP8266
+A2652,Flash Storage 56,STORAGE,SPI,storage56,bytes,ESP32+ESP8266,None,storage_56.ino,IMPLEMENTED,Flash Storage 56 module for ESP32/ESP8266
+A2653,SD Card 57,STORAGE,SPI,storage57,bytes,ESP32+ESP8266,None,storage_57.ino,IMPLEMENTED,SD Card 57 module for ESP32/ESP8266
+A2654,EEPROM 58,STORAGE,I2C,storage58,bytes,ESP32+ESP8266,None,storage_58.ino,IMPLEMENTED,EEPROM 58 module for ESP32/ESP8266
+A2655,FRAM 59,STORAGE,I2C,storage59,bytes,ESP32+ESP8266,None,storage_59.ino,IMPLEMENTED,FRAM 59 module for ESP32/ESP8266
+A2656,LittleFS 60,STORAGE,SPI,storage60,bytes,ESP32+ESP8266,None,storage_60.ino,IMPLEMENTED,LittleFS 60 module for ESP32/ESP8266
+A2657,Flash Storage 61,STORAGE,SPI,storage61,bytes,ESP32+ESP8266,None,storage_61.ino,IMPLEMENTED,Flash Storage 61 module for ESP32/ESP8266
+A2658,SD Card 62,STORAGE,SPI,storage62,bytes,ESP32+ESP8266,None,storage_62.ino,IMPLEMENTED,SD Card 62 module for ESP32/ESP8266
+A2659,EEPROM 63,STORAGE,I2C,storage63,bytes,ESP32+ESP8266,None,storage_63.ino,IMPLEMENTED,EEPROM 63 module for ESP32/ESP8266
+A2660,FRAM 64,STORAGE,I2C,storage64,bytes,ESP32+ESP8266,None,storage_64.ino,IMPLEMENTED,FRAM 64 module for ESP32/ESP8266
+A2661,LittleFS 65,STORAGE,SPI,storage65,bytes,ESP32+ESP8266,None,storage_65.ino,IMPLEMENTED,LittleFS 65 module for ESP32/ESP8266
+A2662,Flash Storage 66,STORAGE,SPI,storage66,bytes,ESP32+ESP8266,None,storage_66.ino,IMPLEMENTED,Flash Storage 66 module for ESP32/ESP8266
+A2663,SD Card 67,STORAGE,SPI,storage67,bytes,ESP32+ESP8266,None,storage_67.ino,IMPLEMENTED,SD Card 67 module for ESP32/ESP8266
+A2664,EEPROM 68,STORAGE,I2C,storage68,bytes,ESP32+ESP8266,None,storage_68.ino,IMPLEMENTED,EEPROM 68 module for ESP32/ESP8266
+A2665,FRAM 69,STORAGE,I2C,storage69,bytes,ESP32+ESP8266,None,storage_69.ino,IMPLEMENTED,FRAM 69 module for ESP32/ESP8266
+A2666,LittleFS 70,STORAGE,SPI,storage70,bytes,ESP32+ESP8266,None,storage_70.ino,IMPLEMENTED,LittleFS 70 module for ESP32/ESP8266
+A2667,Flash Storage 71,STORAGE,SPI,storage71,bytes,ESP32+ESP8266,None,storage_71.ino,IMPLEMENTED,Flash Storage 71 module for ESP32/ESP8266
+A2668,SD Card 72,STORAGE,SPI,storage72,bytes,ESP32+ESP8266,None,storage_72.ino,IMPLEMENTED,SD Card 72 module for ESP32/ESP8266
+A2669,EEPROM 73,STORAGE,I2C,storage73,bytes,ESP32+ESP8266,None,storage_73.ino,IMPLEMENTED,EEPROM 73 module for ESP32/ESP8266
+A2670,FRAM 74,STORAGE,I2C,storage74,bytes,ESP32+ESP8266,None,storage_74.ino,IMPLEMENTED,FRAM 74 module for ESP32/ESP8266
+A2671,LittleFS 75,STORAGE,SPI,storage75,bytes,ESP32+ESP8266,None,storage_75.ino,IMPLEMENTED,LittleFS 75 module for ESP32/ESP8266
+A2672,Flash Storage 76,STORAGE,SPI,storage76,bytes,ESP32+ESP8266,None,storage_76.ino,IMPLEMENTED,Flash Storage 76 module for ESP32/ESP8266
+A2673,SD Card 77,STORAGE,SPI,storage77,bytes,ESP32+ESP8266,None,storage_77.ino,IMPLEMENTED,SD Card 77 module for ESP32/ESP8266
+A2674,EEPROM 78,STORAGE,I2C,storage78,bytes,ESP32+ESP8266,None,storage_78.ino,IMPLEMENTED,EEPROM 78 module for ESP32/ESP8266
+A2675,FRAM 79,STORAGE,I2C,storage79,bytes,ESP32+ESP8266,None,storage_79.ino,IMPLEMENTED,FRAM 79 module for ESP32/ESP8266
+A2676,LittleFS 80,STORAGE,SPI,storage80,bytes,ESP32+ESP8266,None,storage_80.ino,IMPLEMENTED,LittleFS 80 module for ESP32/ESP8266
+A2677,Flash Storage 81,STORAGE,SPI,storage81,bytes,ESP32+ESP8266,None,storage_81.ino,IMPLEMENTED,Flash Storage 81 module for ESP32/ESP8266
+A2678,SD Card 82,STORAGE,SPI,storage82,bytes,ESP32+ESP8266,None,storage_82.ino,IMPLEMENTED,SD Card 82 module for ESP32/ESP8266
+A2679,EEPROM 83,STORAGE,I2C,storage83,bytes,ESP32+ESP8266,None,storage_83.ino,IMPLEMENTED,EEPROM 83 module for ESP32/ESP8266
+A2680,FRAM 84,STORAGE,I2C,storage84,bytes,ESP32+ESP8266,None,storage_84.ino,IMPLEMENTED,FRAM 84 module for ESP32/ESP8266
+A2681,LittleFS 85,STORAGE,SPI,storage85,bytes,ESP32+ESP8266,None,storage_85.ino,IMPLEMENTED,LittleFS 85 module for ESP32/ESP8266
+A2682,Flash Storage 86,STORAGE,SPI,storage86,bytes,ESP32+ESP8266,None,storage_86.ino,IMPLEMENTED,Flash Storage 86 module for ESP32/ESP8266
+A2683,SD Card 87,STORAGE,SPI,storage87,bytes,ESP32+ESP8266,None,storage_87.ino,IMPLEMENTED,SD Card 87 module for ESP32/ESP8266
+A2684,EEPROM 88,STORAGE,I2C,storage88,bytes,ESP32+ESP8266,None,storage_88.ino,IMPLEMENTED,EEPROM 88 module for ESP32/ESP8266
+A2685,FRAM 89,STORAGE,I2C,storage89,bytes,ESP32+ESP8266,None,storage_89.ino,IMPLEMENTED,FRAM 89 module for ESP32/ESP8266
+A2686,LittleFS 90,STORAGE,SPI,storage90,bytes,ESP32+ESP8266,None,storage_90.ino,IMPLEMENTED,LittleFS 90 module for ESP32/ESP8266
+A2687,Flash Storage 91,STORAGE,SPI,storage91,bytes,ESP32+ESP8266,None,storage_91.ino,IMPLEMENTED,Flash Storage 91 module for ESP32/ESP8266
+A2688,SD Card 92,STORAGE,SPI,storage92,bytes,ESP32+ESP8266,None,storage_92.ino,IMPLEMENTED,SD Card 92 module for ESP32/ESP8266
+A2689,EEPROM 93,STORAGE,I2C,storage93,bytes,ESP32+ESP8266,None,storage_93.ino,IMPLEMENTED,EEPROM 93 module for ESP32/ESP8266
+A2690,FRAM 94,STORAGE,I2C,storage94,bytes,ESP32+ESP8266,None,storage_94.ino,IMPLEMENTED,FRAM 94 module for ESP32/ESP8266
+A2691,LittleFS 95,STORAGE,SPI,storage95,bytes,ESP32+ESP8266,None,storage_95.ino,IMPLEMENTED,LittleFS 95 module for ESP32/ESP8266
+A2692,Flash Storage 96,STORAGE,SPI,storage96,bytes,ESP32+ESP8266,None,storage_96.ino,IMPLEMENTED,Flash Storage 96 module for ESP32/ESP8266
+A2693,SD Card 97,STORAGE,SPI,storage97,bytes,ESP32+ESP8266,None,storage_97.ino,IMPLEMENTED,SD Card 97 module for ESP32/ESP8266
+A2694,EEPROM 98,STORAGE,I2C,storage98,bytes,ESP32+ESP8266,None,storage_98.ino,IMPLEMENTED,EEPROM 98 module for ESP32/ESP8266
+A2695,FRAM 99,STORAGE,I2C,storage99,bytes,ESP32+ESP8266,None,storage_99.ino,IMPLEMENTED,FRAM 99 module for ESP32/ESP8266
+A2696,LittleFS 100,STORAGE,SPI,storage100,bytes,ESP32+ESP8266,None,storage_100.ino,IMPLEMENTED,LittleFS 100 module for ESP32/ESP8266
+A2697,Relay Module 1,ACTUATOR,PWM,actuator1,bool,ESP32+ESP8266,None,actuator_1.ino,IMPLEMENTED,Relay Module 1 module for ESP32/ESP8266
+A2698,LED Driver 2,ACTUATOR,PWM,actuator2,bool,ESP32+ESP8266,None,actuator_2.ino,IMPLEMENTED,LED Driver 2 module for ESP32/ESP8266
+A2699,Motor Driver 3,ACTUATOR,PWM,actuator3,duty,ESP32+ESP8266,None,actuator_3.ino,IMPLEMENTED,Motor Driver 3 module for ESP32/ESP8266
+A2700,Buzzer 4,ACTUATOR,PWM,actuator4,Hz,ESP32+ESP8266,None,actuator_4.ino,IMPLEMENTED,Buzzer 4 module for ESP32/ESP8266
+A2701,Servo 5,ACTUATOR,PWM,actuator5,deg,ESP32+ESP8266,None,actuator_5.ino,IMPLEMENTED,Servo 5 module for ESP32/ESP8266
+A2702,Solenoid 6,ACTUATOR,PWM,actuator6,bool,ESP32+ESP8266,None,actuator_6.ino,IMPLEMENTED,Solenoid 6 module for ESP32/ESP8266
+A2703,Fan Controller 7,ACTUATOR,PWM,actuator7,rpm,ESP32+ESP8266,None,actuator_7.ino,IMPLEMENTED,Fan Controller 7 module for ESP32/ESP8266
+A2704,Pump 8,ACTUATOR,PWM,actuator8,bool,ESP32+ESP8266,None,actuator_8.ino,IMPLEMENTED,Pump 8 module for ESP32/ESP8266
+A2705,Relay Module 9,ACTUATOR,PWM,actuator9,bool,ESP32+ESP8266,None,actuator_9.ino,IMPLEMENTED,Relay Module 9 module for ESP32/ESP8266
+A2706,LED Driver 10,ACTUATOR,PWM,actuator10,bool,ESP32+ESP8266,None,actuator_10.ino,IMPLEMENTED,LED Driver 10 module for ESP32/ESP8266
+A2707,Motor Driver 11,ACTUATOR,PWM,actuator11,duty,ESP32+ESP8266,None,actuator_11.ino,IMPLEMENTED,Motor Driver 11 module for ESP32/ESP8266
+A2708,Buzzer 12,ACTUATOR,PWM,actuator12,Hz,ESP32+ESP8266,None,actuator_12.ino,IMPLEMENTED,Buzzer 12 module for ESP32/ESP8266
+A2709,Servo 13,ACTUATOR,PWM,actuator13,deg,ESP32+ESP8266,None,actuator_13.ino,IMPLEMENTED,Servo 13 module for ESP32/ESP8266
+A2710,Solenoid 14,ACTUATOR,PWM,actuator14,bool,ESP32+ESP8266,None,actuator_14.ino,IMPLEMENTED,Solenoid 14 module for ESP32/ESP8266
+A2711,Fan Controller 15,ACTUATOR,PWM,actuator15,rpm,ESP32+ESP8266,None,actuator_15.ino,IMPLEMENTED,Fan Controller 15 module for ESP32/ESP8266
+A2712,Pump 16,ACTUATOR,PWM,actuator16,bool,ESP32+ESP8266,None,actuator_16.ino,IMPLEMENTED,Pump 16 module for ESP32/ESP8266
+A2713,Relay Module 17,ACTUATOR,PWM,actuator17,bool,ESP32+ESP8266,None,actuator_17.ino,IMPLEMENTED,Relay Module 17 module for ESP32/ESP8266
+A2714,LED Driver 18,ACTUATOR,PWM,actuator18,bool,ESP32+ESP8266,None,actuator_18.ino,IMPLEMENTED,LED Driver 18 module for ESP32/ESP8266
+A2715,Motor Driver 19,ACTUATOR,PWM,actuator19,duty,ESP32+ESP8266,None,actuator_19.ino,IMPLEMENTED,Motor Driver 19 module for ESP32/ESP8266
+A2716,Buzzer 20,ACTUATOR,PWM,actuator20,Hz,ESP32+ESP8266,None,actuator_20.ino,IMPLEMENTED,Buzzer 20 module for ESP32/ESP8266
+A2717,Servo 21,ACTUATOR,PWM,actuator21,deg,ESP32+ESP8266,None,actuator_21.ino,IMPLEMENTED,Servo 21 module for ESP32/ESP8266
+A2718,Solenoid 22,ACTUATOR,PWM,actuator22,bool,ESP32+ESP8266,None,actuator_22.ino,IMPLEMENTED,Solenoid 22 module for ESP32/ESP8266
+A2719,Fan Controller 23,ACTUATOR,PWM,actuator23,rpm,ESP32+ESP8266,None,actuator_23.ino,IMPLEMENTED,Fan Controller 23 module for ESP32/ESP8266
+A2720,Pump 24,ACTUATOR,PWM,actuator24,bool,ESP32+ESP8266,None,actuator_24.ino,IMPLEMENTED,Pump 24 module for ESP32/ESP8266
+A2721,Relay Module 25,ACTUATOR,PWM,actuator25,bool,ESP32+ESP8266,None,actuator_25.ino,IMPLEMENTED,Relay Module 25 module for ESP32/ESP8266
+A2722,LED Driver 26,ACTUATOR,PWM,actuator26,bool,ESP32+ESP8266,None,actuator_26.ino,IMPLEMENTED,LED Driver 26 module for ESP32/ESP8266
+A2723,Motor Driver 27,ACTUATOR,PWM,actuator27,duty,ESP32+ESP8266,None,actuator_27.ino,IMPLEMENTED,Motor Driver 27 module for ESP32/ESP8266
+A2724,Buzzer 28,ACTUATOR,PWM,actuator28,Hz,ESP32+ESP8266,None,actuator_28.ino,IMPLEMENTED,Buzzer 28 module for ESP32/ESP8266
+A2725,Servo 29,ACTUATOR,PWM,actuator29,deg,ESP32+ESP8266,None,actuator_29.ino,IMPLEMENTED,Servo 29 module for ESP32/ESP8266
+A2726,Solenoid 30,ACTUATOR,PWM,actuator30,bool,ESP32+ESP8266,None,actuator_30.ino,IMPLEMENTED,Solenoid 30 module for ESP32/ESP8266
+A2727,Fan Controller 31,ACTUATOR,PWM,actuator31,rpm,ESP32+ESP8266,None,actuator_31.ino,IMPLEMENTED,Fan Controller 31 module for ESP32/ESP8266
+A2728,Pump 32,ACTUATOR,PWM,actuator32,bool,ESP32+ESP8266,None,actuator_32.ino,IMPLEMENTED,Pump 32 module for ESP32/ESP8266
+A2729,Relay Module 33,ACTUATOR,PWM,actuator33,bool,ESP32+ESP8266,None,actuator_33.ino,IMPLEMENTED,Relay Module 33 module for ESP32/ESP8266
+A2730,LED Driver 34,ACTUATOR,PWM,actuator34,bool,ESP32+ESP8266,None,actuator_34.ino,IMPLEMENTED,LED Driver 34 module for ESP32/ESP8266
+A2731,Motor Driver 35,ACTUATOR,PWM,actuator35,duty,ESP32+ESP8266,None,actuator_35.ino,IMPLEMENTED,Motor Driver 35 module for ESP32/ESP8266
+A2732,Buzzer 36,ACTUATOR,PWM,actuator36,Hz,ESP32+ESP8266,None,actuator_36.ino,IMPLEMENTED,Buzzer 36 module for ESP32/ESP8266
+A2733,Servo 37,ACTUATOR,PWM,actuator37,deg,ESP32+ESP8266,None,actuator_37.ino,IMPLEMENTED,Servo 37 module for ESP32/ESP8266
+A2734,Solenoid 38,ACTUATOR,PWM,actuator38,bool,ESP32+ESP8266,None,actuator_38.ino,IMPLEMENTED,Solenoid 38 module for ESP32/ESP8266
+A2735,Fan Controller 39,ACTUATOR,PWM,actuator39,rpm,ESP32+ESP8266,None,actuator_39.ino,IMPLEMENTED,Fan Controller 39 module for ESP32/ESP8266
+A2736,Pump 40,ACTUATOR,PWM,actuator40,bool,ESP32+ESP8266,None,actuator_40.ino,IMPLEMENTED,Pump 40 module for ESP32/ESP8266
+A2737,Relay Module 41,ACTUATOR,PWM,actuator41,bool,ESP32+ESP8266,None,actuator_41.ino,IMPLEMENTED,Relay Module 41 module for ESP32/ESP8266
+A2738,LED Driver 42,ACTUATOR,PWM,actuator42,bool,ESP32+ESP8266,None,actuator_42.ino,IMPLEMENTED,LED Driver 42 module for ESP32/ESP8266
+A2739,Motor Driver 43,ACTUATOR,PWM,actuator43,duty,ESP32+ESP8266,None,actuator_43.ino,IMPLEMENTED,Motor Driver 43 module for ESP32/ESP8266
+A2740,Buzzer 44,ACTUATOR,PWM,actuator44,Hz,ESP32+ESP8266,None,actuator_44.ino,IMPLEMENTED,Buzzer 44 module for ESP32/ESP8266
+A2741,Servo 45,ACTUATOR,PWM,actuator45,deg,ESP32+ESP8266,None,actuator_45.ino,IMPLEMENTED,Servo 45 module for ESP32/ESP8266
+A2742,Solenoid 46,ACTUATOR,PWM,actuator46,bool,ESP32+ESP8266,None,actuator_46.ino,IMPLEMENTED,Solenoid 46 module for ESP32/ESP8266
+A2743,Fan Controller 47,ACTUATOR,PWM,actuator47,rpm,ESP32+ESP8266,None,actuator_47.ino,IMPLEMENTED,Fan Controller 47 module for ESP32/ESP8266
+A2744,Pump 48,ACTUATOR,PWM,actuator48,bool,ESP32+ESP8266,None,actuator_48.ino,IMPLEMENTED,Pump 48 module for ESP32/ESP8266
+A2745,Relay Module 49,ACTUATOR,PWM,actuator49,bool,ESP32+ESP8266,None,actuator_49.ino,IMPLEMENTED,Relay Module 49 module for ESP32/ESP8266
+A2746,LED Driver 50,ACTUATOR,PWM,actuator50,bool,ESP32+ESP8266,None,actuator_50.ino,IMPLEMENTED,LED Driver 50 module for ESP32/ESP8266
+A2747,Motor Driver 51,ACTUATOR,PWM,actuator51,duty,ESP32+ESP8266,None,actuator_51.ino,IMPLEMENTED,Motor Driver 51 module for ESP32/ESP8266
+A2748,Buzzer 52,ACTUATOR,PWM,actuator52,Hz,ESP32+ESP8266,None,actuator_52.ino,IMPLEMENTED,Buzzer 52 module for ESP32/ESP8266
+A2749,Servo 53,ACTUATOR,PWM,actuator53,deg,ESP32+ESP8266,None,actuator_53.ino,IMPLEMENTED,Servo 53 module for ESP32/ESP8266
+A2750,Solenoid 54,ACTUATOR,PWM,actuator54,bool,ESP32+ESP8266,None,actuator_54.ino,IMPLEMENTED,Solenoid 54 module for ESP32/ESP8266
+A2751,Fan Controller 55,ACTUATOR,PWM,actuator55,rpm,ESP32+ESP8266,None,actuator_55.ino,IMPLEMENTED,Fan Controller 55 module for ESP32/ESP8266
+A2752,Pump 56,ACTUATOR,PWM,actuator56,bool,ESP32+ESP8266,None,actuator_56.ino,IMPLEMENTED,Pump 56 module for ESP32/ESP8266
+A2753,Relay Module 57,ACTUATOR,PWM,actuator57,bool,ESP32+ESP8266,None,actuator_57.ino,IMPLEMENTED,Relay Module 57 module for ESP32/ESP8266
+A2754,LED Driver 58,ACTUATOR,PWM,actuator58,bool,ESP32+ESP8266,None,actuator_58.ino,IMPLEMENTED,LED Driver 58 module for ESP32/ESP8266
+A2755,Motor Driver 59,ACTUATOR,PWM,actuator59,duty,ESP32+ESP8266,None,actuator_59.ino,IMPLEMENTED,Motor Driver 59 module for ESP32/ESP8266
+A2756,Buzzer 60,ACTUATOR,PWM,actuator60,Hz,ESP32+ESP8266,None,actuator_60.ino,IMPLEMENTED,Buzzer 60 module for ESP32/ESP8266
+A2757,Servo 61,ACTUATOR,PWM,actuator61,deg,ESP32+ESP8266,None,actuator_61.ino,IMPLEMENTED,Servo 61 module for ESP32/ESP8266
+A2758,Solenoid 62,ACTUATOR,PWM,actuator62,bool,ESP32+ESP8266,None,actuator_62.ino,IMPLEMENTED,Solenoid 62 module for ESP32/ESP8266
+A2759,Fan Controller 63,ACTUATOR,PWM,actuator63,rpm,ESP32+ESP8266,None,actuator_63.ino,IMPLEMENTED,Fan Controller 63 module for ESP32/ESP8266
+A2760,Pump 64,ACTUATOR,PWM,actuator64,bool,ESP32+ESP8266,None,actuator_64.ino,IMPLEMENTED,Pump 64 module for ESP32/ESP8266
+A2761,Relay Module 65,ACTUATOR,PWM,actuator65,bool,ESP32+ESP8266,None,actuator_65.ino,IMPLEMENTED,Relay Module 65 module for ESP32/ESP8266
+A2762,LED Driver 66,ACTUATOR,PWM,actuator66,bool,ESP32+ESP8266,None,actuator_66.ino,IMPLEMENTED,LED Driver 66 module for ESP32/ESP8266
+A2763,Motor Driver 67,ACTUATOR,PWM,actuator67,duty,ESP32+ESP8266,None,actuator_67.ino,IMPLEMENTED,Motor Driver 67 module for ESP32/ESP8266
+A2764,Buzzer 68,ACTUATOR,PWM,actuator68,Hz,ESP32+ESP8266,None,actuator_68.ino,IMPLEMENTED,Buzzer 68 module for ESP32/ESP8266
+A2765,Servo 69,ACTUATOR,PWM,actuator69,deg,ESP32+ESP8266,None,actuator_69.ino,IMPLEMENTED,Servo 69 module for ESP32/ESP8266
+A2766,Solenoid 70,ACTUATOR,PWM,actuator70,bool,ESP32+ESP8266,None,actuator_70.ino,IMPLEMENTED,Solenoid 70 module for ESP32/ESP8266
+A2767,Fan Controller 71,ACTUATOR,PWM,actuator71,rpm,ESP32+ESP8266,None,actuator_71.ino,IMPLEMENTED,Fan Controller 71 module for ESP32/ESP8266
+A2768,Pump 72,ACTUATOR,PWM,actuator72,bool,ESP32+ESP8266,None,actuator_72.ino,IMPLEMENTED,Pump 72 module for ESP32/ESP8266
+A2769,Relay Module 73,ACTUATOR,PWM,actuator73,bool,ESP32+ESP8266,None,actuator_73.ino,IMPLEMENTED,Relay Module 73 module for ESP32/ESP8266
+A2770,LED Driver 74,ACTUATOR,PWM,actuator74,bool,ESP32+ESP8266,None,actuator_74.ino,IMPLEMENTED,LED Driver 74 module for ESP32/ESP8266
+A2771,Motor Driver 75,ACTUATOR,PWM,actuator75,duty,ESP32+ESP8266,None,actuator_75.ino,IMPLEMENTED,Motor Driver 75 module for ESP32/ESP8266
+A2772,Buzzer 76,ACTUATOR,PWM,actuator76,Hz,ESP32+ESP8266,None,actuator_76.ino,IMPLEMENTED,Buzzer 76 module for ESP32/ESP8266
+A2773,Servo 77,ACTUATOR,PWM,actuator77,deg,ESP32+ESP8266,None,actuator_77.ino,IMPLEMENTED,Servo 77 module for ESP32/ESP8266
+A2774,Solenoid 78,ACTUATOR,PWM,actuator78,bool,ESP32+ESP8266,None,actuator_78.ino,IMPLEMENTED,Solenoid 78 module for ESP32/ESP8266
+A2775,Fan Controller 79,ACTUATOR,PWM,actuator79,rpm,ESP32+ESP8266,None,actuator_79.ino,IMPLEMENTED,Fan Controller 79 module for ESP32/ESP8266
+A2776,Pump 80,ACTUATOR,PWM,actuator80,bool,ESP32+ESP8266,None,actuator_80.ino,IMPLEMENTED,Pump 80 module for ESP32/ESP8266
+A2777,Relay Module 81,ACTUATOR,PWM,actuator81,bool,ESP32+ESP8266,None,actuator_81.ino,IMPLEMENTED,Relay Module 81 module for ESP32/ESP8266
+A2778,LED Driver 82,ACTUATOR,PWM,actuator82,bool,ESP32+ESP8266,None,actuator_82.ino,IMPLEMENTED,LED Driver 82 module for ESP32/ESP8266
+A2779,Motor Driver 83,ACTUATOR,PWM,actuator83,duty,ESP32+ESP8266,None,actuator_83.ino,IMPLEMENTED,Motor Driver 83 module for ESP32/ESP8266
+A2780,Buzzer 84,ACTUATOR,PWM,actuator84,Hz,ESP32+ESP8266,None,actuator_84.ino,IMPLEMENTED,Buzzer 84 module for ESP32/ESP8266
+A2781,Servo 85,ACTUATOR,PWM,actuator85,deg,ESP32+ESP8266,None,actuator_85.ino,IMPLEMENTED,Servo 85 module for ESP32/ESP8266
+A2782,Solenoid 86,ACTUATOR,PWM,actuator86,bool,ESP32+ESP8266,None,actuator_86.ino,IMPLEMENTED,Solenoid 86 module for ESP32/ESP8266
+A2783,Fan Controller 87,ACTUATOR,PWM,actuator87,rpm,ESP32+ESP8266,None,actuator_87.ino,IMPLEMENTED,Fan Controller 87 module for ESP32/ESP8266
+A2784,Pump 88,ACTUATOR,PWM,actuator88,bool,ESP32+ESP8266,None,actuator_88.ino,IMPLEMENTED,Pump 88 module for ESP32/ESP8266
+A2785,Relay Module 89,ACTUATOR,PWM,actuator89,bool,ESP32+ESP8266,None,actuator_89.ino,IMPLEMENTED,Relay Module 89 module for ESP32/ESP8266
+A2786,LED Driver 90,ACTUATOR,PWM,actuator90,bool,ESP32+ESP8266,None,actuator_90.ino,IMPLEMENTED,LED Driver 90 module for ESP32/ESP8266
+A2787,Motor Driver 91,ACTUATOR,PWM,actuator91,duty,ESP32+ESP8266,None,actuator_91.ino,IMPLEMENTED,Motor Driver 91 module for ESP32/ESP8266
+A2788,Buzzer 92,ACTUATOR,PWM,actuator92,Hz,ESP32+ESP8266,None,actuator_92.ino,IMPLEMENTED,Buzzer 92 module for ESP32/ESP8266
+A2789,Servo 93,ACTUATOR,PWM,actuator93,deg,ESP32+ESP8266,None,actuator_93.ino,IMPLEMENTED,Servo 93 module for ESP32/ESP8266
+A2790,Solenoid 94,ACTUATOR,PWM,actuator94,bool,ESP32+ESP8266,None,actuator_94.ino,IMPLEMENTED,Solenoid 94 module for ESP32/ESP8266
+A2791,Fan Controller 95,ACTUATOR,PWM,actuator95,rpm,ESP32+ESP8266,None,actuator_95.ino,IMPLEMENTED,Fan Controller 95 module for ESP32/ESP8266
+A2792,Pump 96,ACTUATOR,PWM,actuator96,bool,ESP32+ESP8266,None,actuator_96.ino,IMPLEMENTED,Pump 96 module for ESP32/ESP8266
+A2793,Relay Module 97,ACTUATOR,PWM,actuator97,bool,ESP32+ESP8266,None,actuator_97.ino,IMPLEMENTED,Relay Module 97 module for ESP32/ESP8266
+A2794,LED Driver 98,ACTUATOR,PWM,actuator98,bool,ESP32+ESP8266,None,actuator_98.ino,IMPLEMENTED,LED Driver 98 module for ESP32/ESP8266
+A2795,Motor Driver 99,ACTUATOR,PWM,actuator99,duty,ESP32+ESP8266,None,actuator_99.ino,IMPLEMENTED,Motor Driver 99 module for ESP32/ESP8266
+A2796,Buzzer 100,ACTUATOR,PWM,actuator100,Hz,ESP32+ESP8266,None,actuator_100.ino,IMPLEMENTED,Buzzer 100 module for ESP32/ESP8266
+A2797,PIR Motion 1,DIGITAL,DIGITAL,digital1,bool,ESP32+ESP8266,None,digital_1.ino,IMPLEMENTED,PIR Motion 1 module for ESP32/ESP8266
+A2798,IR Obstacle 2,DIGITAL,DIGITAL,digital2,bool,ESP32+ESP8266,None,digital_2.ino,IMPLEMENTED,IR Obstacle 2 module for ESP32/ESP8266
+A2799,Reed Switch 3,DIGITAL,DIGITAL,digital3,bool,ESP32+ESP8266,None,digital_3.ino,IMPLEMENTED,Reed Switch 3 module for ESP32/ESP8266
+A2800,Tilt Sensor 4,DIGITAL,DIGITAL,digital4,bool,ESP32+ESP8266,None,digital_4.ino,IMPLEMENTED,Tilt Sensor 4 module for ESP32/ESP8266
+A2801,Flame Sensor 5,DIGITAL,DIGITAL,digital5,bool,ESP32+ESP8266,None,digital_5.ino,IMPLEMENTED,Flame Sensor 5 module for ESP32/ESP8266
+A2802,Touch Sensor 6,DIGITAL,DIGITAL,digital6,bool,ESP32+ESP8266,None,digital_6.ino,IMPLEMENTED,Touch Sensor 6 module for ESP32/ESP8266
+A2803,Water Level 7,DIGITAL,DIGITAL,digital7,bool,ESP32+ESP8266,None,digital_7.ino,IMPLEMENTED,Water Level 7 module for ESP32/ESP8266
+A2804,Limit Switch 8,DIGITAL,DIGITAL,digital8,bool,ESP32+ESP8266,None,digital_8.ino,IMPLEMENTED,Limit Switch 8 module for ESP32/ESP8266
+A2805,Shock Sensor 9,DIGITAL,DIGITAL,digital9,bool,ESP32+ESP8266,None,digital_9.ino,IMPLEMENTED,Shock Sensor 9 module for ESP32/ESP8266
+A2806,Vibration Digital 10,DIGITAL,DIGITAL,digital10,bool,ESP32+ESP8266,None,digital_10.ino,IMPLEMENTED,Vibration Digital 10 module for ESP32/ESP8266
+A2807,PIR Motion 11,DIGITAL,DIGITAL,digital11,bool,ESP32+ESP8266,None,digital_11.ino,IMPLEMENTED,PIR Motion 11 module for ESP32/ESP8266
+A2808,IR Obstacle 12,DIGITAL,DIGITAL,digital12,bool,ESP32+ESP8266,None,digital_12.ino,IMPLEMENTED,IR Obstacle 12 module for ESP32/ESP8266
+A2809,Reed Switch 13,DIGITAL,DIGITAL,digital13,bool,ESP32+ESP8266,None,digital_13.ino,IMPLEMENTED,Reed Switch 13 module for ESP32/ESP8266
+A2810,Tilt Sensor 14,DIGITAL,DIGITAL,digital14,bool,ESP32+ESP8266,None,digital_14.ino,IMPLEMENTED,Tilt Sensor 14 module for ESP32/ESP8266
+A2811,Flame Sensor 15,DIGITAL,DIGITAL,digital15,bool,ESP32+ESP8266,None,digital_15.ino,IMPLEMENTED,Flame Sensor 15 module for ESP32/ESP8266
+A2812,Touch Sensor 16,DIGITAL,DIGITAL,digital16,bool,ESP32+ESP8266,None,digital_16.ino,IMPLEMENTED,Touch Sensor 16 module for ESP32/ESP8266
+A2813,Water Level 17,DIGITAL,DIGITAL,digital17,bool,ESP32+ESP8266,None,digital_17.ino,IMPLEMENTED,Water Level 17 module for ESP32/ESP8266
+A2814,Limit Switch 18,DIGITAL,DIGITAL,digital18,bool,ESP32+ESP8266,None,digital_18.ino,IMPLEMENTED,Limit Switch 18 module for ESP32/ESP8266
+A2815,Shock Sensor 19,DIGITAL,DIGITAL,digital19,bool,ESP32+ESP8266,None,digital_19.ino,IMPLEMENTED,Shock Sensor 19 module for ESP32/ESP8266
+A2816,Vibration Digital 20,DIGITAL,DIGITAL,digital20,bool,ESP32+ESP8266,None,digital_20.ino,IMPLEMENTED,Vibration Digital 20 module for ESP32/ESP8266
+A2817,PIR Motion 21,DIGITAL,DIGITAL,digital21,bool,ESP32+ESP8266,None,digital_21.ino,IMPLEMENTED,PIR Motion 21 module for ESP32/ESP8266
+A2818,IR Obstacle 22,DIGITAL,DIGITAL,digital22,bool,ESP32+ESP8266,None,digital_22.ino,IMPLEMENTED,IR Obstacle 22 module for ESP32/ESP8266
+A2819,Reed Switch 23,DIGITAL,DIGITAL,digital23,bool,ESP32+ESP8266,None,digital_23.ino,IMPLEMENTED,Reed Switch 23 module for ESP32/ESP8266
+A2820,Tilt Sensor 24,DIGITAL,DIGITAL,digital24,bool,ESP32+ESP8266,None,digital_24.ino,IMPLEMENTED,Tilt Sensor 24 module for ESP32/ESP8266
+A2821,Flame Sensor 25,DIGITAL,DIGITAL,digital25,bool,ESP32+ESP8266,None,digital_25.ino,IMPLEMENTED,Flame Sensor 25 module for ESP32/ESP8266
+A2822,Touch Sensor 26,DIGITAL,DIGITAL,digital26,bool,ESP32+ESP8266,None,digital_26.ino,IMPLEMENTED,Touch Sensor 26 module for ESP32/ESP8266
+A2823,Water Level 27,DIGITAL,DIGITAL,digital27,bool,ESP32+ESP8266,None,digital_27.ino,IMPLEMENTED,Water Level 27 module for ESP32/ESP8266
+A2824,Limit Switch 28,DIGITAL,DIGITAL,digital28,bool,ESP32+ESP8266,None,digital_28.ino,IMPLEMENTED,Limit Switch 28 module for ESP32/ESP8266
+A2825,Shock Sensor 29,DIGITAL,DIGITAL,digital29,bool,ESP32+ESP8266,None,digital_29.ino,IMPLEMENTED,Shock Sensor 29 module for ESP32/ESP8266
+A2826,Vibration Digital 30,DIGITAL,DIGITAL,digital30,bool,ESP32+ESP8266,None,digital_30.ino,IMPLEMENTED,Vibration Digital 30 module for ESP32/ESP8266
+A2827,PIR Motion 31,DIGITAL,DIGITAL,digital31,bool,ESP32+ESP8266,None,digital_31.ino,IMPLEMENTED,PIR Motion 31 module for ESP32/ESP8266
+A2828,IR Obstacle 32,DIGITAL,DIGITAL,digital32,bool,ESP32+ESP8266,None,digital_32.ino,IMPLEMENTED,IR Obstacle 32 module for ESP32/ESP8266
+A2829,Reed Switch 33,DIGITAL,DIGITAL,digital33,bool,ESP32+ESP8266,None,digital_33.ino,IMPLEMENTED,Reed Switch 33 module for ESP32/ESP8266
+A2830,Tilt Sensor 34,DIGITAL,DIGITAL,digital34,bool,ESP32+ESP8266,None,digital_34.ino,IMPLEMENTED,Tilt Sensor 34 module for ESP32/ESP8266
+A2831,Flame Sensor 35,DIGITAL,DIGITAL,digital35,bool,ESP32+ESP8266,None,digital_35.ino,IMPLEMENTED,Flame Sensor 35 module for ESP32/ESP8266
+A2832,Touch Sensor 36,DIGITAL,DIGITAL,digital36,bool,ESP32+ESP8266,None,digital_36.ino,IMPLEMENTED,Touch Sensor 36 module for ESP32/ESP8266
+A2833,Water Level 37,DIGITAL,DIGITAL,digital37,bool,ESP32+ESP8266,None,digital_37.ino,IMPLEMENTED,Water Level 37 module for ESP32/ESP8266
+A2834,Limit Switch 38,DIGITAL,DIGITAL,digital38,bool,ESP32+ESP8266,None,digital_38.ino,IMPLEMENTED,Limit Switch 38 module for ESP32/ESP8266
+A2835,Shock Sensor 39,DIGITAL,DIGITAL,digital39,bool,ESP32+ESP8266,None,digital_39.ino,IMPLEMENTED,Shock Sensor 39 module for ESP32/ESP8266
+A2836,Vibration Digital 40,DIGITAL,DIGITAL,digital40,bool,ESP32+ESP8266,None,digital_40.ino,IMPLEMENTED,Vibration Digital 40 module for ESP32/ESP8266
+A2837,PIR Motion 41,DIGITAL,DIGITAL,digital41,bool,ESP32+ESP8266,None,digital_41.ino,IMPLEMENTED,PIR Motion 41 module for ESP32/ESP8266
+A2838,IR Obstacle 42,DIGITAL,DIGITAL,digital42,bool,ESP32+ESP8266,None,digital_42.ino,IMPLEMENTED,IR Obstacle 42 module for ESP32/ESP8266
+A2839,Reed Switch 43,DIGITAL,DIGITAL,digital43,bool,ESP32+ESP8266,None,digital_43.ino,IMPLEMENTED,Reed Switch 43 module for ESP32/ESP8266
+A2840,Tilt Sensor 44,DIGITAL,DIGITAL,digital44,bool,ESP32+ESP8266,None,digital_44.ino,IMPLEMENTED,Tilt Sensor 44 module for ESP32/ESP8266
+A2841,Flame Sensor 45,DIGITAL,DIGITAL,digital45,bool,ESP32+ESP8266,None,digital_45.ino,IMPLEMENTED,Flame Sensor 45 module for ESP32/ESP8266
+A2842,Touch Sensor 46,DIGITAL,DIGITAL,digital46,bool,ESP32+ESP8266,None,digital_46.ino,IMPLEMENTED,Touch Sensor 46 module for ESP32/ESP8266
+A2843,Water Level 47,DIGITAL,DIGITAL,digital47,bool,ESP32+ESP8266,None,digital_47.ino,IMPLEMENTED,Water Level 47 module for ESP32/ESP8266
+A2844,Limit Switch 48,DIGITAL,DIGITAL,digital48,bool,ESP32+ESP8266,None,digital_48.ino,IMPLEMENTED,Limit Switch 48 module for ESP32/ESP8266
+A2845,Shock Sensor 49,DIGITAL,DIGITAL,digital49,bool,ESP32+ESP8266,None,digital_49.ino,IMPLEMENTED,Shock Sensor 49 module for ESP32/ESP8266
+A2846,Vibration Digital 50,DIGITAL,DIGITAL,digital50,bool,ESP32+ESP8266,None,digital_50.ino,IMPLEMENTED,Vibration Digital 50 module for ESP32/ESP8266
+A2847,PIR Motion 51,DIGITAL,DIGITAL,digital51,bool,ESP32+ESP8266,None,digital_51.ino,IMPLEMENTED,PIR Motion 51 module for ESP32/ESP8266
+A2848,IR Obstacle 52,DIGITAL,DIGITAL,digital52,bool,ESP32+ESP8266,None,digital_52.ino,IMPLEMENTED,IR Obstacle 52 module for ESP32/ESP8266
+A2849,Reed Switch 53,DIGITAL,DIGITAL,digital53,bool,ESP32+ESP8266,None,digital_53.ino,IMPLEMENTED,Reed Switch 53 module for ESP32/ESP8266
+A2850,Tilt Sensor 54,DIGITAL,DIGITAL,digital54,bool,ESP32+ESP8266,None,digital_54.ino,IMPLEMENTED,Tilt Sensor 54 module for ESP32/ESP8266
+A2851,Flame Sensor 55,DIGITAL,DIGITAL,digital55,bool,ESP32+ESP8266,None,digital_55.ino,IMPLEMENTED,Flame Sensor 55 module for ESP32/ESP8266
+A2852,Touch Sensor 56,DIGITAL,DIGITAL,digital56,bool,ESP32+ESP8266,None,digital_56.ino,IMPLEMENTED,Touch Sensor 56 module for ESP32/ESP8266
+A2853,Water Level 57,DIGITAL,DIGITAL,digital57,bool,ESP32+ESP8266,None,digital_57.ino,IMPLEMENTED,Water Level 57 module for ESP32/ESP8266
+A2854,Limit Switch 58,DIGITAL,DIGITAL,digital58,bool,ESP32+ESP8266,None,digital_58.ino,IMPLEMENTED,Limit Switch 58 module for ESP32/ESP8266
+A2855,Shock Sensor 59,DIGITAL,DIGITAL,digital59,bool,ESP32+ESP8266,None,digital_59.ino,IMPLEMENTED,Shock Sensor 59 module for ESP32/ESP8266
+A2856,Vibration Digital 60,DIGITAL,DIGITAL,digital60,bool,ESP32+ESP8266,None,digital_60.ino,IMPLEMENTED,Vibration Digital 60 module for ESP32/ESP8266
+A2857,PIR Motion 61,DIGITAL,DIGITAL,digital61,bool,ESP32+ESP8266,None,digital_61.ino,IMPLEMENTED,PIR Motion 61 module for ESP32/ESP8266
+A2858,IR Obstacle 62,DIGITAL,DIGITAL,digital62,bool,ESP32+ESP8266,None,digital_62.ino,IMPLEMENTED,IR Obstacle 62 module for ESP32/ESP8266
+A2859,Reed Switch 63,DIGITAL,DIGITAL,digital63,bool,ESP32+ESP8266,None,digital_63.ino,IMPLEMENTED,Reed Switch 63 module for ESP32/ESP8266
+A2860,Tilt Sensor 64,DIGITAL,DIGITAL,digital64,bool,ESP32+ESP8266,None,digital_64.ino,IMPLEMENTED,Tilt Sensor 64 module for ESP32/ESP8266
+A2861,Flame Sensor 65,DIGITAL,DIGITAL,digital65,bool,ESP32+ESP8266,None,digital_65.ino,IMPLEMENTED,Flame Sensor 65 module for ESP32/ESP8266
+A2862,Touch Sensor 66,DIGITAL,DIGITAL,digital66,bool,ESP32+ESP8266,None,digital_66.ino,IMPLEMENTED,Touch Sensor 66 module for ESP32/ESP8266
+A2863,Water Level 67,DIGITAL,DIGITAL,digital67,bool,ESP32+ESP8266,None,digital_67.ino,IMPLEMENTED,Water Level 67 module for ESP32/ESP8266
+A2864,Limit Switch 68,DIGITAL,DIGITAL,digital68,bool,ESP32+ESP8266,None,digital_68.ino,IMPLEMENTED,Limit Switch 68 module for ESP32/ESP8266
+A2865,Shock Sensor 69,DIGITAL,DIGITAL,digital69,bool,ESP32+ESP8266,None,digital_69.ino,IMPLEMENTED,Shock Sensor 69 module for ESP32/ESP8266
+A2866,Vibration Digital 70,DIGITAL,DIGITAL,digital70,bool,ESP32+ESP8266,None,digital_70.ino,IMPLEMENTED,Vibration Digital 70 module for ESP32/ESP8266
+A2867,PIR Motion 71,DIGITAL,DIGITAL,digital71,bool,ESP32+ESP8266,None,digital_71.ino,IMPLEMENTED,PIR Motion 71 module for ESP32/ESP8266
+A2868,IR Obstacle 72,DIGITAL,DIGITAL,digital72,bool,ESP32+ESP8266,None,digital_72.ino,IMPLEMENTED,IR Obstacle 72 module for ESP32/ESP8266
+A2869,Reed Switch 73,DIGITAL,DIGITAL,digital73,bool,ESP32+ESP8266,None,digital_73.ino,IMPLEMENTED,Reed Switch 73 module for ESP32/ESP8266
+A2870,Tilt Sensor 74,DIGITAL,DIGITAL,digital74,bool,ESP32+ESP8266,None,digital_74.ino,IMPLEMENTED,Tilt Sensor 74 module for ESP32/ESP8266
+A2871,Flame Sensor 75,DIGITAL,DIGITAL,digital75,bool,ESP32+ESP8266,None,digital_75.ino,IMPLEMENTED,Flame Sensor 75 module for ESP32/ESP8266
+A2872,Touch Sensor 76,DIGITAL,DIGITAL,digital76,bool,ESP32+ESP8266,None,digital_76.ino,IMPLEMENTED,Touch Sensor 76 module for ESP32/ESP8266
+A2873,Water Level 77,DIGITAL,DIGITAL,digital77,bool,ESP32+ESP8266,None,digital_77.ino,IMPLEMENTED,Water Level 77 module for ESP32/ESP8266
+A2874,Limit Switch 78,DIGITAL,DIGITAL,digital78,bool,ESP32+ESP8266,None,digital_78.ino,IMPLEMENTED,Limit Switch 78 module for ESP32/ESP8266
+A2875,Shock Sensor 79,DIGITAL,DIGITAL,digital79,bool,ESP32+ESP8266,None,digital_79.ino,IMPLEMENTED,Shock Sensor 79 module for ESP32/ESP8266
+A2876,Vibration Digital 80,DIGITAL,DIGITAL,digital80,bool,ESP32+ESP8266,None,digital_80.ino,IMPLEMENTED,Vibration Digital 80 module for ESP32/ESP8266
+A2877,PIR Motion 81,DIGITAL,DIGITAL,digital81,bool,ESP32+ESP8266,None,digital_81.ino,IMPLEMENTED,PIR Motion 81 module for ESP32/ESP8266
+A2878,IR Obstacle 82,DIGITAL,DIGITAL,digital82,bool,ESP32+ESP8266,None,digital_82.ino,IMPLEMENTED,IR Obstacle 82 module for ESP32/ESP8266
+A2879,Reed Switch 83,DIGITAL,DIGITAL,digital83,bool,ESP32+ESP8266,None,digital_83.ino,IMPLEMENTED,Reed Switch 83 module for ESP32/ESP8266
+A2880,Tilt Sensor 84,DIGITAL,DIGITAL,digital84,bool,ESP32+ESP8266,None,digital_84.ino,IMPLEMENTED,Tilt Sensor 84 module for ESP32/ESP8266
+A2881,Flame Sensor 85,DIGITAL,DIGITAL,digital85,bool,ESP32+ESP8266,None,digital_85.ino,IMPLEMENTED,Flame Sensor 85 module for ESP32/ESP8266
+A2882,Touch Sensor 86,DIGITAL,DIGITAL,digital86,bool,ESP32+ESP8266,None,digital_86.ino,IMPLEMENTED,Touch Sensor 86 module for ESP32/ESP8266
+A2883,Water Level 87,DIGITAL,DIGITAL,digital87,bool,ESP32+ESP8266,None,digital_87.ino,IMPLEMENTED,Water Level 87 module for ESP32/ESP8266
+A2884,Limit Switch 88,DIGITAL,DIGITAL,digital88,bool,ESP32+ESP8266,None,digital_88.ino,IMPLEMENTED,Limit Switch 88 module for ESP32/ESP8266
+A2885,Shock Sensor 89,DIGITAL,DIGITAL,digital89,bool,ESP32+ESP8266,None,digital_89.ino,IMPLEMENTED,Shock Sensor 89 module for ESP32/ESP8266
+A2886,Vibration Digital 90,DIGITAL,DIGITAL,digital90,bool,ESP32+ESP8266,None,digital_90.ino,IMPLEMENTED,Vibration Digital 90 module for ESP32/ESP8266
+A2887,PIR Motion 91,DIGITAL,DIGITAL,digital91,bool,ESP32+ESP8266,None,digital_91.ino,IMPLEMENTED,PIR Motion 91 module for ESP32/ESP8266
+A2888,IR Obstacle 92,DIGITAL,DIGITAL,digital92,bool,ESP32+ESP8266,None,digital_92.ino,IMPLEMENTED,IR Obstacle 92 module for ESP32/ESP8266
+A2889,Reed Switch 93,DIGITAL,DIGITAL,digital93,bool,ESP32+ESP8266,None,digital_93.ino,IMPLEMENTED,Reed Switch 93 module for ESP32/ESP8266
+A2890,Tilt Sensor 94,DIGITAL,DIGITAL,digital94,bool,ESP32+ESP8266,None,digital_94.ino,IMPLEMENTED,Tilt Sensor 94 module for ESP32/ESP8266
+A2891,Flame Sensor 95,DIGITAL,DIGITAL,digital95,bool,ESP32+ESP8266,None,digital_95.ino,IMPLEMENTED,Flame Sensor 95 module for ESP32/ESP8266
+A2892,Touch Sensor 96,DIGITAL,DIGITAL,digital96,bool,ESP32+ESP8266,None,digital_96.ino,IMPLEMENTED,Touch Sensor 96 module for ESP32/ESP8266
+A2893,Water Level 97,DIGITAL,DIGITAL,digital97,bool,ESP32+ESP8266,None,digital_97.ino,IMPLEMENTED,Water Level 97 module for ESP32/ESP8266
+A2894,Limit Switch 98,DIGITAL,DIGITAL,digital98,bool,ESP32+ESP8266,None,digital_98.ino,IMPLEMENTED,Limit Switch 98 module for ESP32/ESP8266
+A2895,Shock Sensor 99,DIGITAL,DIGITAL,digital99,bool,ESP32+ESP8266,None,digital_99.ino,IMPLEMENTED,Shock Sensor 99 module for ESP32/ESP8266
+A2896,Vibration Digital 100,DIGITAL,DIGITAL,digital100,bool,ESP32+ESP8266,None,digital_100.ino,IMPLEMENTED,Vibration Digital 100 module for ESP32/ESP8266
+A2897,RF Module 1,RADIO,SPI,radio1,bytes,ESP32+ESP8266,None,radio_1.ino,IMPLEMENTED,RF Module 1 module for ESP32/ESP8266
+A2898,BLE Sensor 2,RADIO,BLE,radio2,raw,ESP32+ESP8266,None,radio_2.ino,IMPLEMENTED,BLE Sensor 2 module for ESP32/ESP8266
+A2899,WiFi Module 3,RADIO,WIFI,radio3,bytes,ESP32+ESP8266,None,radio_3.ino,IMPLEMENTED,WiFi Module 3 module for ESP32/ESP8266
+A2900,LoRa Module 4,RADIO,SPI,radio4,bytes,ESP32+ESP8266,None,radio_4.ino,IMPLEMENTED,LoRa Module 4 module for ESP32/ESP8266
+A2901,NFC Module 5,RADIO,I2C,radio5,bytes,ESP32+ESP8266,None,radio_5.ino,IMPLEMENTED,NFC Module 5 module for ESP32/ESP8266
+A2902,RF Module 6,RADIO,SPI,radio6,bytes,ESP32+ESP8266,None,radio_6.ino,IMPLEMENTED,RF Module 6 module for ESP32/ESP8266
+A2903,BLE Sensor 7,RADIO,BLE,radio7,raw,ESP32+ESP8266,None,radio_7.ino,IMPLEMENTED,BLE Sensor 7 module for ESP32/ESP8266
+A2904,WiFi Module 8,RADIO,WIFI,radio8,bytes,ESP32+ESP8266,None,radio_8.ino,IMPLEMENTED,WiFi Module 8 module for ESP32/ESP8266
+A2905,LoRa Module 9,RADIO,SPI,radio9,bytes,ESP32+ESP8266,None,radio_9.ino,IMPLEMENTED,LoRa Module 9 module for ESP32/ESP8266
+A2906,NFC Module 10,RADIO,I2C,radio10,bytes,ESP32+ESP8266,None,radio_10.ino,IMPLEMENTED,NFC Module 10 module for ESP32/ESP8266
+A2907,RF Module 11,RADIO,SPI,radio11,bytes,ESP32+ESP8266,None,radio_11.ino,IMPLEMENTED,RF Module 11 module for ESP32/ESP8266
+A2908,BLE Sensor 12,RADIO,BLE,radio12,raw,ESP32+ESP8266,None,radio_12.ino,IMPLEMENTED,BLE Sensor 12 module for ESP32/ESP8266
+A2909,WiFi Module 13,RADIO,WIFI,radio13,bytes,ESP32+ESP8266,None,radio_13.ino,IMPLEMENTED,WiFi Module 13 module for ESP32/ESP8266
+A2910,LoRa Module 14,RADIO,SPI,radio14,bytes,ESP32+ESP8266,None,radio_14.ino,IMPLEMENTED,LoRa Module 14 module for ESP32/ESP8266
+A2911,NFC Module 15,RADIO,I2C,radio15,bytes,ESP32+ESP8266,None,radio_15.ino,IMPLEMENTED,NFC Module 15 module for ESP32/ESP8266
+A2912,RF Module 16,RADIO,SPI,radio16,bytes,ESP32+ESP8266,None,radio_16.ino,IMPLEMENTED,RF Module 16 module for ESP32/ESP8266
+A2913,BLE Sensor 17,RADIO,BLE,radio17,raw,ESP32+ESP8266,None,radio_17.ino,IMPLEMENTED,BLE Sensor 17 module for ESP32/ESP8266
+A2914,WiFi Module 18,RADIO,WIFI,radio18,bytes,ESP32+ESP8266,None,radio_18.ino,IMPLEMENTED,WiFi Module 18 module for ESP32/ESP8266
+A2915,LoRa Module 19,RADIO,SPI,radio19,bytes,ESP32+ESP8266,None,radio_19.ino,IMPLEMENTED,LoRa Module 19 module for ESP32/ESP8266
+A2916,NFC Module 20,RADIO,I2C,radio20,bytes,ESP32+ESP8266,None,radio_20.ino,IMPLEMENTED,NFC Module 20 module for ESP32/ESP8266
+A2917,RF Module 21,RADIO,SPI,radio21,bytes,ESP32+ESP8266,None,radio_21.ino,IMPLEMENTED,RF Module 21 module for ESP32/ESP8266
+A2918,BLE Sensor 22,RADIO,BLE,radio22,raw,ESP32+ESP8266,None,radio_22.ino,IMPLEMENTED,BLE Sensor 22 module for ESP32/ESP8266
+A2919,WiFi Module 23,RADIO,WIFI,radio23,bytes,ESP32+ESP8266,None,radio_23.ino,IMPLEMENTED,WiFi Module 23 module for ESP32/ESP8266
+A2920,LoRa Module 24,RADIO,SPI,radio24,bytes,ESP32+ESP8266,None,radio_24.ino,IMPLEMENTED,LoRa Module 24 module for ESP32/ESP8266
+A2921,NFC Module 25,RADIO,I2C,radio25,bytes,ESP32+ESP8266,None,radio_25.ino,IMPLEMENTED,NFC Module 25 module for ESP32/ESP8266
+A2922,RF Module 26,RADIO,SPI,radio26,bytes,ESP32+ESP8266,None,radio_26.ino,IMPLEMENTED,RF Module 26 module for ESP32/ESP8266
+A2923,BLE Sensor 27,RADIO,BLE,radio27,raw,ESP32+ESP8266,None,radio_27.ino,IMPLEMENTED,BLE Sensor 27 module for ESP32/ESP8266
+A2924,WiFi Module 28,RADIO,WIFI,radio28,bytes,ESP32+ESP8266,None,radio_28.ino,IMPLEMENTED,WiFi Module 28 module for ESP32/ESP8266
+A2925,LoRa Module 29,RADIO,SPI,radio29,bytes,ESP32+ESP8266,None,radio_29.ino,IMPLEMENTED,LoRa Module 29 module for ESP32/ESP8266
+A2926,NFC Module 30,RADIO,I2C,radio30,bytes,ESP32+ESP8266,None,radio_30.ino,IMPLEMENTED,NFC Module 30 module for ESP32/ESP8266
+A2927,RF Module 31,RADIO,SPI,radio31,bytes,ESP32+ESP8266,None,radio_31.ino,IMPLEMENTED,RF Module 31 module for ESP32/ESP8266
+A2928,BLE Sensor 32,RADIO,BLE,radio32,raw,ESP32+ESP8266,None,radio_32.ino,IMPLEMENTED,BLE Sensor 32 module for ESP32/ESP8266
+A2929,WiFi Module 33,RADIO,WIFI,radio33,bytes,ESP32+ESP8266,None,radio_33.ino,IMPLEMENTED,WiFi Module 33 module for ESP32/ESP8266
+A2930,LoRa Module 34,RADIO,SPI,radio34,bytes,ESP32+ESP8266,None,radio_34.ino,IMPLEMENTED,LoRa Module 34 module for ESP32/ESP8266
+A2931,NFC Module 35,RADIO,I2C,radio35,bytes,ESP32+ESP8266,None,radio_35.ino,IMPLEMENTED,NFC Module 35 module for ESP32/ESP8266
+A2932,RF Module 36,RADIO,SPI,radio36,bytes,ESP32+ESP8266,None,radio_36.ino,IMPLEMENTED,RF Module 36 module for ESP32/ESP8266
+A2933,BLE Sensor 37,RADIO,BLE,radio37,raw,ESP32+ESP8266,None,radio_37.ino,IMPLEMENTED,BLE Sensor 37 module for ESP32/ESP8266
+A2934,WiFi Module 38,RADIO,WIFI,radio38,bytes,ESP32+ESP8266,None,radio_38.ino,IMPLEMENTED,WiFi Module 38 module for ESP32/ESP8266
+A2935,LoRa Module 39,RADIO,SPI,radio39,bytes,ESP32+ESP8266,None,radio_39.ino,IMPLEMENTED,LoRa Module 39 module for ESP32/ESP8266
+A2936,NFC Module 40,RADIO,I2C,radio40,bytes,ESP32+ESP8266,None,radio_40.ino,IMPLEMENTED,NFC Module 40 module for ESP32/ESP8266
+A2937,RF Module 41,RADIO,SPI,radio41,bytes,ESP32+ESP8266,None,radio_41.ino,IMPLEMENTED,RF Module 41 module for ESP32/ESP8266
+A2938,BLE Sensor 42,RADIO,BLE,radio42,raw,ESP32+ESP8266,None,radio_42.ino,IMPLEMENTED,BLE Sensor 42 module for ESP32/ESP8266
+A2939,WiFi Module 43,RADIO,WIFI,radio43,bytes,ESP32+ESP8266,None,radio_43.ino,IMPLEMENTED,WiFi Module 43 module for ESP32/ESP8266
+A2940,LoRa Module 44,RADIO,SPI,radio44,bytes,ESP32+ESP8266,None,radio_44.ino,IMPLEMENTED,LoRa Module 44 module for ESP32/ESP8266
+A2941,NFC Module 45,RADIO,I2C,radio45,bytes,ESP32+ESP8266,None,radio_45.ino,IMPLEMENTED,NFC Module 45 module for ESP32/ESP8266
+A2942,RF Module 46,RADIO,SPI,radio46,bytes,ESP32+ESP8266,None,radio_46.ino,IMPLEMENTED,RF Module 46 module for ESP32/ESP8266
+A2943,BLE Sensor 47,RADIO,BLE,radio47,raw,ESP32+ESP8266,None,radio_47.ino,IMPLEMENTED,BLE Sensor 47 module for ESP32/ESP8266
+A2944,WiFi Module 48,RADIO,WIFI,radio48,bytes,ESP32+ESP8266,None,radio_48.ino,IMPLEMENTED,WiFi Module 48 module for ESP32/ESP8266
+A2945,LoRa Module 49,RADIO,SPI,radio49,bytes,ESP32+ESP8266,None,radio_49.ino,IMPLEMENTED,LoRa Module 49 module for ESP32/ESP8266
+A2946,NFC Module 50,RADIO,I2C,radio50,bytes,ESP32+ESP8266,None,radio_50.ino,IMPLEMENTED,NFC Module 50 module for ESP32/ESP8266
+A2947,RF Module 51,RADIO,SPI,radio51,bytes,ESP32+ESP8266,None,radio_51.ino,IMPLEMENTED,RF Module 51 module for ESP32/ESP8266
+A2948,BLE Sensor 52,RADIO,BLE,radio52,raw,ESP32+ESP8266,None,radio_52.ino,IMPLEMENTED,BLE Sensor 52 module for ESP32/ESP8266
+A2949,WiFi Module 53,RADIO,WIFI,radio53,bytes,ESP32+ESP8266,None,radio_53.ino,IMPLEMENTED,WiFi Module 53 module for ESP32/ESP8266
+A2950,LoRa Module 54,RADIO,SPI,radio54,bytes,ESP32+ESP8266,None,radio_54.ino,IMPLEMENTED,LoRa Module 54 module for ESP32/ESP8266
+A2951,NFC Module 55,RADIO,I2C,radio55,bytes,ESP32+ESP8266,None,radio_55.ino,IMPLEMENTED,NFC Module 55 module for ESP32/ESP8266
+A2952,RF Module 56,RADIO,SPI,radio56,bytes,ESP32+ESP8266,None,radio_56.ino,IMPLEMENTED,RF Module 56 module for ESP32/ESP8266
+A2953,BLE Sensor 57,RADIO,BLE,radio57,raw,ESP32+ESP8266,None,radio_57.ino,IMPLEMENTED,BLE Sensor 57 module for ESP32/ESP8266
+A2954,WiFi Module 58,RADIO,WIFI,radio58,bytes,ESP32+ESP8266,None,radio_58.ino,IMPLEMENTED,WiFi Module 58 module for ESP32/ESP8266
+A2955,LoRa Module 59,RADIO,SPI,radio59,bytes,ESP32+ESP8266,None,radio_59.ino,IMPLEMENTED,LoRa Module 59 module for ESP32/ESP8266
+A2956,NFC Module 60,RADIO,I2C,radio60,bytes,ESP32+ESP8266,None,radio_60.ino,IMPLEMENTED,NFC Module 60 module for ESP32/ESP8266
+A2957,RF Module 61,RADIO,SPI,radio61,bytes,ESP32+ESP8266,None,radio_61.ino,IMPLEMENTED,RF Module 61 module for ESP32/ESP8266
+A2958,BLE Sensor 62,RADIO,BLE,radio62,raw,ESP32+ESP8266,None,radio_62.ino,IMPLEMENTED,BLE Sensor 62 module for ESP32/ESP8266
+A2959,WiFi Module 63,RADIO,WIFI,radio63,bytes,ESP32+ESP8266,None,radio_63.ino,IMPLEMENTED,WiFi Module 63 module for ESP32/ESP8266
+A2960,LoRa Module 64,RADIO,SPI,radio64,bytes,ESP32+ESP8266,None,radio_64.ino,IMPLEMENTED,LoRa Module 64 module for ESP32/ESP8266
+A2961,NFC Module 65,RADIO,I2C,radio65,bytes,ESP32+ESP8266,None,radio_65.ino,IMPLEMENTED,NFC Module 65 module for ESP32/ESP8266
+A2962,RF Module 66,RADIO,SPI,radio66,bytes,ESP32+ESP8266,None,radio_66.ino,IMPLEMENTED,RF Module 66 module for ESP32/ESP8266
+A2963,BLE Sensor 67,RADIO,BLE,radio67,raw,ESP32+ESP8266,None,radio_67.ino,IMPLEMENTED,BLE Sensor 67 module for ESP32/ESP8266
+A2964,WiFi Module 68,RADIO,WIFI,radio68,bytes,ESP32+ESP8266,None,radio_68.ino,IMPLEMENTED,WiFi Module 68 module for ESP32/ESP8266
+A2965,LoRa Module 69,RADIO,SPI,radio69,bytes,ESP32+ESP8266,None,radio_69.ino,IMPLEMENTED,LoRa Module 69 module for ESP32/ESP8266
+A2966,NFC Module 70,RADIO,I2C,radio70,bytes,ESP32+ESP8266,None,radio_70.ino,IMPLEMENTED,NFC Module 70 module for ESP32/ESP8266
+A2967,RF Module 71,RADIO,SPI,radio71,bytes,ESP32+ESP8266,None,radio_71.ino,IMPLEMENTED,RF Module 71 module for ESP32/ESP8266
+A2968,BLE Sensor 72,RADIO,BLE,radio72,raw,ESP32+ESP8266,None,radio_72.ino,IMPLEMENTED,BLE Sensor 72 module for ESP32/ESP8266
+A2969,WiFi Module 73,RADIO,WIFI,radio73,bytes,ESP32+ESP8266,None,radio_73.ino,IMPLEMENTED,WiFi Module 73 module for ESP32/ESP8266
+A2970,LoRa Module 74,RADIO,SPI,radio74,bytes,ESP32+ESP8266,None,radio_74.ino,IMPLEMENTED,LoRa Module 74 module for ESP32/ESP8266
+A2971,NFC Module 75,RADIO,I2C,radio75,bytes,ESP32+ESP8266,None,radio_75.ino,IMPLEMENTED,NFC Module 75 module for ESP32/ESP8266
+A2972,RF Module 76,RADIO,SPI,radio76,bytes,ESP32+ESP8266,None,radio_76.ino,IMPLEMENTED,RF Module 76 module for ESP32/ESP8266
+A2973,BLE Sensor 77,RADIO,BLE,radio77,raw,ESP32+ESP8266,None,radio_77.ino,IMPLEMENTED,BLE Sensor 77 module for ESP32/ESP8266
+A2974,WiFi Module 78,RADIO,WIFI,radio78,bytes,ESP32+ESP8266,None,radio_78.ino,IMPLEMENTED,WiFi Module 78 module for ESP32/ESP8266
+A2975,LoRa Module 79,RADIO,SPI,radio79,bytes,ESP32+ESP8266,None,radio_79.ino,IMPLEMENTED,LoRa Module 79 module for ESP32/ESP8266
+A2976,NFC Module 80,RADIO,I2C,radio80,bytes,ESP32+ESP8266,None,radio_80.ino,IMPLEMENTED,NFC Module 80 module for ESP32/ESP8266
+A2977,OLED Display 1,DISPLAY,I2C,display1,px,ESP32+ESP8266,None,display_1.ino,IMPLEMENTED,OLED Display 1 module for ESP32/ESP8266
+A2978,LCD Display 2,DISPLAY,I2C,display2,char,ESP32+ESP8266,None,display_2.ino,IMPLEMENTED,LCD Display 2 module for ESP32/ESP8266
+A2979,7-Segment 3,DISPLAY,I2C,display3,digit,ESP32+ESP8266,None,display_3.ino,IMPLEMENTED,7-Segment 3 module for ESP32/ESP8266
+A2980,LED Matrix 4,DISPLAY,SPI,display4,px,ESP32+ESP8266,None,display_4.ino,IMPLEMENTED,LED Matrix 4 module for ESP32/ESP8266
+A2981,TFT Display 5,DISPLAY,SPI,display5,px,ESP32+ESP8266,None,display_5.ino,IMPLEMENTED,TFT Display 5 module for ESP32/ESP8266
+A2982,OLED Display 6,DISPLAY,I2C,display6,px,ESP32+ESP8266,None,display_6.ino,IMPLEMENTED,OLED Display 6 module for ESP32/ESP8266
+A2983,LCD Display 7,DISPLAY,I2C,display7,char,ESP32+ESP8266,None,display_7.ino,IMPLEMENTED,LCD Display 7 module for ESP32/ESP8266
+A2984,7-Segment 8,DISPLAY,I2C,display8,digit,ESP32+ESP8266,None,display_8.ino,IMPLEMENTED,7-Segment 8 module for ESP32/ESP8266
+A2985,LED Matrix 9,DISPLAY,SPI,display9,px,ESP32+ESP8266,None,display_9.ino,IMPLEMENTED,LED Matrix 9 module for ESP32/ESP8266
+A2986,TFT Display 10,DISPLAY,SPI,display10,px,ESP32+ESP8266,None,display_10.ino,IMPLEMENTED,TFT Display 10 module for ESP32/ESP8266
+A2987,OLED Display 11,DISPLAY,I2C,display11,px,ESP32+ESP8266,None,display_11.ino,IMPLEMENTED,OLED Display 11 module for ESP32/ESP8266
+A2988,LCD Display 12,DISPLAY,I2C,display12,char,ESP32+ESP8266,None,display_12.ino,IMPLEMENTED,LCD Display 12 module for ESP32/ESP8266
+A2989,7-Segment 13,DISPLAY,I2C,display13,digit,ESP32+ESP8266,None,display_13.ino,IMPLEMENTED,7-Segment 13 module for ESP32/ESP8266
+A2990,LED Matrix 14,DISPLAY,SPI,display14,px,ESP32+ESP8266,None,display_14.ino,IMPLEMENTED,LED Matrix 14 module for ESP32/ESP8266
+A2991,TFT Display 15,DISPLAY,SPI,display15,px,ESP32+ESP8266,None,display_15.ino,IMPLEMENTED,TFT Display 15 module for ESP32/ESP8266
+A2992,OLED Display 16,DISPLAY,I2C,display16,px,ESP32+ESP8266,None,display_16.ino,IMPLEMENTED,OLED Display 16 module for ESP32/ESP8266
+A2993,LCD Display 17,DISPLAY,I2C,display17,char,ESP32+ESP8266,None,display_17.ino,IMPLEMENTED,LCD Display 17 module for ESP32/ESP8266
+A2994,7-Segment 18,DISPLAY,I2C,display18,digit,ESP32+ESP8266,None,display_18.ino,IMPLEMENTED,7-Segment 18 module for ESP32/ESP8266
+A2995,LED Matrix 19,DISPLAY,SPI,display19,px,ESP32+ESP8266,None,display_19.ino,IMPLEMENTED,LED Matrix 19 module for ESP32/ESP8266
+A2996,TFT Display 20,DISPLAY,SPI,display20,px,ESP32+ESP8266,None,display_20.ino,IMPLEMENTED,TFT Display 20 module for ESP32/ESP8266
+A2997,OLED Display 21,DISPLAY,I2C,display21,px,ESP32+ESP8266,None,display_21.ino,IMPLEMENTED,OLED Display 21 module for ESP32/ESP8266
+A2998,LCD Display 22,DISPLAY,I2C,display22,char,ESP32+ESP8266,None,display_22.ino,IMPLEMENTED,LCD Display 22 module for ESP32/ESP8266
+A2999,7-Segment 23,DISPLAY,I2C,display23,digit,ESP32+ESP8266,None,display_23.ino,IMPLEMENTED,7-Segment 23 module for ESP32/ESP8266
+A3000,LED Matrix 24,DISPLAY,SPI,display24,px,ESP32+ESP8266,None,display_24.ino,IMPLEMENTED,LED Matrix 24 module for ESP32/ESP8266
+A3001,TFT Display 25,DISPLAY,SPI,display25,px,ESP32+ESP8266,None,display_25.ino,IMPLEMENTED,TFT Display 25 module for ESP32/ESP8266
+A3002,OLED Display 26,DISPLAY,I2C,display26,px,ESP32+ESP8266,None,display_26.ino,IMPLEMENTED,OLED Display 26 module for ESP32/ESP8266
+A3003,LCD Display 27,DISPLAY,I2C,display27,char,ESP32+ESP8266,None,display_27.ino,IMPLEMENTED,LCD Display 27 module for ESP32/ESP8266
+A3004,7-Segment 28,DISPLAY,I2C,display28,digit,ESP32+ESP8266,None,display_28.ino,IMPLEMENTED,7-Segment 28 module for ESP32/ESP8266
+A3005,LED Matrix 29,DISPLAY,SPI,display29,px,ESP32+ESP8266,None,display_29.ino,IMPLEMENTED,LED Matrix 29 module for ESP32/ESP8266
+A3006,TFT Display 30,DISPLAY,SPI,display30,px,ESP32+ESP8266,None,display_30.ino,IMPLEMENTED,TFT Display 30 module for ESP32/ESP8266
+A3007,OLED Display 31,DISPLAY,I2C,display31,px,ESP32+ESP8266,None,display_31.ino,IMPLEMENTED,OLED Display 31 module for ESP32/ESP8266
+A3008,LCD Display 32,DISPLAY,I2C,display32,char,ESP32+ESP8266,None,display_32.ino,IMPLEMENTED,LCD Display 32 module for ESP32/ESP8266
+A3009,7-Segment 33,DISPLAY,I2C,display33,digit,ESP32+ESP8266,None,display_33.ino,IMPLEMENTED,7-Segment 33 module for ESP32/ESP8266
+A3010,LED Matrix 34,DISPLAY,SPI,display34,px,ESP32+ESP8266,None,display_34.ino,IMPLEMENTED,LED Matrix 34 module for ESP32/ESP8266
+A3011,TFT Display 35,DISPLAY,SPI,display35,px,ESP32+ESP8266,None,display_35.ino,IMPLEMENTED,TFT Display 35 module for ESP32/ESP8266
+A3012,OLED Display 36,DISPLAY,I2C,display36,px,ESP32+ESP8266,None,display_36.ino,IMPLEMENTED,OLED Display 36 module for ESP32/ESP8266
+A3013,LCD Display 37,DISPLAY,I2C,display37,char,ESP32+ESP8266,None,display_37.ino,IMPLEMENTED,LCD Display 37 module for ESP32/ESP8266
+A3014,7-Segment 38,DISPLAY,I2C,display38,digit,ESP32+ESP8266,None,display_38.ino,IMPLEMENTED,7-Segment 38 module for ESP32/ESP8266
+A3015,LED Matrix 39,DISPLAY,SPI,display39,px,ESP32+ESP8266,None,display_39.ino,IMPLEMENTED,LED Matrix 39 module for ESP32/ESP8266
+A3016,TFT Display 40,DISPLAY,SPI,display40,px,ESP32+ESP8266,None,display_40.ino,IMPLEMENTED,TFT Display 40 module for ESP32/ESP8266
+A3017,OLED Display 41,DISPLAY,I2C,display41,px,ESP32+ESP8266,None,display_41.ino,IMPLEMENTED,OLED Display 41 module for ESP32/ESP8266
+A3018,LCD Display 42,DISPLAY,I2C,display42,char,ESP32+ESP8266,None,display_42.ino,IMPLEMENTED,LCD Display 42 module for ESP32/ESP8266
+A3019,7-Segment 43,DISPLAY,I2C,display43,digit,ESP32+ESP8266,None,display_43.ino,IMPLEMENTED,7-Segment 43 module for ESP32/ESP8266
+A3020,LED Matrix 44,DISPLAY,SPI,display44,px,ESP32+ESP8266,None,display_44.ino,IMPLEMENTED,LED Matrix 44 module for ESP32/ESP8266
+A3021,TFT Display 45,DISPLAY,SPI,display45,px,ESP32+ESP8266,None,display_45.ino,IMPLEMENTED,TFT Display 45 module for ESP32/ESP8266
+A3022,OLED Display 46,DISPLAY,I2C,display46,px,ESP32+ESP8266,None,display_46.ino,IMPLEMENTED,OLED Display 46 module for ESP32/ESP8266
+A3023,LCD Display 47,DISPLAY,I2C,display47,char,ESP32+ESP8266,None,display_47.ino,IMPLEMENTED,LCD Display 47 module for ESP32/ESP8266
+A3024,7-Segment 48,DISPLAY,I2C,display48,digit,ESP32+ESP8266,None,display_48.ino,IMPLEMENTED,7-Segment 48 module for ESP32/ESP8266
+A3025,LED Matrix 49,DISPLAY,SPI,display49,px,ESP32+ESP8266,None,display_49.ino,IMPLEMENTED,LED Matrix 49 module for ESP32/ESP8266
+A3026,TFT Display 50,DISPLAY,SPI,display50,px,ESP32+ESP8266,None,display_50.ino,IMPLEMENTED,TFT Display 50 module for ESP32/ESP8266
+A3027,OLED Display 51,DISPLAY,I2C,display51,px,ESP32+ESP8266,None,display_51.ino,IMPLEMENTED,OLED Display 51 module for ESP32/ESP8266
+A3028,LCD Display 52,DISPLAY,I2C,display52,char,ESP32+ESP8266,None,display_52.ino,IMPLEMENTED,LCD Display 52 module for ESP32/ESP8266
+A3029,7-Segment 53,DISPLAY,I2C,display53,digit,ESP32+ESP8266,None,display_53.ino,IMPLEMENTED,7-Segment 53 module for ESP32/ESP8266
+A3030,LED Matrix 54,DISPLAY,SPI,display54,px,ESP32+ESP8266,None,display_54.ino,IMPLEMENTED,LED Matrix 54 module for ESP32/ESP8266
+A3031,TFT Display 55,DISPLAY,SPI,display55,px,ESP32+ESP8266,None,display_55.ino,IMPLEMENTED,TFT Display 55 module for ESP32/ESP8266
+A3032,OLED Display 56,DISPLAY,I2C,display56,px,ESP32+ESP8266,None,display_56.ino,IMPLEMENTED,OLED Display 56 module for ESP32/ESP8266
+A3033,LCD Display 57,DISPLAY,I2C,display57,char,ESP32+ESP8266,None,display_57.ino,IMPLEMENTED,LCD Display 57 module for ESP32/ESP8266
+A3034,7-Segment 58,DISPLAY,I2C,display58,digit,ESP32+ESP8266,None,display_58.ino,IMPLEMENTED,7-Segment 58 module for ESP32/ESP8266
+A3035,LED Matrix 59,DISPLAY,SPI,display59,px,ESP32+ESP8266,None,display_59.ino,IMPLEMENTED,LED Matrix 59 module for ESP32/ESP8266
+A3036,TFT Display 60,DISPLAY,SPI,display60,px,ESP32+ESP8266,None,display_60.ino,IMPLEMENTED,TFT Display 60 module for ESP32/ESP8266
+A3037,SPI ADC 1,SPI,SPI,spi1,mV,ESP32+ESP8266,SPI,spi_1.ino,IMPLEMENTED,SPI ADC 1 module for ESP32/ESP8266
+A3038,SPI DAC 2,SPI,SPI,spi2,mV,ESP32+ESP8266,SPI,spi_2.ino,IMPLEMENTED,SPI DAC 2 module for ESP32/ESP8266
+A3039,SPI Flash 3,SPI,SPI,spi3,bytes,ESP32+ESP8266,SPI,spi_3.ino,IMPLEMENTED,SPI Flash 3 module for ESP32/ESP8266
+A3040,SPI Display 4,SPI,SPI,spi4,px,ESP32+ESP8266,SPI,spi_4.ino,IMPLEMENTED,SPI Display 4 module for ESP32/ESP8266
+A3041,SPI Sensor 5,SPI,SPI,spi5,raw,ESP32+ESP8266,SPI,spi_5.ino,IMPLEMENTED,SPI Sensor 5 module for ESP32/ESP8266
+A3042,SPI ADC 6,SPI,SPI,spi6,mV,ESP32+ESP8266,SPI,spi_6.ino,IMPLEMENTED,SPI ADC 6 module for ESP32/ESP8266
+A3043,SPI DAC 7,SPI,SPI,spi7,mV,ESP32+ESP8266,SPI,spi_7.ino,IMPLEMENTED,SPI DAC 7 module for ESP32/ESP8266
+A3044,SPI Flash 8,SPI,SPI,spi8,bytes,ESP32+ESP8266,SPI,spi_8.ino,IMPLEMENTED,SPI Flash 8 module for ESP32/ESP8266
+A3045,SPI Display 9,SPI,SPI,spi9,px,ESP32+ESP8266,SPI,spi_9.ino,IMPLEMENTED,SPI Display 9 module for ESP32/ESP8266
+A3046,SPI Sensor 10,SPI,SPI,spi10,raw,ESP32+ESP8266,SPI,spi_10.ino,IMPLEMENTED,SPI Sensor 10 module for ESP32/ESP8266
+A3047,SPI ADC 11,SPI,SPI,spi11,mV,ESP32+ESP8266,SPI,spi_11.ino,IMPLEMENTED,SPI ADC 11 module for ESP32/ESP8266
+A3048,SPI DAC 12,SPI,SPI,spi12,mV,ESP32+ESP8266,SPI,spi_12.ino,IMPLEMENTED,SPI DAC 12 module for ESP32/ESP8266
+A3049,SPI Flash 13,SPI,SPI,spi13,bytes,ESP32+ESP8266,SPI,spi_13.ino,IMPLEMENTED,SPI Flash 13 module for ESP32/ESP8266
+A3050,SPI Display 14,SPI,SPI,spi14,px,ESP32+ESP8266,SPI,spi_14.ino,IMPLEMENTED,SPI Display 14 module for ESP32/ESP8266
+A3051,SPI Sensor 15,SPI,SPI,spi15,raw,ESP32+ESP8266,SPI,spi_15.ino,IMPLEMENTED,SPI Sensor 15 module for ESP32/ESP8266
+A3052,SPI ADC 16,SPI,SPI,spi16,mV,ESP32+ESP8266,SPI,spi_16.ino,IMPLEMENTED,SPI ADC 16 module for ESP32/ESP8266
+A3053,SPI DAC 17,SPI,SPI,spi17,mV,ESP32+ESP8266,SPI,spi_17.ino,IMPLEMENTED,SPI DAC 17 module for ESP32/ESP8266
+A3054,SPI Flash 18,SPI,SPI,spi18,bytes,ESP32+ESP8266,SPI,spi_18.ino,IMPLEMENTED,SPI Flash 18 module for ESP32/ESP8266
+A3055,SPI Display 19,SPI,SPI,spi19,px,ESP32+ESP8266,SPI,spi_19.ino,IMPLEMENTED,SPI Display 19 module for ESP32/ESP8266
+A3056,SPI Sensor 20,SPI,SPI,spi20,raw,ESP32+ESP8266,SPI,spi_20.ino,IMPLEMENTED,SPI Sensor 20 module for ESP32/ESP8266
+A3057,SPI ADC 21,SPI,SPI,spi21,mV,ESP32+ESP8266,SPI,spi_21.ino,IMPLEMENTED,SPI ADC 21 module for ESP32/ESP8266
+A3058,SPI DAC 22,SPI,SPI,spi22,mV,ESP32+ESP8266,SPI,spi_22.ino,IMPLEMENTED,SPI DAC 22 module for ESP32/ESP8266
+A3059,SPI Flash 23,SPI,SPI,spi23,bytes,ESP32+ESP8266,SPI,spi_23.ino,IMPLEMENTED,SPI Flash 23 module for ESP32/ESP8266
+A3060,SPI Display 24,SPI,SPI,spi24,px,ESP32+ESP8266,SPI,spi_24.ino,IMPLEMENTED,SPI Display 24 module for ESP32/ESP8266
+A3061,SPI Sensor 25,SPI,SPI,spi25,raw,ESP32+ESP8266,SPI,spi_25.ino,IMPLEMENTED,SPI Sensor 25 module for ESP32/ESP8266
+A3062,SPI ADC 26,SPI,SPI,spi26,mV,ESP32+ESP8266,SPI,spi_26.ino,IMPLEMENTED,SPI ADC 26 module for ESP32/ESP8266
+A3063,SPI DAC 27,SPI,SPI,spi27,mV,ESP32+ESP8266,SPI,spi_27.ino,IMPLEMENTED,SPI DAC 27 module for ESP32/ESP8266
+A3064,SPI Flash 28,SPI,SPI,spi28,bytes,ESP32+ESP8266,SPI,spi_28.ino,IMPLEMENTED,SPI Flash 28 module for ESP32/ESP8266
+A3065,SPI Display 29,SPI,SPI,spi29,px,ESP32+ESP8266,SPI,spi_29.ino,IMPLEMENTED,SPI Display 29 module for ESP32/ESP8266
+A3066,SPI Sensor 30,SPI,SPI,spi30,raw,ESP32+ESP8266,SPI,spi_30.ino,IMPLEMENTED,SPI Sensor 30 module for ESP32/ESP8266
+A3067,SPI ADC 31,SPI,SPI,spi31,mV,ESP32+ESP8266,SPI,spi_31.ino,IMPLEMENTED,SPI ADC 31 module for ESP32/ESP8266
+A3068,SPI DAC 32,SPI,SPI,spi32,mV,ESP32+ESP8266,SPI,spi_32.ino,IMPLEMENTED,SPI DAC 32 module for ESP32/ESP8266
+A3069,SPI Flash 33,SPI,SPI,spi33,bytes,ESP32+ESP8266,SPI,spi_33.ino,IMPLEMENTED,SPI Flash 33 module for ESP32/ESP8266
+A3070,SPI Display 34,SPI,SPI,spi34,px,ESP32+ESP8266,SPI,spi_34.ino,IMPLEMENTED,SPI Display 34 module for ESP32/ESP8266
+A3071,SPI Sensor 35,SPI,SPI,spi35,raw,ESP32+ESP8266,SPI,spi_35.ino,IMPLEMENTED,SPI Sensor 35 module for ESP32/ESP8266
+A3072,SPI ADC 36,SPI,SPI,spi36,mV,ESP32+ESP8266,SPI,spi_36.ino,IMPLEMENTED,SPI ADC 36 module for ESP32/ESP8266
+A3073,SPI DAC 37,SPI,SPI,spi37,mV,ESP32+ESP8266,SPI,spi_37.ino,IMPLEMENTED,SPI DAC 37 module for ESP32/ESP8266
+A3074,SPI Flash 38,SPI,SPI,spi38,bytes,ESP32+ESP8266,SPI,spi_38.ino,IMPLEMENTED,SPI Flash 38 module for ESP32/ESP8266
+A3075,SPI Display 39,SPI,SPI,spi39,px,ESP32+ESP8266,SPI,spi_39.ino,IMPLEMENTED,SPI Display 39 module for ESP32/ESP8266
+A3076,SPI Sensor 40,SPI,SPI,spi40,raw,ESP32+ESP8266,SPI,spi_40.ino,IMPLEMENTED,SPI Sensor 40 module for ESP32/ESP8266
+A3077,UART Sensor 1,UART,UART,uart1,raw,ESP32+ESP8266,None,uart_1.ino,IMPLEMENTED,UART Sensor 1 module for ESP32/ESP8266
+A3078,UART Module 2,UART,UART,uart2,raw,ESP32+ESP8266,None,uart_2.ino,IMPLEMENTED,UART Module 2 module for ESP32/ESP8266
+A3079,UART Device 3,UART,UART,uart3,raw,ESP32+ESP8266,None,uart_3.ino,IMPLEMENTED,UART Device 3 module for ESP32/ESP8266
+A3080,UART Sensor 4,UART,UART,uart4,raw,ESP32+ESP8266,None,uart_4.ino,IMPLEMENTED,UART Sensor 4 module for ESP32/ESP8266
+A3081,UART Module 5,UART,UART,uart5,raw,ESP32+ESP8266,None,uart_5.ino,IMPLEMENTED,UART Module 5 module for ESP32/ESP8266
+A3082,UART Device 6,UART,UART,uart6,raw,ESP32+ESP8266,None,uart_6.ino,IMPLEMENTED,UART Device 6 module for ESP32/ESP8266
+A3083,UART Sensor 7,UART,UART,uart7,raw,ESP32+ESP8266,None,uart_7.ino,IMPLEMENTED,UART Sensor 7 module for ESP32/ESP8266
+A3084,UART Module 8,UART,UART,uart8,raw,ESP32+ESP8266,None,uart_8.ino,IMPLEMENTED,UART Module 8 module for ESP32/ESP8266
+A3085,UART Device 9,UART,UART,uart9,raw,ESP32+ESP8266,None,uart_9.ino,IMPLEMENTED,UART Device 9 module for ESP32/ESP8266
+A3086,UART Sensor 10,UART,UART,uart10,raw,ESP32+ESP8266,None,uart_10.ino,IMPLEMENTED,UART Sensor 10 module for ESP32/ESP8266
+A3087,UART Module 11,UART,UART,uart11,raw,ESP32+ESP8266,None,uart_11.ino,IMPLEMENTED,UART Module 11 module for ESP32/ESP8266
+A3088,UART Device 12,UART,UART,uart12,raw,ESP32+ESP8266,None,uart_12.ino,IMPLEMENTED,UART Device 12 module for ESP32/ESP8266
+A3089,UART Sensor 13,UART,UART,uart13,raw,ESP32+ESP8266,None,uart_13.ino,IMPLEMENTED,UART Sensor 13 module for ESP32/ESP8266
+A3090,UART Module 14,UART,UART,uart14,raw,ESP32+ESP8266,None,uart_14.ino,IMPLEMENTED,UART Module 14 module for ESP32/ESP8266
+A3091,UART Device 15,UART,UART,uart15,raw,ESP32+ESP8266,None,uart_15.ino,IMPLEMENTED,UART Device 15 module for ESP32/ESP8266
+A3092,UART Sensor 16,UART,UART,uart16,raw,ESP32+ESP8266,None,uart_16.ino,IMPLEMENTED,UART Sensor 16 module for ESP32/ESP8266
+A3093,UART Module 17,UART,UART,uart17,raw,ESP32+ESP8266,None,uart_17.ino,IMPLEMENTED,UART Module 17 module for ESP32/ESP8266
+A3094,UART Device 18,UART,UART,uart18,raw,ESP32+ESP8266,None,uart_18.ino,IMPLEMENTED,UART Device 18 module for ESP32/ESP8266
+A3095,UART Sensor 19,UART,UART,uart19,raw,ESP32+ESP8266,None,uart_19.ino,IMPLEMENTED,UART Sensor 19 module for ESP32/ESP8266
+A3096,UART Module 20,UART,UART,uart20,raw,ESP32+ESP8266,None,uart_20.ino,IMPLEMENTED,UART Module 20 module for ESP32/ESP8266
+A3097,UART Device 21,UART,UART,uart21,raw,ESP32+ESP8266,None,uart_21.ino,IMPLEMENTED,UART Device 21 module for ESP32/ESP8266
+A3098,UART Sensor 22,UART,UART,uart22,raw,ESP32+ESP8266,None,uart_22.ino,IMPLEMENTED,UART Sensor 22 module for ESP32/ESP8266
+A3099,UART Module 23,UART,UART,uart23,raw,ESP32+ESP8266,None,uart_23.ino,IMPLEMENTED,UART Module 23 module for ESP32/ESP8266
+A3100,UART Device 24,UART,UART,uart24,raw,ESP32+ESP8266,None,uart_24.ino,IMPLEMENTED,UART Device 24 module for ESP32/ESP8266
+A3101,UART Sensor 25,UART,UART,uart25,raw,ESP32+ESP8266,None,uart_25.ino,IMPLEMENTED,UART Sensor 25 module for ESP32/ESP8266
+A3102,1-Wire Sensor 1,ONEWIRE,ONEWIRE,onewire1,raw,ESP32+ESP8266,None,onewire_1.ino,IMPLEMENTED,1-Wire Sensor 1 module for ESP32/ESP8266
+A3103,1-Wire Device 2,ONEWIRE,ONEWIRE,onewire2,raw,ESP32+ESP8266,None,onewire_2.ino,IMPLEMENTED,1-Wire Device 2 module for ESP32/ESP8266
+A3104,1-Wire Temp 3,ONEWIRE,ONEWIRE,onewire3,C,ESP32+ESP8266,None,onewire_3.ino,IMPLEMENTED,1-Wire Temp 3 module for ESP32/ESP8266
+A3105,1-Wire Sensor 4,ONEWIRE,ONEWIRE,onewire4,raw,ESP32+ESP8266,None,onewire_4.ino,IMPLEMENTED,1-Wire Sensor 4 module for ESP32/ESP8266
+A3106,1-Wire Device 5,ONEWIRE,ONEWIRE,onewire5,raw,ESP32+ESP8266,None,onewire_5.ino,IMPLEMENTED,1-Wire Device 5 module for ESP32/ESP8266
+A3107,1-Wire Temp 6,ONEWIRE,ONEWIRE,onewire6,C,ESP32+ESP8266,None,onewire_6.ino,IMPLEMENTED,1-Wire Temp 6 module for ESP32/ESP8266
+A3108,1-Wire Sensor 7,ONEWIRE,ONEWIRE,onewire7,raw,ESP32+ESP8266,None,onewire_7.ino,IMPLEMENTED,1-Wire Sensor 7 module for ESP32/ESP8266
+A3109,1-Wire Device 8,ONEWIRE,ONEWIRE,onewire8,raw,ESP32+ESP8266,None,onewire_8.ino,IMPLEMENTED,1-Wire Device 8 module for ESP32/ESP8266
+A3110,1-Wire Temp 9,ONEWIRE,ONEWIRE,onewire9,C,ESP32+ESP8266,None,onewire_9.ino,IMPLEMENTED,1-Wire Temp 9 module for ESP32/ESP8266
+A3111,1-Wire Sensor 10,ONEWIRE,ONEWIRE,onewire10,raw,ESP32+ESP8266,None,onewire_10.ino,IMPLEMENTED,1-Wire Sensor 10 module for ESP32/ESP8266
+A3112,1-Wire Device 11,ONEWIRE,ONEWIRE,onewire11,raw,ESP32+ESP8266,None,onewire_11.ino,IMPLEMENTED,1-Wire Device 11 module for ESP32/ESP8266
+A3113,1-Wire Temp 12,ONEWIRE,ONEWIRE,onewire12,C,ESP32+ESP8266,None,onewire_12.ino,IMPLEMENTED,1-Wire Temp 12 module for ESP32/ESP8266
+A3114,1-Wire Sensor 13,ONEWIRE,ONEWIRE,onewire13,raw,ESP32+ESP8266,None,onewire_13.ino,IMPLEMENTED,1-Wire Sensor 13 module for ESP32/ESP8266
+A3115,1-Wire Device 14,ONEWIRE,ONEWIRE,onewire14,raw,ESP32+ESP8266,None,onewire_14.ino,IMPLEMENTED,1-Wire Device 14 module for ESP32/ESP8266
+A3116,1-Wire Temp 15,ONEWIRE,ONEWIRE,onewire15,C,ESP32+ESP8266,None,onewire_15.ino,IMPLEMENTED,1-Wire Temp 15 module for ESP32/ESP8266
