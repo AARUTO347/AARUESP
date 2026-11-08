@@ -2,7 +2,7 @@
 
 ## MADE BY AARUTO
 
-One consistent API for **1000+ sensors, actuators, displays and comms** — for **every ESP board**:
+One consistent API for **2000+ sensors, actuators, displays and comms** — for **every ESP board**:
 
 - **ESP32** family — ESP32, ESP32-S2, ESP32-S3, ESP32-C3, ESP32-C6, ESP32-H2 (original, Pico, WROOM, WROVER)
 - **ESP8266** — NodeMCU, Wemos D1 mini, ESP-01/02/03/07/12/13/14
@@ -14,7 +14,7 @@ Core has **no mandatory third-party dependencies**. Displays, DHT, Servo and opt
 
 ESP32/ESP8266 have higher voltage logic, ADC nuances, deep sleep, WiFi, BLE, touch pins and DAC that generic Arduino libraries can't express. AARUESP is AARUTO's ESP-focused twin of AARUARDUINO (AVR/Mega/Due/SAMD support lives there) with two bonus APIs:
 
-1. **Singleton API** (`AARUESP.h`) — 1000+ registered modules, one call per device, see `docs/modules.md` (**1146 implemented modules**)
+1. **Singleton API** (`AARUESP.h`) — 2000+ registered modules, one call per device, see `docs/modules.md` (**2006 implemented modules**)
 2. **Class-module API** (`AARUESP_MODULES.h`) — instantiate your own drivers (`BME280Module sensor(21, 22);`), each with `init()` / `update()` / `isHealthy()`
 3. **ESP Companion** (`AARUESPESP.h`) — things only an ESP can do: WiFi connect/scan, deep sleep + wake reason, chip info, CPU frequency scaling, DAC & touch pins (ESP32), free heap, PSRAM size, restart
 
@@ -131,7 +131,7 @@ Returns exact board descriptors (name, family, GPIO count, flash, voltage range,
 
 ## Module reference
 
-`docs/modules.md` lists all **1146 implemented modules** with bus, API function, unit, boards and example.
+`docs/modules.md` lists all **2006 implemented modules** with bus, API function, unit, boards and example.
 
 - 326 analog sensors (LDR, MQ-x gas, LM35/TMP36/NTC, soil, rain, sound, FSR, current/voltage, pH/EC/ORP/TDS, dust/PM)
 - 97 digital sensors (PIR, radar, IR obstacle/line, flame, smoke, touch, reed, hall, limit, vibration, tilt, shock, pulse/flow/tach, keypad, button)
@@ -153,7 +153,7 @@ Returns exact board descriptors (name, family, GPIO count, flash, voltage range,
 
 ```sh
 python tests/host/test_aaruesp.py     # pure-math host tests
-python tools/validate_registry.py     # 1146 modules, 1000+ target met
+python tools/validate_registry.py     # 2006 modules, 2000+ target met
 python tools/gen_keywords.py          # keywords.txt for Arduino IDE
 python tools/gen_module_docs.py       # docs/modules.md
 python tests/validate/validate.py     # structure & branding checks
@@ -161,7 +161,7 @@ python tests/validate/validate.py     # structure & branding checks
 
 ## Docs
 
-- `docs/modules.md` — full 1146-module reference
+- `docs/modules.md` — full 2006-module reference
 - `docs/api-reference.md` — full function list, units, errors
 - `docs/board-compatibility.md` — ESP family compatibility matrix
 - `docs/pin-reference.md` — safe pins per ESP board
