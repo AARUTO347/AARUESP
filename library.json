@@ -1,6 +1,6 @@
 {
   "name": "AARUESP",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Universal ESP32 / ESP8266 library — 1200+ modules, 200+ boards, one API. MADE BY AARUTO",
   "keywords": "ESP32, ESP8266, IoT, sensors, actuators, displays, WiFi, BLE, I2C, SPI, UART, AARUTO",
   "authors": [

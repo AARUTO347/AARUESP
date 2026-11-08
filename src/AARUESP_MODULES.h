@@ -62,9 +62,19 @@
 
 // Storage
 #include <modules/EEPROMModule.h>     // EEPROM key-value storage
+#include <modules/StorageManager.h>   // SPIFFS/LittleFS/SD/NVS manager
+#include <modules/ConfigManager.h>    // JSON config file management
 
 // Special
 #include <modules/HallSensorModule.h> // ESP32 Hall sensor
 #include <modules/DeepSleepModule.h>  // Deep sleep management
+#include <modules/TouchModule.h>      // Capacitive touch (ESP32)
+#include <modules/DACModule.h>        // 8-bit DAC (ESP32)
+#include <modules/PSRAMModule.h>      // PSRAM detection & management
+#include <modules/OTAModule.h>        // Over-The-Air updates
+#include <modules/WebServerModule.h>  // HTTP server + REST API
+#include <modules/BLEModule.h>        // Bluetooth Low Energy
+#include <modules/ESPNowModule.h>     // ESP-NOW peer-to-peer
+#include <modules/MQTTModule.h>       // MQTT client
 
 #endif // AARUESP_ALL_MODULES_H
