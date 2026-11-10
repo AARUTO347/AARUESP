@@ -20,7 +20,7 @@ ESP32/ESP8266 have higher voltage logic, ADC nuances, deep sleep, WiFi, BLE, tou
 
 ## Install (Arduino IDE → .zip)
 
-1. Grab the `AARUESP-1.0.0.zip` release (or this folder).
+1. Grab the `AARUESP-2.2.2.zip` release (or this folder).
 2. Arduino IDE → **Sketch → Include Library → Add .ZIP Library…**
 3. Check: **File → Examples → AARUESP → Basic**
 4. Or copy the folder into your sketchbook `libraries/` directory directly (e.g. `Documents/Arduino/libraries/AARUESP/`)
@@ -34,7 +34,7 @@ lib_deps = AARUTO347/AARUESP
 ## Install (Arduino CLI)
 
 ```sh
-arduino-cli lib install --zip-path AARUESP-1.0.0.zip
+arduino-cli lib install --zip-path AARUESP-2.2.2.zip
 ```
 
 ## Quick start (singleton API)
@@ -179,4 +179,4 @@ python tests/validate/validate.py     # structure & branding checks
 
 MIT — see `LICENSE`.
 
-**MADE BY AARUTO** — AARUESP v1.0.0 — ESP32 / ESP8266 only, 200+ boards, one API.
+**MADE BY AARUTO** — AARUESP v2.2.2 — ESP32 / ESP8266 only, 200+ boards, one API.
