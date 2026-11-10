@@ -10,7 +10,7 @@ jobs:
   compile-esp32:
     name: Compile Examples (ESP32)
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
       - name: Setup Arduino CLI
@@ -22,17 +22,34 @@ jobs:
           arduino-cli config init --overwrite
           arduino-cli core update-index
           arduino-cli core install esp32:esp32
+      - name: Install AARUESP into sketchbook
+        run: |
+          mkdir -p "$HOME/Arduino/libraries"
+          rm -rf "$HOME/Arduino/libraries/AARUESP"
+          ln -s "$GITHUB_WORKSPACE" "$HOME/Arduino/libraries/AARUESP"
+          ls -la "$HOME/Arduino/libraries/AARUESP/src" | head
       - name: Compile examples
         run: |
+          failed=""
           for dir in examples/*/; do
-            echo "Compiling $dir"
-            arduino-cli compile --fqbn esp32:esp32:esp32 "$dir" || exit 1
+            name=$(basename "$dir")
+            echo "::group::Compiling $name"
+            if ! arduino-cli compile --fqbn esp32:esp32:esp32 "$dir"; then
+              failed="$failed $name"
+              echo "::error::FAILED: $name"
+            fi
+            echo "::endgroup::"
           done
+          if [ -n "$failed" ]; then
+            echo "FAILED EXAMPLES:$failed"
+            exit 1
+          fi
+          echo "All ESP32 examples compiled successfully"
 
   compile-esp8266:
     name: Compile Examples (ESP8266)
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
       - name: Setup Arduino CLI
@@ -45,19 +62,35 @@ jobs:
           arduino-cli config add board_manager.additional_urls https://arduino.esp8266.com/stable/package_esp8266com_index.json
           arduino-cli core update-index
           arduino-cli core install esp8266:esp8266
+      - name: Install AARUESP into sketchbook
+        run: |
+          mkdir -p "$HOME/Arduino/libraries"
+          rm -rf "$HOME/Arduino/libraries/AARUESP"
+          ln -s "$GITHUB_WORKSPACE" "$HOME/Arduino/libraries/AARUESP"
+          ls -la "$HOME/Arduino/libraries/AARUESP/src" | head
       - name: Compile ESP8266-compatible examples
         run: |
-          # Skip ESP32-only examples (DAC, touch, PSRAM, BLE, Hall sensor)
+          # Skip examples that require ESP32-only hardware/peripherals
           skip_list="Touch_DAC PSRAM_Memory HallSensor BLE_Sensor V21_Test"
+          failed=""
           for dir in examples/*/; do
             name=$(basename "$dir")
             if echo "$skip_list" | grep -qw "$name"; then
               echo "Skipping ESP32-only example: $name"
               continue
             fi
-            echo "Compiling $dir"
-            arduino-cli compile --fqbn esp8266:esp8266:nodemcuv2 "$dir" || exit 1
+            echo "::group::Compiling $name"
+            if ! arduino-cli compile --fqbn esp8266:esp8266:nodemcuv2 "$dir"; then
+              failed="$failed $name"
+              echo "::error::FAILED: $name"
+            fi
+            echo "::endgroup::"
           done
+          if [ -n "$failed" ]; then
+            echo "FAILED EXAMPLES:$failed"
+            exit 1
+          fi
+          echo "All ESP8266 examples compiled successfully"
 
   lint:
     name: Arduino Lint
